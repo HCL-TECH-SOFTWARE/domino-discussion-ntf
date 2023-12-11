@@ -1,0 +1,136 @@
+---
+class: 512
+flags: 0x0000
+unid: OFC5AC8ED3B1CBAD77-ON006A9D4E8525649C
+items:
+  - name: $AssistAction
+    type: action
+    code_type: 65413
+    data: |
+      '++LotusScript Development Environment:2:5:(Options):0:74
+      Option Public
+      Use "wStringResource"
+      Use "DiscussionRoutines"
+      
+      '++LotusScript Development Environment:2:5:(Forward):0:1
+      Declare Sub Initialize
+      
+      '++LotusScript Development Environment:2:5:(Declarations):0:10
+      Dim topicview As String
+      Dim favorites As String
+      Dim categoryview As String
+      Dim archivingview As String
+      Dim authorview As String
+      Dim originalnote As notesdocument
+      
+      '++LotusScript Development Environment:2:2:Initialize:1:10
+      Sub Initialize
+      	InstantiateObjects
+      	dbpath = getdbpath
+      	
+            'Get real document
+      	OriginalUNID = Mid(note.Query_String(0), Instr(note.Query_String(0), "&")+1, 32)
+      	Set originalNote = db.getdocumentbyunid(originalunid)
+      	
+      	CurrentDocument = "<hr><font size=2><a href=/"+dbpath+"/($All)/"+Lcase(originalUNID)+"?OpenDocument>"+GetString(1)+"</a>&nbsp&nbsp&nbsp"
+      	TopicView =   "<a href=/" + dbpath + "/($All)?OpenView>"+GetString(2)+"</a>&nbsp&nbsp&nbsp"
+      	CategoryView = " <a href=/" + dbpath + "/by+Category?OpenView>"+GetString(3)+"</a>&nbsp&nbsp&nbsp"
+      	AuthorView = "<a href=/" + dbpath + "/AuthorView?OpenView>"+GetString(4)+"</a>&nbsp&nbsp&nbsp"
+      	AltnameView ="<a href=/"+dbpath+"/By+Alternate+Name?OpenView>"+GetString(5)+"</a>&nbsp&nbsp&nbsp<hr>"
+      	
+      	
+      	If Originalnote.hasitem("protectfromarchive") Then
+      		Print "<b>"+Originalnote.form(0)+  "<h3>" + GetString(12) + "</h3></b>"+Currentdocument+topicview+categoryview+authorview+favorites+altnameview
+      	Elseif OriginalNote.hasitem("expiredate") Then
+      		If originalnote.expiredate(0) <> "" Then
+      			Print    "<h3>" + GetString(13) + "</h3>" +   Currentdocument+topicview+categoryview+authorview+favorites+AltNameView     
+      			OriginalNote.Removeitem("Expiredate")
+      			Call OriginalNote.save(True, False)
+      		Else
+      			OriginalNote.expiredate = Today
+      			Call OriginalNote.save(True,False)
+      			Print  "<h3>" + GetString(14) + "</h3>" +   Currentdocument+topicview+categoryview+authorview+favorites+AltNameView
+      		End If
+      	Else
+      		OriginalNote.expiredate = Today
+      		Call OriginalNote.save(True,False)
+      		Print "<h3>" + GetString(14) + "</h3>" + Currentdocument+topicview+categoryview+authorview+favorites+AltNameView
+      	End If
+      	
+      End Sub
+    dwFlags: 0x00000000
+    signed: true
+    nonsummary: true
+  - name: $AssistDocCount
+    type: number
+    data: 0
+    signed: true
+  - name: $AssistFlags
+    type: text
+    data: EH
+    signed: true
+  - name: $AssistInfo
+    type_num: 17
+    type: opaque
+    opaque: |
+      AQAEAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+      AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+    signed: true
+    nonsummary: true
+  - name: $AssistLastRun
+    type: time
+    signed: true
+  - name: $AssistQuery
+    type_num: 15
+    type: opaque
+    opaque: gQYAAAAA
+    signed: true
+    nonsummary: true
+  - name: $AssistRunInfo
+    type: object
+    obj_type: 0x0008
+    obj_class: 0x0200
+    obj_privs: 0x0000
+    opaque: |
+      AAAAAAUAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+      IyxrAC9nJYW/snMAmWUlhQAAAAAAAAAAAAAAAAAAAAAAAAAAqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqq
+  - name: $AssistTrigger
+    type: text
+    data: "4"
+    signed: true
+  - name: $AssistType
+    type: number
+    data: 65413
+    signed: true
+  - name: $Comment
+    type: text
+    data: This performs the expiring/unexpiring of document functions for the web user.
+    signed: true
+  - name: $Flags
+    type: text
+    data: fL3u
+  - name: $LANGUAGE
+    type: text
+    data: en
+    signed: true
+  - name: $TITLE
+    type: text
+    data: (WebExpire)
+    signed: true
+remaining: []

@@ -1,0 +1,40 @@
+---
+class: 4
+flags: 0x0000
+unid: OF2737F3BBFEBDD9E5-ON003BD62780257694
+items:
+  - name: $DesignerVersion
+    type: text
+    data: 8.5.3
+    signed: true
+  - name: $Flags
+    type: text
+    data: 34CiQ
+  - name: $FlagsExt
+    type: text
+    data: D
+    signed: true
+  - name: $ImageNames
+    type: text
+    data: topic.gif
+    signed: true
+  - name: $ImagesColorize
+    type: number
+    data: 0
+    signed: true
+  - name: $ImagesHigh
+    type: number
+    data: 1
+    signed: true
+  - name: $ImagesWide
+    type: number
+    data: 1
+    signed: true
+  - name: $TITLE
+    type: text
+    data: topic.gif
+  - name: $ImageData
+    type: composite
+    signed: true
+    nonsummary: true
+remaining: []

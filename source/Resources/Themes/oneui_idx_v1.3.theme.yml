@@ -1,0 +1,29 @@
+---
+class: 4
+flags: 0x0000
+unid: OFAD8EEDC644DA0D6B-ON00509D6680257BB3
+items:
+  - name: $DesignerVersion
+    type: text
+    data: 8.5.3
+    signed: true
+  - name: $FileNames
+    type: text
+    data: oneui_idx_v1.3.theme
+    signed: true
+  - name: $Flags
+    type: text
+    data: "34567Cg~`"
+  - name: $Revisions
+    type: time
+    data: "2019-11-01T08:12:55.08-04:00"
+    dst: true
+  - name: $TITLE
+    type: text
+    data: oneui_idx_v1.3.theme
+    signed: true
+  - name: $FileData
+    type: composite
+    signed: true
+    nonsummary: true
+remaining: []

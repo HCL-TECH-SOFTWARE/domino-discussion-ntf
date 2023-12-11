@@ -1,0 +1,178 @@
+---
+class: 8
+flags: 0x0000
+unid: OFCFAB7148687AB5E5-ON0059EDE085257491
+items:
+  - name: $COLLATION
+    type_num: 2
+    type: opaque
+    opaque: HgACAABEAGYHAAAFAAFmAAUABQBfbmFtZV9kYXRl
+  - name: $Comment
+    type: text
+    data: ""
+    signed: true
+  - name: $DesignerVersion
+    type: text
+    data: 8.5.3
+    signed: true
+  - name: $FORMULA
+    type: formula
+    data: |
+        (!@Contains(@LowerCase(form); "profile")) &
+          (!@Contains(@LowerCase(form); "archive"))
+    opaque: |
+      igICACIABQBfbmFtZQACAAUAAAAAAAAABQAEAEZyb220AgMAAgAQAAUAX2RhdGUAaQADAAEAnAARAF9z
+      dWJqZWN0ALyVLQA2eiUAAAUABABmb3JtAQASAFJlc3BvbnNlVG9SZXNwb25zZQoCrwBgACAABQAWAElt
+      bWVkaWF0ZVBhcmVudFN1YmplY3SuAEAABQAEAGZvcm0BAAgAUmVzcG9uc2UKAq8AJgAaAAUADwBPcmln
+      aW5hbFN1YmplY3QArgAMAAEAAACuAAQAtQUDAAEAfgAQAF9hdXRob3IAvZUtADZ6JQAFAAQARm9ybQEA
+      CQBNYWluVG9waWMACgIFAAcAU3ViamVjdABeAQEAAAAKAhwCrwA2ACoAAQABACgAAgAFAAAAAAAAAAUA
+      BABGcm9ttAIiAgEAAQApACICrgAMAAEAAACuAAQAtQMDAAEAXAAQAF9zdWZmaXgAvpUtADZ6JQAFABEA
+      X3N1YmplY3QAvJUtADZ6JQAAAQAAAAsCrwAmAAoAAQAAAK4AHAAFABAAX2F1dGhvcgC9lS0ANnolAK4A
+      BAC1AwMAAgAwAAYAX3RvcGljBQAHAFN1YmplY3QABQAQAF9zdWZmaXgAvpUtADZ6JQAiAgMAAgAUAAQA
+      Rm9ybQUABABmb3JtAwAFAEAAPAAGAAUABQAGAAQADwAJAF9uYW1lX2RhdGVfdG9waWNGb3JtT3JpZ2lu
+      YWxTdWJqZWN0JENvbmZsaWN0BAAEAAAAQAAFAAQAZm9ybWEBAQAHAHByb2ZpbGUARwIeAQQABQAEAGZv
+      cm1hAQEABwBhcmNoaXZlAEcCHgEEABwCAwAHABgAEgAJTDFUMTBTMTNTMTRSVFQyM1M=
+    signed: true
+  - name: $FORMULACLASS
+    type: text
+    data: "1"
+    signed: true
+  - name: $Flags
+    type: text
+    data: Y
+  - name: $Index
+    type: text
+    data: /C
+    signed: true
+  - name: $LANGUAGE
+    type: text
+    data: en
+    signed: true
+  - name: $TITLE
+    type: text
+    data: ($xpByAuthor)|xpByAuthor
+    signed: true
+  - name: $VIEWFORMAT
+    type_num: 5
+    type: opaque
+    opaque: |
+      AQAFACYAj0wAAFZDgwQFAAEALgAAAAgAAQENCQAAAAAAAAAAAAACAAAgVkMFAAUABAASAAAAOAABAA4J
+      ACABAIgABAEAAAEAACBWQwAABgAFAEYCAACpAQEADgkAIAIAAAAAAAAAAgAAIFZDAAAEAAQAFgAAAFAA
+      AQAACgAAAAAAAAAAAAICAAAAVkMAAA8ADwAAAAAAUAABAAAKAAAAAAAAAAAAAgIAAABfbmFtZSAuAAIA
+      IgAFAF9uYW1lAAIABQAAAAAAAAAFAAQARnJvbbQCAwAHAAoAAwAJNFMAX2RhdGVEYXRlEgACABAABQBf
+      ZGF0ZQBpAAMAX3RvcGljVG9waWNGAgcAHgAXAC0tLS0tLS0tLUROVC0tLS0tLS0tLS0tAAcACgADAAkx
+      UwABAJwAEQBfc3ViamVjdAC8lS0ANnolAAAFAAQAZm9ybQEAEgBSZXNwb25zZVRvUmVzcG9uc2UKAq8A
+      YAAgAAUAFgBJbW1lZGlhdGVQYXJlbnRTdWJqZWN0rgBAAAUABABmb3JtAQAIAFJlc3BvbnNlCgKvACYA
+      GgAFAA8AT3JpZ2luYWxTdWJqZWN0AK4ADAABAAAArgAEALUFAwAHACIAHAAJMFIxVDJTNVM2UzhTMTBT
+      MTFTMTJTMTRTMTZTAQB+ABAAX2F1dGhvcgC9lS0ANnolAAUABABGb3JtAQAJAE1haW5Ub3BpYwAKAgUA
+      BwBTdWJqZWN0AF4BAQAAAAoCHAKvADYAKgABAAEAKAACAAUAAAAAAAAABQAEAEZyb220AiICAQABACkA
+      IgKuAAwAAQAAAK4ABAC1AwMABwAwACoACTBSMVQyUzVTNlM3UzhTMTJTMTNTMTVTMTZTMTdTMjFTMjNT
+      MjRTMjZTAQBcABAAX3N1ZmZpeAC+lS0ANnolAAUAEQBfc3ViamVjdAC8lS0ANnolAAABAAAACwKvACYA
+      CgABAAAArgAcAAUAEABfYXV0aG9yAL2VLQA2eiUArgAEALUDAwAHABYAEAAJMFIxVDJTNVM2UzhTMTBT
+      AgAwAAYAX3RvcGljBQAHAFN1YmplY3QABQAQAF9zdWZmaXgAvpUtADZ6JQAiAgMABwAOAAgACTBSUjFT
+      MlNGb3JtRm9ybRYAAgAUAAQARm9ybQUABABmb3JtAwBPcmlnaW5hbFN1YmplY3RPcmlnaW5hbFN1Ympl
+      Y3QmAAEAAAABAQAJAQAICgEBBAoAAD8ArSsEAAEAAQEAAAAAAAAAAFdDAQAACQAAAAAAAAAAAAAAAAAA
+      AAABAAAAAAAAAP//AAAAAAAAAAAAAAAAAABXQwEAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//wAA
+      AAAAAAAAAAAAAAAAV0MCAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//8AAAAAAAAAAAAAAAAAAFdD
+      AQEACQAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAP//AAAAAAAAAAAAAAAAAABXQwEBAAkAAAAAAAAAAAAA
+      AAAAAAAAAAAEAAAAAAD//wAAAAAAAAAAAAAAAAAAQgBQAAAAAQD///8AAQDv7+8AAQAAAAAAAAAAAAAA
+      AQABAP///wABALTVxQAAAAEAgAAAAAEAAAD/AAEAAAAAAAAACAAAAAAAAQA=
+    signed: true
+    nonsummary: true
+  - name: $WebFlags
+    type: text
+    data: S
+    signed: true
+  - name: $V5ACTIONS
+    type: composite
+    signed: true
+    nonsummary: true
+    data:
+      - type: 0x00bd
+        BackColor: 213
+        BorderStyle: 1
+        BorderWidth: 0
+        BtnHeight: 8
+        FontID: 0x09000002
+        HeightSpc: 5
+        LineColor: 0
+        LineStyle: 1
+        ShareID: 0x00000000
+        dwFlags: 0x00000041
+      - type: 0xff79
+        BackColor:
+          Flags: 0x0001
+          rgb: 0x8bbc9d
+        BtnBorderDisplay: 3
+        BtnTextJustify: 0
+        BtnWidthStyle: 0
+        ButtonColor:
+          Flags: 0x0001
+          rgb: 0xbad5c5
+        FontColor:
+          Flags: 0x0001
+          rgb: 0x000000
+        LineColor:
+          Flags: 0x0001
+          rgb: 0x000000
+        Spare:
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+        barFontID: 0x09000002
+        barHeight:
+          Flags: 0x0000
+          Length:
+            - 0
+            - 0
+            - 0
+            - 0
+            - 0
+            - 0
+            - 19
+            - 64
+          Reserved: 0
+          Units: 5
+        dwFlags: 0x00000003
+        wAppletHeight: 34
+        wBarBackgroundRepeat: 0
+        wBtnInternalMargin: 0
+        wBtnWidthAbsolute: 0
+        wSpare: 0x0000
+        wThemeSetting: 0
+      - type: 0xfffc
+        BorderFlags: 0
+        BorderStyle: 0
+        BorderWidthBottom: 1
+        BorderWidthLeft: 0
+        BorderWidthRight: 0
+        BorderWidthTop: 0
+        Color:
+          Flags: 0x0001
+          rgb: 0x000000
+        DropShadowWidth: 0
+        Flags: 0x00000000
+        InnerWidthBottom: 0
+        InnerWidthLeft: 0
+        InnerWidthRight: 0
+        InnerWidthTop: 0
+        OuterWidthBottom: 0
+        OuterWidthLeft: 0
+        OuterWidthRight: 0
+        OuterWidthTop: 0
+        dwSpare: 0x00000000
+        wSpares:
+          - 0x0000
+          - 0x0000
+          - 0x0000
+          - 0x0000
+          - 0x0000
+remaining: []

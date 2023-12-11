@@ -1,0 +1,24 @@
+---
+class: 4
+flags: 0x0000
+unid: OF9B7E5686DE2F5EC9-ON004BF94F80257917
+items:
+  - name: $DesignerVersion
+    type: text
+    data: "8.5"
+    signed: true
+  - name: $FileNames
+    type: text
+    data: authorProfile.xsp
+    signed: true
+  - name: $Flags
+    type: text
+    data: gC~4K
+  - name: $TITLE
+    type: text
+    data: authorProfile.xsp
+  - name: $FileData
+    type: composite
+    signed: true
+    nonsummary: true
+remaining: []

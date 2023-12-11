@@ -1,0 +1,142 @@
+---
+class: 512
+flags: 0x0000
+unid: OFB57E4ED25A94AB15-ON004F4FCD8525667A
+items:
+  - name: $AssistAction
+    type: action
+    code_type: 65413
+    data: |
+      '++LotusScript Development Environment:2:5:(Options):0:74
+      Option Public
+      Use "DiscussionRoutines"
+      Option Declare
+      Option Compare Nocase
+      
+      '++LotusScript Development Environment:2:5:(Forward):0:1
+      Declare Sub Initialize
+      
+      '++LotusScript Development Environment:2:5:(Declarations):0:2
+      
+      '++LotusScript Development Environment:2:2:Initialize:1:10
+      Sub Initialize
+      	Dim session As New notessession	
+      	Dim DbProfile As NotesDocument
+      	Dim authorView As notesview
+      	Dim authorDoc As notesdocument
+      	Dim agent As notesagent
+      	Dim clientType As Variant
+      	Dim dbpath As String
+      	Dim key As Variant
+      	Dim getunid As Variant
+      	
+      	Set db = session.currentdatabase
+      	Set DbProfile = db.GetProfileDocument( "TempVars")
+      	clientType = DbProfile.clientType
+      	key = dbProfile.ProfileKey
+      	
+      	Dim dbug As New noteslog("AuthorProfileNew-EditWeb")	
+      'logging is for debug purposes
+      	Set dbug = New NotesLog("AuthorProfileNew-EditWeb")
+      'to turn off the debug log, set this to False     
+      	dbug.LogActions = True
+      	dbug.OpenAgentLog
+      	
+      	dbug.logaction("Agent running")
+      	
+      	dbpath = getdbpath
+      	
+      	Set authorView = db.getview("LookupPersonalProfiles")
+      	
+      	Call authorView.refresh
+      	dbug.logaction("Key= " + key(0))
+      	Set authorDoc = authorView.getdocumentbykey(key(0), True) 
+      	
+      	If  authorDoc Is Nothing Then
+      		Print "[/"+dbpath+"/"+"PersonalProfile?OpenForm]"
+      	Else
+      		getUNID = authorDoc.universalid
+      		dbug.logaction("UNID=" + getUNID)
+      		Print "[/"+dbpath+"/($All)/"+Lcase(getUNID)+"?EditDocument]"
+      	End If
+      	
+      	dbProfile.clientType = ""
+      	dbProfile.ProfileKey =  ""
+      	
+      End Sub
+    dwFlags: 0x00000000
+    signed: true
+    nonsummary: true
+  - name: $AssistDocCount
+    type: number
+    data: 0
+    signed: true
+  - name: $AssistFlags
+    type: text
+    data: EH
+    signed: true
+  - name: $AssistInfo
+    type_num: 17
+    type: opaque
+    opaque: |
+      AQAEAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+      AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+    signed: true
+    nonsummary: true
+  - name: $AssistLastRun
+    type: time
+    signed: true
+  - name: $AssistQuery
+    type_num: 15
+    type: opaque
+    opaque: gQYAAAAA
+    signed: true
+    nonsummary: true
+  - name: $AssistRunInfo
+    type: object
+    obj_type: 0x0008
+    obj_class: 0x0200
+    obj_privs: 0x0000
+    opaque: |
+      AAAAAAUAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+      ofJNAFtnJYW/snMAmWUlhQAAAAAAAAAAAAAAAAAAAAAAAAAAqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqq
+  - name: $AssistTrigger
+    type: text
+    data: "4"
+    signed: true
+  - name: $AssistType
+    type: number
+    data: 65413
+    signed: true
+  - name: $Comment
+    type: text
+    data: Used in Leader/Facilitator Options hotspot
+    signed: true
+  - name: $Flags
+    type: text
+    data: fL3u
+  - name: $LANGUAGE
+    type: text
+    data: en
+    signed: true
+  - name: $TITLE
+    type: text
+    data: (WebAuthorProfileNew-Edit)
+    signed: true
+remaining: []

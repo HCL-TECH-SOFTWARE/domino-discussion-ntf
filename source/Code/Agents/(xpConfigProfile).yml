@@ -1,0 +1,145 @@
+---
+class: 512
+flags: 0x0000
+unid: OF303FC2D0F19CE3B0-ON0019699D8525745F
+items:
+  - name: $AssistAction
+    type: action
+    code_type: 65413
+    data: |
+      '++LotusScript Development Environment:2:5:(Options):0:74
+      Option Public
+      Option Declare
+      
+      Use "lsClassException"
+      
+      '++LotusScript Development Environment:2:5:(Forward):0:1
+      Declare Sub Initialize
+      
+      '++LotusScript Development Environment:2:5:(Declarations):0:10
+      Const MODULE_NAME = "xpConfigProfile"
+      
+      '++LotusScript Development Environment:2:2:Initialize:1:10
+      Sub Initialize
+      	
+      	On Error Goto ERROR_HANDLER
+      	
+      	Const FORM_NAME	= "xpConfigProfile"
+      	Const VIEW_NAME	= "xpConfigProfile"
+      	
+      	Dim session		As NotesSession	
+      	Dim uiworkspace	As NotesUIWorkspace
+      	Dim db			As NotesDatabase
+      	Dim view			As NotesView
+      	Dim doc			As NotesDocument
+      	
+      	Set session		= New NotesSession
+      	Set uiworkspace	= New NotesUIWorkspace
+      	Set db			= session.CurrentDatabase
+      	Set view			= db.GetView(VIEW_NAME)
+      	
+      	Call view.refresh()
+      	
+      	Set doc = view.GetFirstDocument()
+      	If doc Is Nothing Then
+      		Call uiworkspace.ComposeDocument(, , FORM_NAME)
+      	Else
+      		Call uiworkspace.EditDocument(True, doc, False)
+      	End If
+      	
+      	Exit Sub
+      	
+      ERROR_HANDLER:
+      	
+      	Call oException.HandleError(MODULE_NAME, "", Null)
+      	Exit Sub
+      	
+      End Sub
+    dwFlags: 0x00000000
+    signed: true
+    nonsummary: true
+  - name: $AssistDocCount
+    type: number
+    data: 0
+    signed: true
+  - name: $AssistFlags
+    type: text
+    data: EHs
+    signed: true
+  - name: $AssistInfo
+    type_num: 17
+    type: opaque
+    opaque: |
+      AQAEAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+      AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+    signed: true
+    nonsummary: true
+  - name: $AssistLastRun
+    type: time
+    signed: true
+  - name: $AssistQuery
+    type_num: 15
+    type: opaque
+    opaque: gQYAAAAA
+    signed: true
+    nonsummary: true
+  - name: $AssistRunInfo
+    type: object
+    obj_type: 0x0008
+    obj_class: 0x0200
+    obj_privs: 0x0000
+    opaque: |
+      AAAAAAUAAAAwAAAAAAAAAAAAAAAAAAAAlgAAAAAAAAAAAAAAAAAAABAAAAAAAAAAKWhRADd1JYAAAAAA
+      9c16AAd1JYWMynoAB3UlhQAAAAAAAAAAAAAAAAAAAAAAAAAAU3RhcnRlZCBydW5uaW5nIGFnZW50ICd4
+      cENvbmZpZ1Byb2ZpbGUnIG9uIDA3LzAxLzIwMDkgMTQ6NDk6MDkNClJhbiBMb3R1c1NjcmlwdCBjb2Rl
+      DQpEb25lIHJ1bm5pbmcgYWdlbnQgJ3hwQ29uZmlnUHJvZmlsZScgb24gMDcvMDEvMjAwOSAxNDo0OTox
+      MA0KAA0K+U8vAUHkkRTkwQsAf3QlhQsAf3Qlhaqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqq
+  - name: $AssistTrigger
+    type: text
+    data: "4"
+    signed: true
+  - name: $AssistType
+    type: number
+    data: 65413
+    signed: true
+  - name: $DesignerVersion
+    type: text
+    data: "7"
+    signed: true
+  - name: $Flags
+    type: text
+    data: fL3w
+  - name: $FlagsExt
+    type: text
+    data: ""
+    signed: true
+  - name: $LANGUAGE
+    type: text
+    data: en
+    signed: true
+  - name: $POID
+    type: time
+    data: "2005-06-02T13:45:51.21-04:00"
+    dst: true
+  - name: $Restricted
+    type: number
+    data: 0
+    signed: true
+  - name: $TITLE
+    type: text
+    data: (xpConfigProfile)
+    signed: true
+remaining: []

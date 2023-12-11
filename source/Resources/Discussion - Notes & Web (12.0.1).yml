@@ -1,0 +1,113 @@
+---
+class: 32784
+flags: 0x0000
+unid: OF0010AC8E85255A0A-ON001E8D4385254BD4
+items:
+  - name: $CSSExpires
+    type: text
+    data: "365"
+  - name: $DBTheme
+    type: text
+    data: oneuiv2_1_blue.theme
+  - name: $Daos
+    type: text
+    data: "0"
+  - name: $DefaultClientXPage
+    type: text
+    data: main.xsp
+  - name: $DefaultFrameset
+    type: text
+    data: MainFrameset
+  - name: $DefaultWebFrameset
+    type: text
+    data: MainFrameset
+  - name: $DefaultWebNavigator
+    type: text
+    data: All Documents
+  - name: $DefaultWebPage
+    type: text
+    data: Color Page
+  - name: $DefaultXPage
+    type: text
+    data: main.xsp
+  - name: $FileExpires
+    type: text
+    data: "365"
+  - name: $Flags
+    type: text
+    data: fJ7ZF!QU
+  - name: $FlagsNoRefresh
+    type: text
+    data: rQU
+  - name: $ImageExpires
+    type: text
+    data: "365"
+  - name: $JSExpires
+    type: text
+    data: "365"
+  - name: $LANGUAGE
+    type: text
+    data: en
+  - name: $LargeSummary
+    type: text
+    data: "0"
+  - name: $LaunchWebViewName
+    type: text
+    data: ($All)
+  - name: $LaunchXPageRunOnServer
+    type: text
+    data: "0"
+  - name: $Revisions
+    type: time
+    data:
+      - data: "2020-09-01T09:14:12.90-05:00"
+        dst: true
+      - data: "2020-09-01T09:14:12.95-05:00"
+        dst: true
+      - data: "2020-09-01T09:14:12.96-05:00"
+        dst: true
+      - data: "2020-09-01T10:15:16.12-04:00"
+        dst: true
+      - data: "2020-11-03T18:29:33.48-05:00"
+      - data: "2020-11-04T16:33:18.99-05:00"
+      - data: "2020-11-04T15:38:06.70-06:00"
+      - data: "2020-11-04T16:59:26.95-05:00"
+      - data: "2021-07-20T16:05:06.04+05:30"
+      - data: "2021-07-20T16:07:40.69+05:30"
+      - data: "2021-07-20T16:07:40.70+05:30"
+      - data: "2021-07-20T16:07:40.79+05:30"
+      - data: "2021-07-20T16:07:40.80+05:30"
+      - data: "2021-07-28T11:55:50.04-05:00"
+        dst: true
+  - name: $TITLE
+    type: text
+    data: |
+      Discussion - Notes & Web (12.0.1)
+      Discussion
+      #1StdR12Discussion
+  - name: $TemplateFileName
+    type: text
+    data: "d:\\data\\discsw50.ntf"
+  - name: $TemplateModTime
+    type: time
+    data: "1998-09-09T10:23:33.41-04:00"
+    dst: true
+  - name: $TemplateServerName
+    type: text
+    data: CN=Debbie Branco/O=Iris
+  - name: IconBitmap
+    type_num: 6
+    type: opaque
+    opaque: |
+      AiAgAgUA//+f////H////h////Af///AH///AA///gAH//wAA//8AAP/+AAB/4AAAf8AAAHPAAABjwAA
+      Aw8AAAAPAAAADwAAAAcAAAADAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAADAAAABwAA
+      wA8AAfAfAAP//wAH//8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPAAAAAAAAAAAAAAAAAAAAbwAAAAAA
+      AAAAAAAAAAAAD28AAAAAAAAAAAAAAAAA/2FvAAAAAAAAAAAAAAAA/xYWH8AAAAAAAAAAAAAM/2Fpn2b/
+      AAAAAAAAAAAAzxYWyZkWFvAAAAAAAAAAAMFhYWzPYWHwAAAAAAAAAAz2FhYW9hYWHwAAAAAADu7sYWFh
+      aZ9hYW8AAAAAAPAADGEWFsmZFhYfAAAAAADxERxhYWHJmfFhbwAA8AAA8REfxhYWyZn2FhAABvAAAPER
+      ccYRYcmZ8WHwAPbwAADxER/8YRYczxYfAPYW8AAA8RERH8YRERER8PFhYfwAAPERcXF8xmZmbwYWiPZv
+      8ADxER8fEfzMzMxhYoiBYW8A8REREREREREPFhYi9hYfAPERcXFxcXERD2Fhb2FhYfDxER8fHx8REQ8W
+      Foj2Fhbw8REREREREREPYWKIgWFh8PERcXFxcXERDxYSiI8WFvDxER8fHx8REQ9hYoiPYWEA8RERERER
+      EREPFhKIjxYfAPERcXFxcR//DxFhIvFh8ADxER8fHxHu7gzxERERHwAA8RERERER//4AzGZmZvAAAPER
+      EREREf/gAADMzMzAAADxERERERH+AAAAAAAAAAAA////////8AAAAAAAAAAAAA==
+remaining: []

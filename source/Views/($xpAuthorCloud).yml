@@ -1,0 +1,163 @@
+---
+class: 8
+flags: 0x0000
+unid: OFCC46623FCAD45B1F-ON006E239C8525745E
+items:
+  - name: $COLLATION
+    type_num: 2
+    type: opaque
+    opaque: EAABAABEAGYHAAADACQzMw==
+  - name: $Comment
+    type: text
+    data: ""
+    signed: true
+  - name: $DesignerVersion
+    type: text
+    data: 8.5.3
+    signed: true
+  - name: $FORMULA
+    type: formula
+    data: |
+        (!@Contains(@LowerCase(form); "profile")) &
+          (!@Contains(@LowerCase(form); "archive"))
+    opaque: |
+      fAEBACgAEQBfYW5vblR4dABHXXYAVHUlAAABAAkAQW5vbnltb3VzAAMAAQAgABEAX21ldGFTZXAASF12
+      AFR1JQAAAQABAH4AAwACAL4AAwAkMzMABQAEAGZvcm1hAQEACQBhbm9ueW1vdXMARwKvAJYATAAFABEA
+      X2Fub25UeHQAR112AFR1JQAABQARAF9tZXRhU2VwAEhddgBUdSUAACICBQARAF9hbm9uVHh0AEdddgBU
+      dSUAACICrgBKAAIABgAAAAAAAAAFAAQARnJvbbQCBQARAF9tZXRhU2VwAEhddgBUdSUAACICAgAFAAAA
+      AAAAAAUABABGcm9ttAIiAq4ABAC1AwMABQAYABQAAgADAAkAJDMzJENvbmZsaWN0BAAEAAAAQAAFAAQA
+      Zm9ybWEBAQAHAHByb2ZpbGUARwIeAQQABQAEAGZvcm1hAQEABwBhcmNoaXZlAEcCHgEEABwCAwAHABgA
+      EgAJTDFUMTBTMTNTMTRSVFQyM1M=
+    signed: true
+  - name: $FORMULACLASS
+    type: text
+    data: "1"
+    signed: true
+  - name: $Flags
+    type: text
+    data: Y
+  - name: $Index
+    type: text
+    data: /C
+    signed: true
+  - name: $LANGUAGE
+    type: text
+    data: en
+    signed: true
+  - name: $TITLE
+    type: text
+    data: ($xpAuthorCloud)|xpAuthorCloud
+    signed: true
+  - name: $VIEWFORMAT
+    type_num: 5
+    type: opaque
+    opaque: |
+      AQABACMAikwAAFZDgwQDAAEArAEAAJMAAQENCQAAAAAAAAAAAAACAAAgJDMzIKwBBwAcABUAdmFyaWFi
+      bGUgdG8gdHJhbnNsYXRlAAcACgADAAkxUwABACgAEQBfYW5vblR4dABHXXYAVHUlAAABAAkAQW5vbnlt
+      b3VzAAMABwAOAAcACTBSMVMyUwAHACAAGQBlbmQgdmFyaWFibGUgdG8gdHJhbnNsYXRlAAcADAAFAAkw
+      UjFTAAEAIAARAF9tZXRhU2VwAEhddgBUdSUAAAEAAQB+AAMABwAOAAgACTBSUjFTMlMCAL4AAwAkMzMA
+      BQAEAGZvcm1hAQEACQBhbm9ueW1vdXMARwKvAJYATAAFABEAX2Fub25UeHQAR112AFR1JQAABQARAF9t
+      ZXRhU2VwAEhddgBUdSUAACICBQARAF9hbm9uVHh0AEdddgBUdSUAACICrgBKAAIABgAAAAAAAAAFAAQA
+      RnJvbbQCBQARAF9tZXRhU2VwAEhddgBUdSUAACICAgAFAAAAAAAAAAUABABGcm9ttAIiAq4ABAC1AwMA
+      BwA2ADAACTBSMlQ5UzEyUlQxM1MxNFMxNVMxNlMxOFJUMjJTMjRTMjVTMjZTMjdTMzFTMzNSJgABAAAA
+      AQEACQEACAoBAQQKAAA/AK0rBAABAAEBAAAAAAAAAABXQwEAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+      AAD//wAAAAAAAAAAAAAAAAAAQgBAAAAAAQD///8AAQDv7+8AAQAAAAAAAAAAAAAAAQABAP///wABALTV
+      xQAAAAEAgAAAAAEAAAD/AAEAAAAAAAAACAAAAAAAAQA=
+    signed: true
+  - name: $WebFlags
+    type: text
+    data: S
+    signed: true
+  - name: $V5ACTIONS
+    type: composite
+    signed: true
+    nonsummary: true
+    data:
+      - type: 0x00bd
+        BackColor: 213
+        BorderStyle: 1
+        BorderWidth: 0
+        BtnHeight: 8
+        FontID: 0x09000002
+        HeightSpc: 5
+        LineColor: 0
+        LineStyle: 1
+        ShareID: 0x00000000
+        dwFlags: 0x00000041
+      - type: 0xff79
+        BackColor:
+          Flags: 0x0001
+          rgb: 0x8bbc9d
+        BtnBorderDisplay: 3
+        BtnTextJustify: 0
+        BtnWidthStyle: 0
+        ButtonColor:
+          Flags: 0x0001
+          rgb: 0xbad5c5
+        FontColor:
+          Flags: 0x0001
+          rgb: 0x000000
+        LineColor:
+          Flags: 0x0001
+          rgb: 0x000000
+        Spare:
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+        barFontID: 0x09000002
+        barHeight:
+          Flags: 0x0000
+          Length:
+            - 0
+            - 0
+            - 0
+            - 0
+            - 0
+            - 0
+            - 19
+            - 64
+          Reserved: 0
+          Units: 5
+        dwFlags: 0x00000003
+        wAppletHeight: 34
+        wBarBackgroundRepeat: 0
+        wBtnInternalMargin: 0
+        wBtnWidthAbsolute: 0
+        wSpare: 0x0000
+        wThemeSetting: 0
+      - type: 0xfffc
+        BorderFlags: 0
+        BorderStyle: 0
+        BorderWidthBottom: 1
+        BorderWidthLeft: 0
+        BorderWidthRight: 0
+        BorderWidthTop: 0
+        Color:
+          Flags: 0x0001
+          rgb: 0x000000
+        DropShadowWidth: 0
+        Flags: 0x00000000
+        InnerWidthBottom: 0
+        InnerWidthLeft: 0
+        InnerWidthRight: 0
+        InnerWidthTop: 0
+        OuterWidthBottom: 0
+        OuterWidthLeft: 0
+        OuterWidthRight: 0
+        OuterWidthTop: 0
+        dwSpare: 0x00000000
+        wSpares:
+          - 0x0000
+          - 0x0000
+          - 0x0000
+          - 0x0000
+          - 0x0000
+remaining: []

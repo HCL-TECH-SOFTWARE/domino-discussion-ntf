@@ -1,0 +1,32 @@
+---
+class: 4
+flags: 0x0000
+unid: OF7722A09625994555-ON002E93E1802575FA
+items:
+  - name: $DesignerVersion
+    type: text
+    data: 8.5.3
+    signed: true
+  - name: $FileNames
+    type: text
+    data: blueRTL.css
+    signed: true
+  - name: $Flags
+    type: text
+    data: 34C=Q
+  - name: $FlagsExt
+    type: text
+    data: D
+    signed: true
+  - name: $Revisions
+    type: time
+    data: "2013-07-25T13:02:05.62+01:00"
+    dst: true
+  - name: $TITLE
+    type: text
+    data: blueRTL.css
+  - name: $FileData
+    type: composite
+    signed: true
+    nonsummary: true
+remaining: []

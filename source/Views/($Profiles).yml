@@ -1,0 +1,256 @@
+---
+class: 8
+flags: 0x0000
+unid: OF5843B726719E1377-ON0070EC52852561FE
+items:
+  - name: $COLLATION
+    type_num: 2
+    type: opaque
+    opaque: IQACAABEAGYAAAADAABmAAMACgAkNzBQZXJzb25OYW1l
+  - name: $Comment
+    type: text
+    data: ""
+    signed: true
+  - name: $DesignerVersion
+    type: text
+    data: 8.5.3
+    signed: true
+  - name: $FORMULA
+    type: formula
+    data: |
+        (@Contains(Form; "Profile")) &
+          (form != "xpConfigProfile")
+    opaque: |
+      qAACACQAAwAkNzAABQAEAEZvcm0FAAoAUGVyc29uTmFtZSICAwAFACQAIAADAAMACgAJACQ3MFBlcnNv
+      bk5hbWUkQ29uZmxpY3QEAAQAAABAAAUABABGb3JtAQAHAFByb2ZpbGUARwIEAAUABABmb3JtAQAPAHhw
+      Q29uZmlnUHJvZmlsZQALAgQAHAIDAAcAGgATAAlMMVQ2UzlTMTBSVFQxMlMxM1MA
+    signed: true
+  - name: $FORMULACLASS
+    type: text
+    data: "1"
+    signed: true
+  - name: $Flags
+    type: text
+    data: Y
+  - name: $Index
+    type: text
+    data: /O
+    signed: true
+  - name: $LANGUAGE
+    type: text
+    data: en
+    signed: true
+  - name: $TITLE
+    type: text
+    data: ($Profiles)|($Profiles)
+    signed: true
+  - name: $VIEWFORMAT
+    type_num: 5
+    type: opaque
+    opaque: |
+      AQACAEcAjgQAAFZDAQADAAQAMgAAAPAAAQAOCQAAAAAAAAAAAAAoQAAAVkMBAAoACwAAAAAAoAABAA4J
+      AAAAAAAAAAAAAgIAAAAkNzBUeXBlMgACACQAAwAkNzAABQAEAEZvcm0FAAoAUGVyc29uTmFtZSICAwAH
+      AAwABQAJMVMyUwBQZXJzb25OYW1lUGVyc29uIE5hbWUmAAEAAAABAQAJAQAICgEBBAoAAD8ArSsBAAEA
+      AQAAAAAAAAAAAFdDAQAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//AAAAAAAAAAAAAAAAAABXQwEA
+      AAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//wAAAAAAAAAAAAAAAAAAQgBAAAAAAQD///8AAQDv7+8A
+      AQAAAAAAAAAAAAAAAQABAP///wABALTVxQAAAAEAgAAAAAEAAAD/AAEAAAAAAAAACAAAAAAAAQA=
+    signed: true
+  - name: $WebFlags
+    type: text
+    data: S
+    signed: true
+  - name: $ACTIONS
+    type: composite
+    signed: true
+    nonsummary: true
+    data:
+      - type: 0x00bd
+        BackColor: 0
+        BorderStyle: 1
+        BorderWidth: 0
+        BtnHeight: 8
+        FontID: 0x00000000
+        HeightSpc: 6
+        LineColor: 0
+        LineStyle: 1
+        ShareID: 0x00000000
+        dwFlags: 0x00001d54
+      - type: 0xffbe
+        Flags: 0x0000009c
+        IconIndex: 7
+        ShareId: 0
+        Type: 5
+        opaque: AQAECg==
+        title: _Forward
+      - type: 0xffbe
+        Flags: 0x0000009c
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: AgBOfA==
+        title: Categori_ze
+      - type: 0xffbe
+        Flags: 0x0000009c
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: AwACCg==
+        title: Edit Message
+      - type: 0xffbe
+        Flags: 0x0000009c
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: BAADCg==
+        title: Send
+      - type: 0xffbe
+        Flags: 0x0000019c
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: BQA9fA==
+        title: _Move to Folder...
+      - type: 0xffbe
+        Flags: 0x0000019c
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: BgA+fA==
+        title: _Remove from Folder...
+  - name: $V5ACTIONS
+    type: composite
+    signed: true
+    nonsummary: true
+    data:
+      - type: 0x00bd
+        BackColor: 0
+        BorderStyle: 1
+        BorderWidth: 0
+        BtnHeight: 8
+        FontID: 0x00000000
+        HeightSpc: 6
+        LineColor: 0
+        LineStyle: 1
+        ShareID: 0x00000000
+        dwFlags: 0x00001d54
+      - type: 0xff79
+        BackColor:
+          Flags: 0x0001
+          rgb: 0x000000
+        BtnBorderDisplay: 2
+        BtnTextJustify: 1
+        BtnWidthStyle: 1
+        ButtonColor:
+          Flags: 0x0001
+          rgb: 0xc0c0c0
+        FontColor:
+          Flags: 0x0001
+          rgb: 0x000000
+        LineColor:
+          Flags: 0x0001
+          rgb: 0x000000
+        Spare:
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+        barFontID: 0x00000000
+        barHeight:
+          Flags: 0x0000
+          Length:
+            - 0
+            - 0
+            - 0
+            - 0
+            - 0
+            - 0
+            - 0
+            - 0
+          Reserved: 0
+          Units: 0
+        dwFlags: 0x00000003
+        wAppletHeight: 32
+        wBarBackgroundRepeat: 0
+        wBtnInternalMargin: 3
+        wBtnWidthAbsolute: 0
+        wSpare: 0x0000
+        wThemeSetting: 0
+      - type: 0xfff6
+        opaque: 9v8yAAAAAAADABMAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAEFjdGlvbkJ1dHRvbi5naWY=
+      - type: 0xfffc
+        BorderFlags: 0
+        BorderStyle: 0
+        BorderWidthBottom: 1
+        BorderWidthLeft: 0
+        BorderWidthRight: 0
+        BorderWidthTop: 0
+        Color:
+          Flags: 0x0001
+          rgb: 0x000000
+        DropShadowWidth: 0
+        Flags: 0x00000000
+        InnerWidthBottom: 0
+        InnerWidthLeft: 0
+        InnerWidthRight: 0
+        InnerWidthTop: 0
+        OuterWidthBottom: 0
+        OuterWidthLeft: 0
+        OuterWidthRight: 0
+        OuterWidthTop: 0
+        dwSpare: 0x00000000
+        wSpares:
+          - 0x0000
+          - 0x0000
+          - 0x0000
+          - 0x0000
+          - 0x0000
+      - type: 0xffbe
+        Flags: 0x0000009c
+        IconIndex: 7
+        ShareId: 0
+        Type: 5
+        opaque: AQAECg==
+        title: _Forward
+      - type: 0xffbe
+        Flags: 0x0000009c
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: AgBOfA==
+        title: Categori_ze
+      - type: 0xffbe
+        Flags: 0x0000009c
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: AwACCg==
+        title: Edit Message
+      - type: 0xffbe
+        Flags: 0x0000009c
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: BAADCg==
+        title: Send
+      - type: 0xffbe
+        Flags: 0x0000019c
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: BQA9fA==
+        title: _Move to Folder...
+      - type: 0xffbe
+        Flags: 0x0000019c
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: BgA+fA==
+        title: _Remove from Folder...
+remaining: []

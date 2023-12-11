@@ -1,0 +1,28 @@
+---
+class: 4
+flags: 0x0000
+unid: OF58FC5FE8CA43A0A8-ON003BF1B085258719
+items:
+  - name: $DesignerVersion
+    type: text
+    data: 8.5.3
+    signed: true
+  - name: $FileNames
+    type: text
+    data: ".settings/.jsdtscope"
+    signed: true
+  - name: $Flags
+    type: text
+    data: ~C4g
+  - name: $Revisions
+    type: time
+    data: "2021-07-21T06:54:45.20-04:00"
+    dst: true
+  - name: $TITLE
+    type: text
+    data: ".settings/.jsdtscope"
+  - name: $FileData
+    type: composite
+    signed: true
+    nonsummary: true
+remaining: []

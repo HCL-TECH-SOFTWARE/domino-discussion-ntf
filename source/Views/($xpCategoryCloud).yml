@@ -1,0 +1,155 @@
+---
+class: 8
+flags: 0x0000
+unid: OF875AB34E6CA50FF2-ON007D7B5D85257458
+items:
+  - name: $COLLATION
+    type_num: 2
+    type: opaque
+    opaque: FwABAABECGYHAAAKAENhdGVnb3JpZXM=
+  - name: $Comment
+    type: text
+    data: ""
+    signed: true
+  - name: $DesignerVersion
+    type: text
+    data: 8.5.3
+    signed: true
+  - name: $FORMULA
+    type: formula
+    data: |
+        (!@Contains(@LowerCase(form); "profile")) &
+          (!@Contains(@LowerCase(form); "archive")) &
+          (@Trim(Categories) != "")
+    opaque: |
+      xgACACAACgBDYXRlZ29yaWVzBQAKAENhdGVnb3JpZXMDAAUAIAAbAAIACgAJAENhdGVnb3JpZXMkQ29u
+      ZmxpY3QABAAEAAAAWgAFAAQAZm9ybWEBAQAHAHByb2ZpbGUARwIeAQQABQAEAGZvcm1hAQEABwBhcmNo
+      aXZlAEcCHgEEABwCBQAKAENhdGVnb3JpZXNeAQEAAAALAgQAHAIDAAcAJgAgAAlMMVQxMFMxM1MxNFJU
+      VDIzUzI2UzI3UlRUMzJTMzNT
+    signed: true
+  - name: $FORMULACLASS
+    type: text
+    data: "1"
+    signed: true
+  - name: $Flags
+    type: text
+    data: YT
+  - name: $Index
+    type: text
+    data: /C
+    signed: true
+  - name: $LANGUAGE
+    type: text
+    data: en
+    signed: true
+  - name: $TITLE
+    type: text
+    data: ($xpCategoryCloud)|xpCategoryCloud
+    signed: true
+  - name: $VIEWFORMAT
+    type_num: 5
+    type: opaque
+    opaque: |
+      AQABAHcAi0wAAFZDowQKAAoAIgAAAFAAAQENCQABAAAAAAAAAAICAAAAQ2F0ZWdvcmllc0NhdGVnb3Jp
+      ZXMiAAIAIAAKAENhdGVnb3JpZXMFAAoAQ2F0ZWdvcmllcwMAJgABAAAAAQEACQEACAoBAQQKAAA/AK0r
+      BAEBAAEBAAAAAAAAAABXQwIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//wAAAAAAAAAAAAAAAAAA
+      QgBQAAAAAQD///8AAQDv7+8AAQAAAAAAAAAAAAAAAQABAP///wABALTVxQAAAAEAgAAAAAEAAAD/AAEA
+      AAAAAAAACAAAAAAAAQA=
+    signed: true
+  - name: $WebFlags
+    type: text
+    data: S
+    signed: true
+  - name: $V5ACTIONS
+    type: composite
+    signed: true
+    nonsummary: true
+    data:
+      - type: 0x00bd
+        BackColor: 213
+        BorderStyle: 1
+        BorderWidth: 0
+        BtnHeight: 8
+        FontID: 0x09000002
+        HeightSpc: 5
+        LineColor: 0
+        LineStyle: 1
+        ShareID: 0x00000000
+        dwFlags: 0x00000041
+      - type: 0xff79
+        BackColor:
+          Flags: 0x0001
+          rgb: 0x8bbc9d
+        BtnBorderDisplay: 3
+        BtnTextJustify: 0
+        BtnWidthStyle: 0
+        ButtonColor:
+          Flags: 0x0001
+          rgb: 0xbad5c5
+        FontColor:
+          Flags: 0x0001
+          rgb: 0x000000
+        LineColor:
+          Flags: 0x0001
+          rgb: 0x000000
+        Spare:
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+        barFontID: 0x09000002
+        barHeight:
+          Flags: 0x0000
+          Length:
+            - 0
+            - 0
+            - 0
+            - 0
+            - 0
+            - 0
+            - 19
+            - 64
+          Reserved: 0
+          Units: 5
+        dwFlags: 0x00000003
+        wAppletHeight: 34
+        wBarBackgroundRepeat: 0
+        wBtnInternalMargin: 0
+        wBtnWidthAbsolute: 0
+        wSpare: 0x0000
+        wThemeSetting: 0
+      - type: 0xfffc
+        BorderFlags: 0
+        BorderStyle: 0
+        BorderWidthBottom: 1
+        BorderWidthLeft: 0
+        BorderWidthRight: 0
+        BorderWidthTop: 0
+        Color:
+          Flags: 0x0001
+          rgb: 0x000000
+        DropShadowWidth: 0
+        Flags: 0x00000000
+        InnerWidthBottom: 0
+        InnerWidthLeft: 0
+        InnerWidthRight: 0
+        InnerWidthTop: 0
+        OuterWidthBottom: 0
+        OuterWidthLeft: 0
+        OuterWidthRight: 0
+        OuterWidthTop: 0
+        dwSpare: 0x00000000
+        wSpares:
+          - 0x0000
+          - 0x0000
+          - 0x0000
+          - 0x0000
+          - 0x0000
+remaining: []

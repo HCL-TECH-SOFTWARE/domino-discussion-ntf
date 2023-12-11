@@ -1,0 +1,207 @@
+---
+class: 512
+flags: 0x0000
+unid: OFEB7633229324D1FC-ON005C7FFF852564CD
+items:
+  - name: $AssistAction
+    type: action
+    code_type: 65413
+    data: |
+      '++LotusScript Development Environment:2:5:(Options):0:74
+      Option Public
+      Use "wStringResource"
+      Use "DiscussionRoutines"
+      
+      
+      '++LotusScript Development Environment:2:5:(Forward):0:1
+      Declare Sub Initialize   
+      
+      '++LotusScript Development Environment:2:5:(Declarations):0:10
+      Dim view As NotesView
+      Dim profile As NotesDocument
+      Dim item As NotesItem
+      Dim Position As Integer
+      Dim originalnote As notesdocument
+      Dim CurrentDocumentURL As String
+      Dim webuser As NotesName
+      
+      '++LotusScript Development Environment:2:2:Initialize:1:10
+      Sub Initialize   
+      	InstantiateObjects     
+      	Dim nab As New notesdatabase("","names.nsf")
+      	Dim userview As notesview
+      	dbpath = getdbpath
+      	
+           'Get the original Note that we are trying to add to the users interest profile
+      	OriginalUNID = Mid(note.Query_String(0), Instr(note.Query_String(0), "&")+1, 32)
+      	Set OriginalNote = db.getdocumentbyunid(originalunid)
+            'Obtain the correct authenticated web user name of the person
+           'find the remote user's full name 
+      	
+      	If nab.isopen Then
+      		Set userview = nab.getview("($Users)")
+      		Dim userdoc As notesdocument
+      		Set userdoc = userview.getdocumentbykey(note.remote_user(0))
+      		If Not(userdoc Is Nothing) Then
+      			Set webuser =  New notesname(userdoc.fullname(0))  
+      		End If
+      	End If
+      	
+           'These variables are for creating a response message to the user when we are done
+      	CurrentDocumentURL = "<hr><font size=2><a href=/"+dbpath+"/($All)/"+Lcase(originalUNID)+"?OpenDocument>" + GetString(1) + "</a>&nbsp&nbsp&nbsp"
+      	TopicView =   "<a href=/" + dbpath + "/($All)?OpenView>" + GetString(2) + "</a>&nbsp&nbsp&nbsp"
+      	CategoryView = " <a href=/" + dbpath + "/by+Category?OpenView>" + GetString(3) + "</a>&nbsp&nbsp&nbsp"
+      	AuthorView = "<a href=/" + dbpath + "/AuthorView?OpenView>" + GetString(4) + "</a>&nbsp&nbsp&nbsp"
+      	altnameview ="<a href=/"+dbpath+"/By+Alternate+Name?OpenView>" + GetString(5) + "</a>&nbsp&nbsp&nbsp<hr>"
+      	
+      'Get the subject field and remove any commas 
+      	Subject = OriginalNote.Subject
+      	ThreadSubject = Subject(0)    
+      	Do    
+      		Position = Instr(1, ThreadSubject, ",")
+      		If Position > 0 Then Mid(ThreadSubject, Position, 1) = "."
+      	Loop Until Position = 0    
+      	
+      	
+      	ThreadId = OriginalNote.ThreadId
+      	
+      	If ThreadId(0) = "" Then
+      		Print "<b>" + GetString(6) + "</b><BR>"+CurrentDocmentURL+topicview+categoryview+authorview+AltNameView
+      		Exit Sub
+      	End If
+      	Set view = db.GetView("($Profiles)")
+           'Compile the correct key to find the unique interest profile for this user
+      	key = "Interest Profile" & webuser.common
+      	Set profile = view.GetDocumentByKey(key,False)
+      	
+      	If profile Is Nothing Then
+           'If there is no Interest profile, create one and add the topic to it
+      		Set profile = New NotesDocument(db)
+      		profile.Form = "Interest Profile"
+      		Set item = New NotesItem(profile, "PersonName", webuser.common, AUTHORS)
+      		profile.Subject = "Interest Profile for " & webuser.common
+      		profile.ProtectFromArchive = 1
+      		profile.ProfileThreads = ThreadId(0)
+      		If ThreadSubject = "" Then
+      			profile.profilethreadsubjects = GetString(25)+Cstr(threadid(0))
+      		Else
+      			profile.ProfileThreadSubjects = ThreadSubject
+      		End If
+      		
+      		Set item = New NotesItem(profile, "Readers", webuser.canonical, READERS)
+      		item.IsSummary = True
+      	Else
+      		If profile.hasitem("ProfileThreads") Then  
+      			
+      			Set item = profile.GetFirstItem("ProfileThreads")          
+      			If item.Contains(ThreadId(0)) Then
+      				Print "<b>" + GetString(7) + "</b><BR>"+CurrentDocumentURL+topicview+categoryview+authorview+AltNameView
+      				Exit Sub
+      			Else
+      				item.AppendToTextList(ThreadId(0))
+      				Set item = profile.GetFirstItem("ProfileThreadSubjects")
+      				
+      				If ThreadSubject = "" Then
+      					item.AppendToTextList(GetString(25)+Cstr(threadid(0)))
+      				Elseif profile.ProfileThreadSubjects(0) = "" Then
+      					Call profile.replaceitemvalue("ProfileThreadSubjects", Subject)
+      				Else
+      					item.AppendToTextList(ThreadSubject)
+      				End If
+      				
+      				
+      			End If
+      		Else
+      			profile.profilethreads = threadid(0)
+      			If ThreadSubject = "" Then
+      				profile.profilethreadsubjects = GetString(25)+Cstr(threadid(0))
+      			Else
+      				profile.profilethreadsubjects = threadsubject
+      			End If
+      			
+      		End If
+      	End If   
+      	profile.Save True, True
+      	If ThreadSubject = "" Then
+      		Print "<b>"+GetString(26)+GetString(8)+"</b><br>"+ CurrentDocumentURL+topicview+categoryview+authorview+altnameview
+      	Else
+      		Print "<b>"+threadsubject+" "+GetString(8)+"</b><br>"+ CurrentDocumentURL+topicview+categoryview+authorview+altnameview
+      	End If
+      	
+      End Sub
+    dwFlags: 0x00000000
+    signed: true
+    nonsummary: true
+  - name: $AssistDocCount
+    type: number
+    data: 0
+    signed: true
+  - name: $AssistFlags
+    type: text
+    data: EH
+    signed: true
+  - name: $AssistInfo
+    type_num: 17
+    type: opaque
+    opaque: |
+      AQAEAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+      AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+    signed: true
+    nonsummary: true
+  - name: $AssistLastRun
+    type: time
+    signed: true
+  - name: $AssistQuery
+    type_num: 15
+    type: opaque
+    opaque: gQYAAAAA
+    signed: true
+    nonsummary: true
+  - name: $AssistRunInfo
+    type: object
+    obj_type: 0x0008
+    obj_class: 0x0200
+    obj_privs: 0x0000
+    opaque: |
+      AAAAAAUAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+      CilrAC9nJYW/snMAmWUlhQAAAAAAAAAAAAAAAAAAAAAAAAAAqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqq
+  - name: $AssistTrigger
+    type: text
+    data: "4"
+    signed: true
+  - name: $AssistType
+    type: number
+    data: 65413
+    signed: true
+  - name: $Comment
+    type: text
+    data: This agent adds the current main topic to the users Interest Profile.
+    signed: true
+  - name: $Flags
+    type: text
+    data: f3Lu
+  - name: $LANGUAGE
+    type: text
+    data: en
+    signed: true
+  - name: $TITLE
+    type: text
+    data: (WebAddTopic)
+    signed: true
+remaining: []

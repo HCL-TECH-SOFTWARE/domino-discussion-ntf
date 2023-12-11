@@ -1,0 +1,1461 @@
+---
+class: 33024
+flags: 0x0000
+unid: OF3D049D4600000175-ON00564FC385255BAC
+items:
+  - name: $DesignerVersion
+    type: text
+    data: "8.5"
+    signed: true
+  - name: $Flags
+    type: text
+    data: ""
+  - name: $Revisions
+    type: time
+    data:
+      - data: "2012-09-05T06:21:21.25-04:00"
+        dst: true
+      - data: "2014-08-14T11:48:54.66+01:00"
+        dst: true
+  - name: OriginalModTime
+    type: time
+    data: "2005-04-15T10:01:22.54-07:00"
+    dst: true
+    signed: true
+  - name: $BODY
+    type: composite
+    signed: true
+    nonsummary: true
+    data:
+      - type: 0x0081
+      - type: 0xff82
+        FirstLineLeftMargin: 1440
+        Flags: 0x8100
+        Flags2: 0x8795
+        JustifyMode: 0
+        LeftMargin: 1440
+        LineSpacing: 0
+        PABID: 1
+        ParagraphSpacingAfter: 0
+        ParagraphSpacingBefore: 0
+        RightMargin: 0
+        Tab:
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+        TabTypes: 0x00000000
+        Tabs: 0
+        data:
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0x00000001
+          - 0x00000004
+      - type: 0x0083
+        PABID: 1
+      - type: 0x00dd
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0x9040401
+      - type: 0x00d2
+        Color:
+          Flags: 0x0001
+          rgb: 0x0000ff
+      - type: 0x00de
+        Signature: 0xff85
+        Version: 0
+      - type: 0x00dd
+        Signature: 0xffad
+        Version: 0
+      - type: 0xffad
+        opaque: rf8MAAIADAAgAAAA
+      - type: 0xfff9
+        ActionLength: 15
+        ActionType: 4
+        EventType: 1
+        Flags: 0x00000000
+        Reserved: AAAAAAAAAAAAAAAAAAA=
+        SignatureLength: 0
+      - type: 0xffdc
+        opaque: 3P8iAPn/EAAgTgAAAAAAAAAAaGlzdG9yeS5iYWNrKCkAAA==
+      - type: 0xff66
+        ActionLength: 15
+        ActionType: 4
+        EventType: 1
+        Flags: 0x00000000
+        Reserved: AAAAAAAAAAAAAAAAAAA=
+        SignatureLength: 0
+      - type: 0xff65
+        opaque: Zf8iAGb/EAAgTgAAAAAAAAAAaGlzdG9yeS5iYWNrKCkAAA==
+      - type: 0x00dd
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0x9040401
+        data: Go back
+      - type: 0x00d2
+        Color:
+          Flags: 0x0001
+          rgb: 0x0000ff
+      - type: 0x00de
+        Signature: 0xff85
+        Version: 0
+      - type: 0x00ae
+        opaque: rgI=
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 213
+        wPlatform: 1
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 1
+        wPlatform: 2
+        wReserved: 0
+      - type: 0x00de
+        Signature: 0x00ae
+        Version: 0
+      - type: 0x00dd
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0x9040401
+      - type: 0x00d2
+        Color:
+          Flags: 0x0001
+          rgb: 0x0000ff
+      - type: 0x00de
+        Signature: 0xff85
+        Version: 0
+      - type: 0x0081
+      - type: 0xff82
+        FirstLineLeftMargin: 1440
+        Flags: 0x0100
+        Flags2: 0x8795
+        JustifyMode: 0
+        LeftMargin: 1440
+        LineSpacing: 0
+        PABID: 2
+        ParagraphSpacingAfter: 0
+        ParagraphSpacingBefore: 1
+        RightMargin: 0
+        Tab:
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+        TabTypes: 0x00000000
+        Tabs: 0
+        data:
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0x00000001
+          - 0x00000004
+      - type: 0x0083
+        PABID: 2
+      - type: 0x00dd
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0x9040401
+      - type: 0x00d2
+        Color:
+          Flags: 0x0001
+          rgb: 0x0000ff
+      - type: 0x00de
+        Signature: 0xff85
+        Version: 0
+      - type: 0x00dd
+        Signature: 0xffad
+        Version: 0
+      - type: 0xffad
+        opaque: rf8sAAIAHAAAACAAIAAAABIAAgD8EQAAAAAAAO0BAwAHAAwABQAJMFMwRQA=
+      - type: 0x00dd
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0x9040401
+        data: Close this document to view the database
+      - type: 0x00d2
+        Color:
+          Flags: 0x0001
+          rgb: 0x0000ff
+      - type: 0x00de
+        Signature: 0xff85
+        Version: 0
+      - type: 0x00ae
+        opaque: rgI=
+      - type: 0x00de
+        Signature: 0x00ae
+        Version: 0
+      - type: 0x00dd
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0x9040401
+      - type: 0x00d2
+        Color:
+          Flags: 0x0001
+          rgb: 0x0000ff
+      - type: 0x00de
+        Signature: 0xff85
+        Version: 0
+      - type: 0x0081
+      - type: 0xff82
+        FirstLineLeftMargin: 1440
+        Flags: 0x0100
+        Flags2: 0x8794
+        JustifyMode: 3
+        LeftMargin: 1440
+        LineSpacing: 0
+        PABID: 3
+        ParagraphSpacingAfter: 0
+        ParagraphSpacingBefore: 0
+        RightMargin: 0
+        Tab:
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+        TabTypes: 0x00000000
+        Tabs: 0
+        data:
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0x00000001
+          - 0x00000004
+      - type: 0x0083
+        PABID: 3
+      - type: 0xffc3
+        opaque: w/8IAAGhwBI=
+      - type: 0x00dd
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0x12c00101
+        data: Using Discussion
+      - type: 0x00d2
+        Color:
+          Flags: 0x0001
+          rgb: 0x400000
+      - type: 0x00de
+        Signature: 0xff85
+        Version: 0
+      - type: 0x0081
+      - type: 0xff82
+        FirstLineLeftMargin: 1440
+        Flags: 0x0100
+        Flags2: 0x8794
+        JustifyMode: 0
+        LeftMargin: 1440
+        LineSpacing: 0
+        PABID: 4
+        ParagraphSpacingAfter: 0
+        ParagraphSpacingBefore: 0
+        RightMargin: 0
+        Tab:
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+        TabTypes: 0x00000000
+        Tabs: 0
+        data:
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0x00000001
+          - 0x00000004
+      - type: 0x0083
+        PABID: 4
+      - type: 0xff85
+        FontID: 0xb000101
+      - type: 0x0081
+      - type: 0xff82
+        FirstLineLeftMargin: 1440
+        Flags: 0x0100
+        Flags2: 0x8494
+        JustifyMode: 0
+        LeftMargin: 1440
+        LineSpacing: 0
+        PABID: 5
+        ParagraphSpacingAfter: 0
+        ParagraphSpacingBefore: 1
+        RightMargin: 0
+        Tab:
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+        TabTypes: 0x00000000
+        Tabs: 0
+        data:
+          - 1440
+          - 12
+          - 1440
+          - 12
+          - 0
+          - 0
+          - 0x00000001
+          - 0x00000004
+      - type: 0x0083
+        PABID: 5
+      - type: 0xff85
+        FontID: 0x9000101
+        data: To follow a discussion
+      - type: 0x0081
+      - type: 0xff82
+        FirstLineLeftMargin: 1800
+        Flags: 0x0100
+        Flags2: 0x8494
+        JustifyMode: 0
+        LeftMargin: 1800
+        LineSpacing: 0
+        PABID: 6
+        ParagraphSpacingAfter: 0
+        ParagraphSpacingBefore: 1
+        RightMargin: 0
+        Tab:
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+        TabTypes: 0x00000000
+        Tabs: 0
+        data:
+          - 1800
+          - 15
+          - 1800
+          - 15
+          - 0
+          - 0
+          - 0x00000001
+          - 0x00000004
+      - type: 0x0083
+        PABID: 6
+      - type: 0xff85
+        FontID: 0x9000001
+        data: "Select the All Documents view to see a chronological listing of main topics for discussion and their responses.  Select the By Author view to see what individual members of the discussion group have said.  Select the By Category view to browse the group's discussions categorized by main topics."
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 4
+      - type: 0xff85
+        FontID: 0x9000101
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 4
+      - type: 0xff85
+        FontID: 0x9000101
+        data: To begin a discussion
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 6
+      - type: 0xff85
+        FontID: 0x9000001
+        data: "From the All Documents view, By Author view or By Category view, create a Main Topic document to start a new topic for discussion.  Be sure to enter a category for the topic (Training, Documentation, Technical Tips, etc.)."
+      - type: 0x0081
+      - type: 0xff82
+        FirstLineLeftMargin: 1800
+        Flags: 0x0100
+        Flags2: 0x8494
+        JustifyMode: 0
+        LeftMargin: 1440
+        LineSpacing: 0
+        PABID: 7
+        ParagraphSpacingAfter: 0
+        ParagraphSpacingBefore: 0
+        RightMargin: 0
+        Tab:
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+        TabTypes: 0x00000000
+        Tabs: 0
+        data:
+          - 1440
+          - 12
+          - 1800
+          - 15
+          - 0
+          - 0
+          - 0x00000001
+          - 0x00000004
+      - type: 0x0083
+        PABID: 7
+      - type: 0xff85
+        FontID: 0x9000001
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 4
+      - type: 0xff85
+        FontID: 0x9000101
+        data: To respond to a main topic or a response document
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 6
+      - type: 0xff85
+        FontID: 0x9000401
+        data: Menu
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 6
+      - type: 0xff85
+        FontID: 0x9000001
+        data: "If you want to respond to a main topic, first highlight the main topic document and then select Create, Response.  Fill out the response form."
+      - type: 0xff85
+        FontID: 0xa000001
+        data: "  "
+      - type: 0xff85
+        FontID: 0x9000001
+        data: "When you are done, press"
+      - type: 0xff85
+        FontID: 0xa000001
+        data: " "
+      - type: 0xff85
+        FontID: 0x9000101
+        data: ESC
+      - type: 0xff85
+        FontID: 0xa000001
+        data: " "
+      - type: 0xff85
+        FontID: 0x9000001
+        data: and answer Yes to save your new document.
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 6
+      - type: 0xff85
+        FontID: 0x9000001
+        data: "If you want to respond to the message in a response document, highlight the appropriate response document and then select Create, Response to Response.  Fill out the response form and then save your changes."
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 6
+      - type: 0xff85
+        FontID: 0x9000401
+        data: Actions
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 6
+      - type: 0xff85
+        FontID: 0x9000001
+        data: "Open the document you wish to respond to and click the Response action button at the top of the document.  "
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 6
+      - type: 0xff85
+        FontID: 0x9000401
+        data: Web Browser
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 6
+      - type: 0xff85
+        FontID: 0x9000001
+        data: Open the document you wish to respond to and click on the New Response hotspot at the top of the document.  Fill out the response form and then click on either the Submit hotspot on the top of the response form or the Submit button at the bottom of the response form.  Response to Response documents are not supported on the Web.
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 7
+      - type: 0xff85
+        FontID: 0x9000001
+      - type: 0x0081
+      - type: 0xff82
+        FirstLineLeftMargin: 1440
+        Flags: 0x0100
+        Flags2: 0x8494
+        JustifyMode: 0
+        LeftMargin: 1080
+        LineSpacing: 0
+        PABID: 8
+        ParagraphSpacingAfter: 0
+        ParagraphSpacingBefore: 0
+        RightMargin: 0
+        Tab:
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+        TabTypes: 0x00000000
+        Tabs: 0
+        data:
+          - 1080
+          - 9
+          - 1440
+          - 12
+          - 0
+          - 0
+          - 0x00000001
+          - 0x00000004
+      - type: 0x0083
+        PABID: 8
+      - type: 0xff85
+        FontID: 0x9000101
+        data: To create an Author Profile
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 6
+      - type: 0xff85
+        FontID: 0x9000001
+        data: "If you would like people to know something about you, click the \"New Author Profile\" button at the top of the view.  Fill out the form and add an (optional) picture of yourself."
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 8
+      - type: 0xff85
+        FontID: 0x9000001
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 8
+      - type: 0xff85
+        FontID: 0x9000101
+        data: To flag a document as Private
+      - type: 0x0081
+      - type: 0xff82
+        FirstLineLeftMargin: 1857
+        Flags: 0x0100
+        Flags2: 0x8494
+        JustifyMode: 0
+        LeftMargin: 1800
+        LineSpacing: 0
+        PABID: 9
+        ParagraphSpacingAfter: 0
+        ParagraphSpacingBefore: 1
+        RightMargin: 0
+        Tab:
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+        TabTypes: 0x00000000
+        Tabs: 0
+        data:
+          - 1800
+          - 15
+          - 1857
+          - 15
+          - 0
+          - 0
+          - 0x00000001
+          - 0x00000004
+      - type: 0x0083
+        PABID: 9
+      - type: 0xff85
+        FontID: 0x9000001
+        data: "You can use the \"Mark Private\" and"
+      - type: 0xff85
+        FontID: 0x9000101
+        data: " "
+      - type: 0xff85
+        FontID: 0x9000001
+        data: "\"Mark Public\" actions in the template to control whether anyone other than yourself can read a specific document.  For example, if you have not completed the writing of a particular document, you can click the \"Mark Private\" action and others will not be able to see the document.  When you complete the document, you can click the"
+      - type: 0xff85
+        FontID: 0x9000101
+        data: " "
+      - type: 0xff85
+        FontID: 0x9000001
+        data: "\"Mark Public\""
+      - type: 0xff85
+        FontID: 0x9000101
+        data: " "
+      - type: 0xff85
+        FontID: 0x9000001
+        data: action to make it available for others to read.
+      - type: 0x0081
+      - type: 0xff82
+        FirstLineLeftMargin: 1800
+        Flags: 0x0100
+        Flags2: 0x8494
+        JustifyMode: 0
+        LeftMargin: 1440
+        LineSpacing: 0
+        PABID: 10
+        ParagraphSpacingAfter: 0
+        ParagraphSpacingBefore: 1
+        RightMargin: 0
+        Tab:
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+        TabTypes: 0x00000000
+        Tabs: 0
+        data:
+          - 1440
+          - 12
+          - 1800
+          - 15
+          - 0
+          - 0
+          - 0x00000001
+          - 0x00000004
+      - type: 0x0083
+        PABID: 10
+      - type: 0xff85
+        FontID: 0x9000001
+        data: "Note:  This action is not available to Anonymous web users."
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 8
+      - type: 0xff85
+        FontID: 0x9000001
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 8
+      - type: 0xff85
+        FontID: 0x9000101
+        data: To set up an Interest Profile
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 6
+      - type: 0xff85
+        FontID: 0x9000401
+        data: Notes
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 6
+      - type: 0xff85
+        FontID: 0x9000001
+        data: Use the Action menu item Edit Interest Profile to bring up your personal interest profile document. You can elect to be notified via a newsletter if certain conditions are met. These conditions can include the appearance of your name or phrases that you designate.
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 6
+      - type: 0xff85
+        FontID: 0x9000401
+        data: Web Browser
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 6
+      - type: 0xff85
+        FontID: 0x9000001
+        data: Select the Edit Profile hotspot from any of the views in the database to bring up your personal interest profile document. You can elect to be notified via a newsletter if certain conditions are met. These conditions can include the appearance of your name or phrases that you designate.  This feature is not available to Anonymous web users.
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 7
+      - type: 0xff85
+        FontID: 0x9000001
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 8
+      - type: 0xff85
+        FontID: 0x9000101
+        data: To add the current discussion topic to your Interest Profile
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 6
+      - type: 0xff85
+        FontID: 0x9000401
+        data: Notes
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 6
+      - type: 0xff85
+        FontID: 0x9000001
+        data: Use the Action menu item Add Selected Topic To Interest Profile  to add the current discussion topic to the list of items you wish to track via newsletter.
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 6
+      - type: 0xff85
+        FontID: 0x9000401
+        data: Web Users
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 6
+      - type: 0xff85
+        FontID: 0x9000001
+        data: Open the Main Topic which you would like to be added to your interest profile and select the Add Topic to Interest Profile hotspot.  This action is available whether you are reading or editing a main topic document.  This feature is not available to Anonymous web users.
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 7
+      - type: 0xff85
+        FontID: 0x9000101
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 8
+      - type: 0xff85
+        FontID: 0x9000101
+        data: Anonymous responses
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 6
+      - type: 0xff85
+        FontID: 0x9000001
+        data: "If you wish to respond anonymously to a discussion, highlight the main topic or a response and select Create, Other.  Then select either Anonymous Response or Anonymous Response to Response.  This feature is not available to web users.  If an anonymous web user is able to open the discussion database,  all documents created on the web will reflect that the user is anonymous."
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 8
+      - type: 0xff85
+        FontID: 0x9000101
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 8
+      - type: 0xff85
+        FontID: 0x9000101
+        data: Agents
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 6
+      - type: 0xff85
+        FontID: 0x9000401
+        data: Newsletters
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 6
+      - type: 0xff85
+        FontID: 0x9000001
+        data: "A user can elect to be notified via e-mail when a new response has been added to certain topic(s) of discussion.  These topics are specified in the user's Interest Profile.  There are seven agents pertaining to newsletters."
+      - type: 0x0081
+      - type: 0xff82
+        FirstLineLeftMargin: 2160
+        Flags: 0x0100
+        Flags2: 0x8494
+        JustifyMode: 0
+        LeftMargin: 2160
+        LineSpacing: 0
+        PABID: 11
+        ParagraphSpacingAfter: 0
+        ParagraphSpacingBefore: 1
+        RightMargin: 0
+        Tab:
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+        TabTypes: 0x00000000
+        Tabs: 0
+        data:
+          - 2160
+          - 18
+          - 2160
+          - 18
+          - 0
+          - 0
+          - 0x00000001
+          - 0x00000004
+      - type: 0x0083
+        PABID: 11
+      - type: 0x00dd
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0x90d0001
+        data: "Edit Interest Profile:  "
+      - type: 0x00d2
+        Color:
+          Flags: 0x0001
+          rgb: 0x008080
+      - type: 0x00de
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0x9000001
+        data: "The Interest Profile contains individual topics, phrases, keywords or categories of interest to the individual.  It can be tailored to contain as wide or as narrow a selection of topics as the individual is seeking information on.  This document is used by the "
+      - type: 0xff85
+        FontID: 0x9000201
+        data: Send Newsletters
+      - type: 0xff85
+        FontID: 0x9000001
+        data: " and "
+      - type: 0xff85
+        FontID: 0x9000201
+        data: Add Selected Topic to Interest Profile
+      - type: 0xff85
+        FontID: 0x9000001
+        data: " agents, described below."
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 11
+      - type: 0x00dd
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0x90d0001
+        data: "WebEditInterest Profile:  "
+      - type: 0x00d2
+        Color:
+          Flags: 0x0001
+          rgb: 0x008080
+      - type: 0x00de
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0x9000001
+        data: Web users equivalent of the Edit Interest Profile agent.
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 11
+      - type: 0x00dd
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0x90d0001
+        data: "Web InterestProfileSave:  "
+      - type: 0x00d2
+        Color:
+          Flags: 0x0001
+          rgb: 0x008080
+      - type: 0x00de
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0x9000001
+        data: Saves the Interest Profiles for web users.
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 11
+      - type: 0x00dd
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0x90d0001
+        data: "Add Selected Topic to Interest Profile: "
+      - type: 0x00d2
+        Color:
+          Flags: 0x0001
+          rgb: 0x008080
+      - type: 0x00de
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0x9000001
+        data: " Allows the user to add new topics of interest to their individual interest profiles.  After a new topic has been added, a Notes agent will process this request and notify the user via e-mail whenever new responses to this topic are added to the database.  If the error \"This is not identified as a thread. Contact the database manager if you want all threads initialized.\" appears, the database manager must run the agent called "
+      - type: 0xff85
+        FontID: 0x9000201
+        data: Initialize ThreadIds
+      - type: 0xff85
+        FontID: 0x9000001
+        data: " (see description below)."
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 11
+      - type: 0x00dd
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0x90d0001
+        data: "WebAddTopic:  "
+      - type: 0x00d2
+        Color:
+          Flags: 0x0001
+          rgb: 0x008080
+      - type: 0x00de
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0x9000001
+        data: Web users equivalent of Add Selected Topic to Interest Profile agent.
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 11
+      - type: 0x00dd
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0x90d0001
+        data: "Send  Newsletters:"
+      - type: 0x00d2
+        Color:
+          Flags: 0x0001
+          rgb: 0x008080
+      - type: 0x00de
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0x9000001
+        data: "  Reviews the \"Interest Profile\" of each user who has a profile on a server-based Discussion database.  It matches criteria on the profile with any criteria it finds in the topics of the current database.  Each match generates a document link, which will become part of the newsletter; that newsletter is then mailed to the subscriber.  The agent can be run periodically.  Typically this would be on a daily basis.  "
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 11
+      - type: 0x00dd
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0x90d0001
+        data: "WebRemoveThread: "
+      - type: 0x00d2
+        Color:
+          Flags: 0x0001
+          rgb: 0x008080
+      - type: 0x00de
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0x9000001
+        data: " Removes the selected thread from the web users Interest Profile.  "
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 11
+      - type: 0x00dd
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0x90d0001
+        data: "Update Thread Maps:  "
+      - type: 0x00d2
+        Color:
+          Flags: 0x0001
+          rgb: 0x008080
+      - type: 0x00de
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0x9000001
+        data: Enables thread mapping for main topics and responses for web users.  Thread mapping displays a list of all topics and responses in the current thread on the document that the user is currently viewing.
+      - type: 0x0081
+      - type: 0xff82
+        FirstLineLeftMargin: 1800
+        Flags: 0x0100
+        Flags2: 0x8494
+        JustifyMode: 0
+        LeftMargin: 1800
+        LineSpacing: 0
+        PABID: 12
+        ParagraphSpacingAfter: 0
+        ParagraphSpacingBefore: 0
+        RightMargin: 0
+        Tab:
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+        TabTypes: 0x00000000
+        Tabs: 0
+        data:
+          - 1800
+          - 15
+          - 1800
+          - 15
+          - 0
+          - 0
+          - 0x00000001
+          - 0x00000004
+      - type: 0x0083
+        PABID: 12
+      - type: 0xff85
+        FontID: 0x9000001
+      - type: 0x0081
+      - type: 0xff82
+        FirstLineLeftMargin: 1440
+        Flags: 0x0100
+        Flags2: 0x8494
+        JustifyMode: 0
+        LeftMargin: 1440
+        LineSpacing: 0
+        PABID: 13
+        ParagraphSpacingAfter: 0
+        ParagraphSpacingBefore: 0
+        RightMargin: 0
+        Tab:
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+        TabTypes: 0x00000000
+        Tabs: 0
+        data:
+          - 1440
+          - 12
+          - 1440
+          - 12
+          - 0
+          - 0
+          - 0x00000001
+          - 0x00000004
+      - type: 0x0083
+        PABID: 13
+      - type: 0xff85
+        FontID: 0x9000101
+        data: Archiving
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 6
+      - type: 0x00dd
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0x90d0001
+        data: "Notes users only: "
+      - type: 0x00d2
+        Color:
+          Flags: 0x0001
+          rgb: 0x008080
+      - type: 0x00de
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0x9000201
+        data: " "
+      - type: 0xff85
+        FontID: 0x9000001
+        data: "To set up Archiving for the Discussion, click the Archive button on the second tab of the File-Database-Properties infobox.  Fill out the information and click the OK button.  Set up the Archiving task to run on the server.  An archive database will be set up automatically."
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 6
+      - type: 0xff85
+        FontID: 0x9000401
+        data: "Marking documents as \"Expired\"  "
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 6
+      - type: 0xff85
+        FontID: 0x9000001
+        data: "The Archive feature can act upon documents that have been marked as Expired.  "
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 6
+      - type: 0x00dd
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0x90d0001
+        data: "Notes users:  "
+      - type: 0x00d2
+        Color:
+          Flags: 0x0001
+          rgb: 0x008080
+      - type: 0x00de
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0x9000001
+        data: Select a document in the view and choose Mark/Unmark Expired from the Actions menu.
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 6
+      - type: 0x00dd
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0x90d0001
+        data: "Web browser users:  "
+      - type: 0x00d2
+        Color:
+          Flags: 0x0001
+          rgb: 0x008080
+      - type: 0x00de
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0x9000001
+        data: "Put the document into edit mode by clicking the Edit Document hotspot.  Then click the Mark/Unmark Expired hotspot at the top of the document.  "
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 12
+      - type: 0xff85
+        FontID: 0x9000001
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 13
+      - type: 0xff85
+        FontID: 0x9000101
+        data: Subscriptions
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 6
+      - type: 0xff85
+        FontID: 0x9000001
+        data: "This template has a customized subscription form, containing the same fields as are found in the Interest Profile.  Select Create-Subscription to create a new subscription in your Headline database.  "
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 6
+      - type: 0x00dd
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0x90d0001
+        data: "Converting Interest Profiles to Subscriptions:"
+      - type: 0x00d2
+        Color:
+          Flags: 0x0001
+          rgb: 0x008080
+      - type: 0x00de
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0x9000001
+        data: "  If you have an existing interest profile, you can convert its data into a subscription.  Select Actions-Convert Interest Profile to Subscription.  Note that this action will convert the data and then delete your existing interest profile.  It can only be used by Notes clients running R5.0 or higher.  Subscriptions are not available for the web at this time."
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 12
+      - type: 0xff85
+        FontID: 0x9000001
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 13
+      - type: 0xff85
+        FontID: 0x9000101
+        data: Deleting Documents on the Web
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 6
+      - type: 0xff85
+        FontID: 0x9000001
+        data: "You can now delete documents on the web while at the view level.  Click the document once to 'highlight' it and click the \"Move to Trash\" button.  A trash can icon will appear next to the document.  To remove the document permanently from the database, click the \"Empty Trash\" button."
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 12
+      - type: 0xff85
+        FontID: 0x9000001
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 13
+      - type: 0xff85
+        FontID: 0x9000101
+        data: Attaching Files via the Web Browser
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 6
+      - type: 0xff85
+        FontID: 0x9000001
+        data: "Only one file can be attached to a specific document at a time from a web browser.  However, this process can be repeated as many times as necessary to attach multiple files."
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 4
+      - type: 0xff85
+        FontID: 0x9000001
+      - type: 0x0081
+      - type: 0xff82
+        FirstLineLeftMargin: 1440
+        Flags: 0x8100
+        Flags2: 0x8794
+        JustifyMode: 0
+        LeftMargin: 1440
+        LineSpacing: 0
+        PABID: 14
+        ParagraphSpacingAfter: 0
+        ParagraphSpacingBefore: 0
+        RightMargin: 0
+        Tab:
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+        TabTypes: 0x00000000
+        Tabs: 0
+        data:
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0x00000001
+          - 0x00000004
+      - type: 0x0083
+        PABID: 14
+      - type: 0x00dd
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0x90d0005
+      - type: 0x00d2
+        Color:
+          Flags: 0x0001
+          rgb: 0x008080
+      - type: 0x00de
+        Signature: 0xff85
+        Version: 0
+      - type: 0x00dd
+        Signature: 0xffad
+        Version: 0
+      - type: 0xffad
+        opaque: rf8MAAMACAAgAAAA
+      - type: 0xfff9
+        ActionLength: 19
+        ActionType: 4
+        EventType: 1
+        Flags: 0x00000000
+        Reserved: AAAAAAAAAAAAAAAAAAA=
+        SignatureLength: 0
+      - type: 0xffdc
+        opaque: 3P8mAPn/FAAgTgAAAAAAAAAAd2luZG93LmNsb3NlKHNlbGYpAAA=
+      - type: 0xff66
+        ActionLength: 19
+        ActionType: 4
+        EventType: 1
+        Flags: 0x00000000
+        Reserved: AAAAAAAAAAAAAAAAAAA=
+        SignatureLength: 0
+      - type: 0xff65
+        opaque: Zf8mAGb/FAAgTgAAAAAAAAAAd2luZG93LmNsb3NlKHNlbGYpAAA=
+      - type: 0xffab
+        opaque: q/8UAAAAQAsAAAEAAQAACURvbmU=
+      - type: 0x0072
+        opaque: cggJAAAAAAA=
+      - type: 0x0062
+        opaque: Yg4BAIIAAAAAAAAAAAA=
+      - type: 0x00ae
+        opaque: rgI=
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 213
+        wPlatform: 1
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 1
+        wPlatform: 2
+        wReserved: 0
+      - type: 0x00de
+        Signature: 0x00ae
+        Version: 0
+      - type: 0xff85
+        FontID: 0x9000001
+  - name: $Fonts
+    nonsummary: true
+    type: opaque
+    type_num: 1
+    opaque: i/8oAAEABSZBcmlhbAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+  - name: $HTMLCode
+    signed: true
+    nonsummary: true
+    type: opaque
+    type_num: 1
+    opaque: X/8QAAIADwAHAAAAAAAAAA==
+  - name: $INFO
+    signed: true
+    nonsummary: true
+    type: opaque
+    type_num: 1
+    opaque: hhgBAIAAAAAAgAAAAQABAP///wAAAAAA
+remaining: []

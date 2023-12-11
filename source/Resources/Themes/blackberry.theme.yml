@@ -1,0 +1,24 @@
+---
+class: 4
+flags: 0x0000
+unid: OF169E76CB99DB5340-ON004B816E80257949
+items:
+  - name: $DesignerVersion
+    type: text
+    data: 8.5.3
+    signed: true
+  - name: $FileNames
+    type: text
+    data: blackberry.theme
+    signed: true
+  - name: $Flags
+    type: text
+    data: "34567Cg~`"
+  - name: $TITLE
+    type: text
+    data: blackberry.theme
+  - name: $FileData
+    type: composite
+    signed: true
+    nonsummary: true
+remaining: []

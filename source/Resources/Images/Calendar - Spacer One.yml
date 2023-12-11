@@ -1,0 +1,53 @@
+---
+class: 4
+flags: 0x2000
+unid: OF77918CBD8EBB77ED-ON003BD61F80257694
+items:
+  - name: $DesignerVersion
+    type: text
+    data: 8.5.3
+    signed: true
+  - name: $EditFilePath
+    type: text
+    data: "C:\\DOCUME~1\\ADMINI~1\\LOCALS~1\\Temp\\notes7FA095\\~Calendar%20-%20spacer.gif"
+    signed: true
+  - name: $Flags
+    type: text
+    data: 34CiQ
+  - name: $FlagsExt
+    type: text
+    data: D
+    signed: true
+  - name: $ImageNames
+    type: text
+    data: Calendar - spacer.gif
+    signed: true
+  - name: $ImagesColorize
+    type: number
+    data: 0
+    signed: true
+  - name: $ImagesHigh
+    type: number
+    data: 1
+    signed: true
+  - name: $ImagesWide
+    type: number
+    data: 1
+    signed: true
+  - name: $LANGUAGE
+    type: text
+    data: en
+    signed: true
+  - name: $PublicAccess
+    type: text
+    data: "1"
+    signed: true
+  - name: $TITLE
+    type: text
+    data: Calendar - Spacer One
+    signed: true
+  - name: $ImageData
+    type: composite
+    signed: true
+    nonsummary: true
+remaining: []

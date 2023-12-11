@@ -1,0 +1,38 @@
+---
+class: 4
+flags: 0x0000
+unid: OFA4136567DBD0D84B-ON002EC5D4802575FA
+items:
+  - name: $$ScriptName
+    type: text
+    data: tux.theme
+    signed: true
+    nonsummary: true
+  - name: $CSSFiles
+    type: text
+    data:
+      - tux.css
+      - tux_ie06.css
+      - tux_ie78.css
+      - commonRTL.css
+      - pagerRTL.css
+    signed: true
+  - name: $DesignerVersion
+    type: text
+    data: 8.5.3
+    signed: true
+  - name: $FileNames
+    type: text
+    data: tux.theme
+    signed: true
+  - name: $Flags
+    type: text
+    data: "34567Cg~`"
+  - name: $TITLE
+    type: text
+    data: tux.theme
+  - name: $FileData
+    type: composite
+    signed: true
+    nonsummary: true
+remaining: []

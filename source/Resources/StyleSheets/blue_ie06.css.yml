@@ -1,0 +1,28 @@
+---
+class: 4
+flags: 0x0000
+unid: OF0F6D46F2EBF58A9E-ON002E93DF802575FA
+items:
+  - name: $DesignerVersion
+    type: text
+    data: 8.5.3
+    signed: true
+  - name: $FileNames
+    type: text
+    data: blue_ie06.css
+    signed: true
+  - name: $Flags
+    type: text
+    data: D34C=Q
+  - name: $FlagsExt
+    type: text
+    data: D
+    signed: true
+  - name: $TITLE
+    type: text
+    data: blue_ie06.css
+  - name: $FileData
+    type: composite
+    signed: true
+    nonsummary: true
+remaining: []

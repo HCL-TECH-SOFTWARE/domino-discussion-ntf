@@ -1,0 +1,41 @@
+---
+class: 4
+flags: 0x0000
+unid: OF528B45B7BF6C7E62-ON00719091882569F3
+items:
+  - name: $DesignerVersion
+    type: text
+    data: 8.5.3
+    signed: true
+  - name: $Flags
+    type: text
+    data: 34CiQ
+  - name: $ImageNames
+    type: text
+    data: DiscDocHeader.gif
+    signed: true
+  - name: $ImagesColorize
+    type: number
+    data: 0
+    signed: true
+  - name: $ImagesHigh
+    type: number
+    data: 1
+    signed: true
+  - name: $ImagesWide
+    type: number
+    data: 1
+    signed: true
+  - name: $LANGUAGE
+    type: text
+    data: en
+    signed: true
+  - name: $TITLE
+    type: text
+    data: DocHeader.gif
+    signed: true
+  - name: $ImageData
+    type: composite
+    signed: true
+    nonsummary: true
+remaining: []

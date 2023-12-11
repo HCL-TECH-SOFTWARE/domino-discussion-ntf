@@ -1,0 +1,38 @@
+---
+class: 4
+flags: 0x0000
+unid: OF3189B792ACFF6920-ON002EC5D5802575FA
+items:
+  - name: $$ScriptName
+    type: text
+    data: yellow.theme
+    signed: true
+    nonsummary: true
+  - name: $CSSFiles
+    type: text
+    data:
+      - yellow.css
+      - yellow_ie06.css
+      - yellow_ie78.css
+      - commonRTL.css
+      - pagerRTL.css
+    signed: true
+  - name: $DesignerVersion
+    type: text
+    data: 8.5.3
+    signed: true
+  - name: $FileNames
+    type: text
+    data: yellow.theme
+    signed: true
+  - name: $Flags
+    type: text
+    data: "34567Cg~`"
+  - name: $TITLE
+    type: text
+    data: yellow.theme
+  - name: $FileData
+    type: composite
+    signed: true
+    nonsummary: true
+remaining: []

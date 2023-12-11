@@ -1,0 +1,171 @@
+---
+class: 8
+flags: 0x0000
+unid: OFB5ED1F002EDE1988-ON0041745B85256C0A
+items:
+  - name: $COLLATION
+    type_num: 2
+    type: opaque
+    opaque: FwABAABECGYHAAAKAENhdGVnb3JpZXM=
+  - name: $Comment
+    type: text
+    data: ""
+    signed: true
+  - name: $DesignerVersion
+    type: text
+    data: 8.5.3
+    signed: true
+  - name: $FORMULA
+    type: formula
+    data: |
+      REM {DNT};
+      
+        (form != "Interest Profile") &
+          (form != "xpConfigProfile") &
+          (!@Contains(@LowerCase(form); "archive")) &
+          (Categories != "") &
+          !@IsResponseDoc
+    opaque: |
+      iAICACAACgBDYXRlZ29yaWVzBQAKAENhdGVnb3JpZXMDAAEALAAPAENORnJvbQA3REAACmwlAAICAAYA
+      AAAAAAAABQAEAEZyb220AgMAAQAyABIAQ05BbHRGcm9tADhEQAAKbCUAAgAGAAAAAAAAAAUABwBBbHRG
+      cm9tALQCAwABAIIAFgBBbHRlcm5hdGVuYW1lADlEQAAKbCUABQAHAEFsdEZyb20AAQAAAAsCBQAHAEFs
+      dEZyb20ABQAEAEZyb20LAhwCrwA4ACwAAQACACBbBQASAENOQWx0RnJvbQA4REAACmwlACICAQABAF0A
+      IgKuAAwAAQAAAK4ABAC1AwMAAQBYAA8AQXV0aG9yADpEQAAKbCUAAgEAAgAgKAUADwBDTkZyb20AN0RA
+      AApsJQAAIgIFABYAQWx0ZXJuYXRlTmFtZQA5REAACmwlACICAQABACkAIgIDAAIALgAEACQxMTUFAAcA
+      U3ViamVjdAAFAA8AQXV0aG9yADpEQAAKbCUAACICAwAFACYAIQADAAoABAAJAENhdGVnb3JpZXMkMTE1
+      JENvbmZsaWN0AAQABAAHAAoAAwBETlQABwAKAAMACTFTAAAAhAAFAAQAZm9ybQEAEABJbnRlcmVzdCBQ
+      cm9maWxlCwIEAAUABABmb3JtAQAPAHhwQ29uZmlnUHJvZmlsZQALAgQAHAIFAAQAZm9ybWEBAQAHAGFy
+      Y2hpdmUARwIeAQQAHAIFAAoAQ2F0ZWdvcmllcwEAAAALAgQAHAJsAB4BHAIDAAcAPgA3AAkwUlJMMVQz
+      UzRTNlM3UlRUOVMxMFMxMlMxM1JUVDIyUzI1UzI2UlRUMjhTMjlTMzFTMzJSVFQA
+    signed: true
+  - name: $FORMULACLASS
+    type: text
+    data: "1"
+    signed: true
+  - name: $Flags
+    type: text
+    data: YT
+  - name: $Index
+    type: text
+    data: /C
+    signed: true
+  - name: $LANGUAGE
+    type: text
+    data: en
+    signed: true
+  - name: $TITLE
+    type: text
+    data: (FlatCategory)|FlatCategory
+    signed: true
+  - name: $VIEWFORMAT
+    type_num: 5
+    type: opaque
+    opaque: |
+      AQACAHYAj0wAAFZDgwAKAAAAIgAAABUAAQAACgABAAAAAAAAAAICAAAAVkMABAQAAADaAQAAxAEBAA4J
+      ACAAAAAAAAAAAgIAACBDYXRlZ29yaWVzIgACACAACgBDYXRlZ29yaWVzBQAKAENhdGVnb3JpZXMDACQx
+      MTXaAQEALAAPAENORnJvbQA3REAACmwlAAICAAYAAAAAAAAABQAEAEZyb220AgMABwAOAAcACTFTMlM2
+      UwABADIAEgBDTkFsdEZyb20AOERAAApsJQACAAYAAAAAAAAABQAHAEFsdEZyb20AtAIDAAcAEAAJAAkw
+      UjFTMlM2UwABAIIAFgBBbHRlcm5hdGVuYW1lADlEQAAKbCUABQAHAEFsdEZyb20AAQAAAAsCBQAHAEFs
+      dEZyb20ABQAEAEZyb20LAhwCrwA4ACwAAQACACBbBQASAENOQWx0RnJvbQA4REAACmwlACICAQABAF0A
+      IgKuAAwAAQAAAK4ABAC1AwMABwAsACYACTBSMVMyUzVTNlM3UzhTOVMxMFMxMlMxM1MxNFMxNVMxNlMx
+      OFMBAFgADwBBdXRob3IAOkRAAApsJQACAQACACAoBQAPAENORnJvbQA3REAACmwlAAAiAgUAFgBBbHRl
+      cm5hdGVOYW1lADlEQAAKbCUAIgIBAAEAKQAiAgMABwAcABYACTBSUjFTMlMzUzRTNVM2UzdTOFM5UwIA
+      LgAEACQxMTUFAAcAU3ViamVjdAAFAA8AQXV0aG9yADpEQAAKbCUAACICAwAHAAwABQAJMFIxUwAmAAEA
+      AAABAQAJAQAICgEBBAoAAD8ArSsBAQEAAQEAAAAAAAAAAFdDAgAACQAAAAAAAAAAAAAAAAAAAAABAAAA
+      AAAAAP//AAAAAAAAAAAAAAAAAABXQwIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//wAAAAAAAAAA
+      AAAAAAAAQgBAAAAAAQD///8AAQDv7+8AAQAAAAAAAAAAAAAAAQABAP///wABALTVxQAAAAEAgAAAAAEA
+      AAD/AAEAAAAAAAAACAAAAAAAAQA=
+    signed: true
+  - name: $V5ACTIONS
+    type: composite
+    signed: true
+    nonsummary: true
+    data:
+      - type: 0x00bd
+        BackColor: 213
+        BorderStyle: 1
+        BorderWidth: 0
+        BtnHeight: 8
+        FontID: 0x09000002
+        HeightSpc: 5
+        LineColor: 0
+        LineStyle: 1
+        ShareID: 0x00000000
+        dwFlags: 0x00000041
+      - type: 0xff79
+        BackColor:
+          Flags: 0x0001
+          rgb: 0x8bbc9d
+        BtnBorderDisplay: 3
+        BtnTextJustify: 0
+        BtnWidthStyle: 0
+        ButtonColor:
+          Flags: 0x0001
+          rgb: 0xbad5c5
+        FontColor:
+          Flags: 0x0001
+          rgb: 0x000000
+        LineColor:
+          Flags: 0x0001
+          rgb: 0x000000
+        Spare:
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+        barFontID: 0x09000002
+        barHeight:
+          Flags: 0x0000
+          Length:
+            - 0
+            - 0
+            - 0
+            - 0
+            - 0
+            - 0
+            - 19
+            - 64
+          Reserved: 0
+          Units: 5
+        dwFlags: 0x00000003
+        wAppletHeight: 34
+        wBarBackgroundRepeat: 0
+        wBtnInternalMargin: 0
+        wBtnWidthAbsolute: 0
+        wSpare: 0x0000
+        wThemeSetting: 0
+      - type: 0xfffc
+        BorderFlags: 0
+        BorderStyle: 0
+        BorderWidthBottom: 1
+        BorderWidthLeft: 0
+        BorderWidthRight: 0
+        BorderWidthTop: 0
+        Color:
+          Flags: 0x0001
+          rgb: 0x000000
+        DropShadowWidth: 0
+        Flags: 0x00000000
+        InnerWidthBottom: 0
+        InnerWidthLeft: 0
+        InnerWidthRight: 0
+        InnerWidthTop: 0
+        OuterWidthBottom: 0
+        OuterWidthLeft: 0
+        OuterWidthRight: 0
+        OuterWidthTop: 0
+        dwSpare: 0x00000000
+        wSpares:
+          - 0x0000
+          - 0x0000
+          - 0x0000
+          - 0x0000
+          - 0x0000
+remaining: []

@@ -1,0 +1,2923 @@
+---
+class: 32772
+flags: 0x0000
+unid: OF5DE957318FE52A1D-ON00486C6385256639
+items:
+  - name: $$FormScript
+    type: text
+    data: |
+      '++LotusScript Development Environment:2:5:(Options):0:66
+      
+      '++LotusScript Development Environment:2:5:(Forward):0:1
+      Declare Sub Queryopen(Source As Notesuidocument, Mode As Integer, Isnewdoc As Variant, Continue As Variant)
+      
+      '++LotusScript Development Environment:2:5:(Declarations):0:2
+      
+      '++LotusScript Development Environment:2:2:BindEvents:1:129
+      Private Sub BindEvents(Byval Objectname_ As String)
+           Static Source As NOTESUIDOCUMENT
+           Set Source = Bind(Objectname_)
+           On Event Queryopen From Source Call Queryopen
+      End Sub
+      
+      '++LotusScript Development Environment:2:2:Queryopen:1:12
+      Sub Queryopen(Source As Notesuidocument, Mode As Integer, Isnewdoc As Variant, Continue As Variant)
+           
+      End Sub
+    signed: true
+    nonsummary: true
+  - name: $$ScriptName
+    type: text
+    data: MainTopic
+    signed: true
+    nonsummary: true
+  - name: $DesignerVersion
+    type: text
+    data: 8.5.3
+    signed: true
+  - name: $Fields
+    type: text
+    data:
+      - Body
+      - AbrFrom
+      - Abstract
+      - MainID
+      - Remote_User
+      - Path_Info
+      - NewsLetterSubject
+      - ThreadId
+      - readers
+      - AltLang
+      - AltFrom
+      - AbbreviateFrom
+      - From
+  - name: $Flags
+    type: text
+    data: ""
+  - name: $LANGUAGE
+    type: text
+    data: en
+    signed: true
+  - name: $Script
+    type: text
+    data: |
+      '++LotusScript Development Environment:2:5:(Options):0:74
+      Option Public
+      
+      Use "DiscussionRoutines"
+      
+      '++LotusScript Development Environment:2:5:(Forward):0:1
+      
+      '++LotusScript Development Environment:2:5:(Declarations):0:2
+    signed: true
+    nonsummary: true
+  - name: $TITLE
+    type: text
+    data:
+      - Main Topic
+      - MainTopic
+  - name: $WINDOWTITLE
+    type: formula
+    data: |
+      StandardTitle := Subject + @DocDescendants(" (No Responses)"; " (1 Response)"; " (% Responses)");
+      
+      @If(  @IsNewDoc; "New Topic";
+        @ViewTitle = "AuthorView"; Subject;
+        @ClientType = "Notes"; StandardTitle;
+        Subject
+      )
+    opaque: |
+      KgEKAAQAAQBeAA0AU3RhbmRhcmRUaXRsZQAFAAcAU3ViamVjdAABAA8AIChObyBSZXNwb25zZXMpAAEA
+      DQAgKDEgUmVzcG9uc2UpAAEADgAgKCUgUmVzcG9uc2VzKZUDIgIDAAcAFAAOAAkxUzJTM1M0UzhTMTBT
+      AACGAIkArwB8ABQAAQAJAE5ldyBUb3BpYwCuAGgAnQABAAoAQXV0aG9yVmlldwoCrwBSABIABQAHAFN1
+      YmplY3QArgBAAPsABQEBAAUATm90ZXMACgKvACwAGAAFAA0AU3RhbmRhcmRUaXRsZQCuABQABQAHAFN1
+      YmplY3QArgAEALUHAwAHACwAJgAJMFJSMlQ0UzZSVDdTOFMxMFMxMlJUMTNTMTRTMTZTMThSVDE5Ug==
+    signed: true
+    nonsummary: true
+  - name: $WebFlags
+    type: text
+    data: F
+    signed: true
+  - name: $XPageAlt
+    type: text
+    data: topicThread.xsp
+    signed: true
+  - name: AbbreviateFrom
+    type: iou
+    type_num: 0
+    nonsummary: true
+    ph: true
+  - name: AbrFrom
+    type: iou
+    type_num: 0
+    nonsummary: true
+    ph: true
+  - name: Abstract
+    type: iou
+    type_num: 0
+    nonsummary: true
+    ph: true
+  - name: AltFrom
+    type: iou
+    type_num: 0
+    nonsummary: true
+    ph: true
+  - name: AltLang
+    type: iou
+    type_num: 0
+    nonsummary: true
+    ph: true
+  - name: Body
+    type: iou
+    type_num: 0
+    nonsummary: true
+    ph: true
+  - name: ExpireDate
+    type: time
+    signed: true
+    nonsummary: true
+  - name: From
+    type: iou
+    type_num: 0
+    nonsummary: true
+    ph: true
+  - name: MainID
+    type: iou
+    type_num: 0
+    nonsummary: true
+    ph: true
+  - name: NewsLetterSubject
+    type: iou
+    type_num: 0
+    nonsummary: true
+    ph: true
+  - name: OriginalModTime
+    type: time
+    data: "2005-04-14T15:06:58.36-07:00"
+    dst: true
+    signed: true
+  - name: Path_Info
+    type: iou
+    type_num: 0
+    nonsummary: true
+    ph: true
+  - name: Remote_User
+    type: iou
+    type_num: 0
+    nonsummary: true
+    ph: true
+  - name: ThreadId
+    type: iou
+    type_num: 0
+    nonsummary: true
+    ph: true
+  - name: offset
+    type: number
+    data: 0
+    signed: true
+    nonsummary: true
+  - name: readers
+    type: iou
+    type_num: 0
+    nonsummary: true
+    ph: true
+  - name: $ACTIONS
+    type: composite
+    signed: true
+    nonsummary: true
+    data:
+      - type: 0x00bd
+        BackColor: 95
+        BorderStyle: 0
+        BorderWidth: 0
+        BtnHeight: 8
+        FontID: 0x09000082
+        HeightSpc: 5
+        LineColor: 0
+        LineStyle: 1
+        ShareID: 0x00000000
+        dwFlags: 0x00002025
+      - type: 0xffbe
+        Flags: 0x0000419c
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: AQBOfA==
+        title: Categori_ze
+      - type: 0xffbe
+        Flags: 0x00004008
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        hidewhen: "@Name([CN];From)!=@Name([CN];@V3UserName)"
+        hidewhen_opaque: OAAAACoAAgAGAAAAAAAAAAUABABGcm9ttAICAAYAAAAAAAAAZwC0AgsCAwAHAAwABQAJMFMwRQA=
+        opaque: AgACCg==
+        title: _Edit Document
+      - type: 0xffbe
+        Flags: 0x0000419c
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: AwADCg==
+        title: Send Docu_ment
+      - type: 0xffbe
+        Flags: 0x0000419c
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: BAAECg==
+        title: _Forward
+      - type: 0xffbe
+        Flags: 0x00014019
+        IconIndex: 0
+        ShareId: 29
+        Type: 1
+        data: "@Command([MailForward])"
+        data_opaque: IAAAABIAAgDICwAAAAAAAO0BAwAHAAwABQAJMFMwRQA=
+        hidewhen: "@IsNewDoc"
+        hidewhen_opaque: CgAAAAgAiQADAA==
+        title: Forward
+      - type: 0xffbe
+        Flags: 0x00014019
+        IconIndex: 0
+        ShareId: 26
+        Type: 1
+        data: "@Command([Compose]; @MailDbName; \"Bookmark\")"
+        data_opaque: LgAAACAAAgDoAwAAAAAAAKwAAQAIAEJvb2ttYXJr7QMDAAcADAAFAAk0UzZTAA==
+        hidewhen: "@IsNewDoc"
+        hidewhen_opaque: CgAAAAgAiQADAA==
+        title: Forward as Bookmark
+      - type: 0xffbe
+        Flags: 0x0000419d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: BwA9fA==
+        title: _Move To Folder...
+      - type: 0xffbe
+        Flags: 0x0000419d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: CAA+fA==
+        title: _Remove From Folder
+      - type: 0xffbe
+        Flags: 0x0001000b
+        IconIndex: 0
+        ShareId: 2
+        Type: 1
+        data: "@Command([EditDocument])"
+        data_opaque: IAAAABIAAgDoBwAAAAAAAO0BAwAHAAwABQAJMFMwRQA=
+        hidewhen: |
+          REM {Hhide if user has less than editor access and is not the author of the document};
+          Filename := @DbName;
+          Level := @V4UserAccess(Filename);
+          Getlevel := @TextToNumber(@Subset(Level; 1));
+          abUser := @Name([Abbreviate]; @UserName);
+          abAuthor := @Name([Abbreviate]; From);
+          hw := @RightBack(QUERY_STRING_DECODED; "hw=");
+          @UserName = "Anonymous" | (GetLevel < 4  & abUser != abAuthor)   | hw="1"
+        hidewhen_opaque: |
+          CAIHAFYATwBIaGlkZSBpZiB1c2VyIGhhcyBsZXNzIHRoYW4gZWRpdG9yIGFjY2VzcyBhbmQgaXMgbm90
+          IHRoZSBhdXRob3Igb2YgdGhlIGRvY3VtZW50AAcACgADAAkxUwABABIACABGaWxlbmFtZYsAAwAHAA4A
+          BwAJMFIxUzJTAAEAHAAFAExldmVsAAUACABGaWxlbmFtZeoBAwAHAA4ABwAJMFIxUzJTAAEAKAAIAEdl
+          dGxldmVsBQAFAExldmVsAAAAAAAAAAAA8D9rAlgBAwAHABAACQAJMFIxUzJTOFMAAQAcAAYAYWJVc2Vy
+          AgAFAAAAAAAAAPQAtAIDAAcAEAAJAAkwUjFTMlM2UwABACQACABhYkF1dGhvcgIABQAAAAAAAAAFAAQA
+          RnJvbbQCAwAHABAACQAJMFIxUzJTNlMAAQAsAAIAaHcFABQAUVVFUllfU1RSSU5HX0RFQ09ERUQBAAMA
+          aHc9AKICAwAHABAACQAJMFIxUzJTNlMAAABeAPQAAQAJAEFub255bW91cwAKAgUACABHZXRMZXZlbAAA
+          AAAAAAAAEEAOAgUABgBhYlVzZXIFAAgAYWJBdXRob3ILAhwCBAAdAgUAAgBodwEAAQAxAAoCHQIDAAcA
+          KgAjAAkwUjFTMlMzUzRTNlM3UzhTMkU5UzEwUzExUzEzUzNFMTRTAA==
+        title: Edit Document
+      - type: 0xffbe
+        Flags: 0x00010012
+        IconIndex: 0
+        ShareId: 3
+        Type: 1
+        data: |
+          REM {Can't use @isvalid on the web};
+          @If(
+          @ClientType != "Notes";
+          @Do(@Command([FileSave]); @Command([FileCloseWindow]));
+          @IsValid;
+          @Do(@Command([FileSave]); @Command([FileCloseWindow])); "")
+        data_opaque: |
+          vgAKAAQABwAkAB0AQ2FuJ3QgdXNlIEBpc3ZhbGlkIG9uIHRoZSB3ZWIABwAKAAMACTFTAAAAagD7AAUB
+          AQAFAE5vdGVzAAsCrwBSACAAAgDGCwAAAAAAAO0BAgD8EQAAAAAAAO0BswKuADIA5ACvACwAIAACAMYL
+          AAAAAAAA7QECAPwRAAAAAAAA7QGzAq4ADAABAAAArgAEALUFAwAHACAAGgAJMFIyUjNTNFM2UjEzUzE5
+          UjIxUjI4UzM0Uw==
+        hidewhen: |
+          REM {Hide if person clicked the 'Author's Profile' button};
+          hw := @RightBack(QUERY_STRING_DECODED; "hw=");
+          hw = "1"
+        hidewhen_opaque: |
+          pAAHADoANABIaWRlIGlmIHBlcnNvbiBjbGlja2VkIHRoZSAnQXV0aG9yJ3MgUHJvZmlsZScgYnV0dG9u
+          BwAKAAMACTFTAAEALAACAGh3BQAUAFFVRVJZX1NUUklOR19ERUNPREVEAQADAGh3PQCiAgMABwAQAAkA
+          CTBSMVMyUzZTAAAAFAAFAAIAaHcBAAEAMQAKAgMABwAOAAcACTBSMVMyUwA=
+        title: Save & Close
+      - type: 0xffbe
+        Flags: 0x0001000a
+        IconIndex: 0
+        ShareId: 36
+        Type: 1
+        data: |
+          viewname := @Subset(@ViewTitle; -1);
+          @SetProfileField("tmpProfile"; "viewtitle"; viewname);
+          @PostedCommand([Compose];"Response")
+        data_opaque: |
+          lgABACAACAB2aWV3bmFtZZ0AAAAAAAAAAADwPxABawIDAAcADgAHAAkxUzJTNlMACAAwAAEACgB0bXBQ
+          cm9maWxlAQAJAHZpZXd0aXRsZQAFAAgAdmlld25hbWX4AwMABwAOAAcACTBSNFM2UwAAAB4AAgDoAwAA
+          AAAAAAEACABSZXNwb25zZbECAwAHAAoAAwAJMFIA
+        hidewhen: |
+          REM {hide from web if it's in a view};
+          @ClientType != "Notes" & !@IsAvailable(form)
+        hidewhen_opaque: |
+          bAAKAAQABwAmAB8AaGlkZSBmcm9tIHdlYiBpZiBpdCdzIGluIGEgdmlldwAHAAoAAwAJMVMAAAAkAPsA
+          BQEBAAUATm90ZXMACwIFAAQAZm9ybWgBHgEcAgMABwASAAsACTBSMVMyUzNTNFMA
+        title: New Response
+      - type: 0xffbe
+        Flags: 0x00010013
+        IconIndex: 0
+        ShareId: 8
+        Type: 1
+        data: |
+          FIELD readers := @Trim(@Unique(From : @UserName : "LocalDomainServers"));
+          
+          @PostedCommand([RefreshHideFormulas]); @Command([ViewRefreshFields])
+        data_opaque: |
+          igADADgABwByZWFkZXJzAAUABABGcm9t9AAfAgEAEgBMb2NhbERvbWFpblNlcnZlcnMfAqsBXgEDAAcA
+          GAARAAkxUzJTM1M4UzlTMTBTMTFTAAgAEgACAF4bAAAAAAAAsQEDAAcACgAEAAkwUlIAABIAAgCLEwAA
+          AAAAAO0BAwAHAAoAAwAJMFMA
+        hidewhen: "@Elements(readers)>0"
+        hidewhen_opaque: LgAAACAABQAHAHJlYWRlcnMAagEAAAAAAAAAAAAADwIDAAcADAAFAAkwUzBFAA==
+        title: Mark Private
+      - type: 0xffbe
+        Flags: 0x00010013
+        IconIndex: 0
+        ShareId: 9
+        Type: 1
+        data: |
+          FIELD readers := @DeleteField;
+          @Command([ViewRefreshFields])
+        data_opaque: |
+          PgADABIABwByZWFkZXJzAL4AAwAHAA4ABwAJMVMyUzNTAAAAEgACAIsTAAAAAAAA7QEDAAcACgADAAkw
+          UgA=
+        hidewhen: "@Elements(readers)<1"
+        hidewhen_opaque: LgAAACAABQAHAHJlYWRlcnMAagEAAAAAAAAAAPA/DgIDAAcADAAFAAkwUzBFAA==
+        title: Mark Public
+      - type: 0xffbe
+        Flags: 0x00012116
+        IconIndex: 0
+        ShareId: 18
+        Type: 1
+        data: |
+          REM {Web only};
+          REM {use only in Documents};
+          @Command([FileSave]);
+          UNID:=@Text(@DocumentUniqueID );
+          
+          
+          @If(@TextToNumber(@Version) < 174;
+            @URLOpen("/"+@ReplaceSubstring(@Subset(@DbName; -1);" ";"+")+"/WebExpire?OpenAgent&"+UNID);
+          @URLOpen(@WebDbName+"/WebExpire?OpenAgent&"+UNID))
+        data_opaque: |
+          NgEKAAQABwAOAAgAV2ViIG9ubHkHAAoAAwAJMVMABwAcABUAdXNlIG9ubHkgaW4gRG9jdW1lbnRzAAcA
+          DAAFAAkwUjFTAAgAEgACAMYLAAAAAAAA7QEDAAcACgADAAkwUgABABAABABVTklEkABWAQMABwAMAAUA
+          CTBSNVMAAACgAL8AWAEAAAAAAAAAwGVADgKvAIgAVAABAAEALwCLAAAAAAAAAAAA8D8QAWsCAQABACAA
+          AQABACsAhAMiAgEAFQAvV2ViRXhwaXJlP09wZW5BZ2VudCYAIgIFAAQAVU5JRCIC4AGuADQA+wAwAQEA
+          FQAvV2ViRXhwaXJlP09wZW5BZ2VudCYAIgIFAAQAVU5JRCIC4AGuAAQAtQMDAAcAGAASAAkwUlJSNlM3
+          UzlSVDE5UzMzUg==
+        hidewhen: |
+          REM {Hide if person clicked the 'Author's Profile' button};
+          hw := @RightBack(QUERY_STRING_DECODED; "hw=");
+          hw = "1" | @IsNewDoc
+        hidewhen_opaque: |
+          rAAHADoANABIaWRlIGlmIHBlcnNvbiBjbGlja2VkIHRoZSAnQXV0aG9yJ3MgUHJvZmlsZScgYnV0dG9u
+          BwAKAAMACTFTAAEALAACAGh3BQAUAFFVRVJZX1NUUklOR19ERUNPREVEAQADAGh3PQCiAgMABwAQAAkA
+          CTBSMVMyUzZTAAAAGAAFAAIAaHcBAAEAMQAKAokAHQIDAAcAEgALAAkwUjFTMlMzUzRTAA==
+        title: Mark/Unmark Document as Expired
+      - type: 0xffbe
+        Flags: 0x0001211e
+        IconIndex: 0
+        ShareId: 30
+        Type: 1
+        data: |
+          REM {web only};
+          UNID := @Text(@DocumentUniqueID);
+          
+          @If(  @TextToNumber(@Version) < 174;
+            @URLOpen("/" + @ReplaceSubstring(@Subset(@DbName; -1); " "; "+") + "/WebAddTopic?OpenAgent&" + UNID + "&login");
+            @URLOpen(@WebDbName + "/WebAddTopic?OpenAgent&" + UNID + "&login"))
+        data_opaque: |
+          QgEKAAQABwAOAAgAd2ViIG9ubHkHAAoAAwAJMVMAAQAQAAQAVU5JRJAAVgEDAAcADgAHAAkwUjFTMlMA
+          AAC8AL8AWAEAAAAAAAAAwGVADgKvAKQAYgABAAEALwCLAAAAAAAAAAAA8D8QAWsCAQABACAAAQABACsA
+          hAMiAgEAFwAvV2ViQWRkVG9waWM/T3BlbkFnZW50JgAiAgUABABVTklEIgIBAAYAJmxvZ2luIgLgAa4A
+          QgD7ADABAQAXAC9XZWJBZGRUb3BpYz9PcGVuQWdlbnQmACICBQAEAFVOSUQiAgEABgAmbG9naW4iAuAB
+          rgAEALUDAwAHAEoARAAJMFJSMlQ2UzdTOVJUMTJTMTNTMTlTMjNTMjVTMjdTMjhTMjlTMzBTMzFTMzJT
+          MzVSVDM4UzM5UzQwUzQxUzQyUzQzUw==
+        hidewhen: "@IsNewDoc"
+        hidewhen_opaque: CgAAAAgAiQADAA==
+        title: Add Topic to Interest Profile
+      - type: 0xffbe
+        Flags: 0x0001401a
+        IconIndex: 0
+        ShareId: 27
+        Type: 1
+        data: |
+          REM {notes only};
+          @Command([ToolsRunMacro]; "(ProfileButton)")
+        data_opaque: |
+          TgAHABAACgBub3RlcyBvbmx5BwAKAAMACTFTAAAAJgACAKIPAAAAAAAAAQAPAChQcm9maWxlQnV0dG9u
+          KQDtAgMABwAMAAUACTBSNFMA
+        hidewhen: |
+          abrName := @Name([Abbreviate]; From);
+          abrNameReplSpace := @ReplaceSubstring(abrName; " "; "_");
+          Key := @ReplaceSubstring(abrNameReplSpace; "/"; "__");
+          
+          View := "LookupPersonalProfiles";
+          LookupName := @DbLookup("" : "NoCache"; ""; View; Key; 1);
+          @IsError(LookupName)
+        hidewhen_opaque: |
+          bAEBACQABwBhYnJOYW1lAAIABQAAAAAAAAAFAAQARnJvbbQCAwAHAA4ABwAJMVMyUzZTAAEAMgAQAGFi
+          ck5hbWVSZXBsU3BhY2UFAAcAYWJyTmFtZQABAAEAIAABAAEAXwCEAwMABwASAAsACTBSMVMyUzZTOFMA
+          AQAuAAMAS2V5AAUAEABhYnJOYW1lUmVwbFNwYWNlAQABAC8AAQACAF9fhAMDAAcAEgALAAkwUjFTMlM2
+          UzhTAAEAJgAEAFZpZXcBABYATG9va3VwUGVyc29uYWxQcm9maWxlcwMABwAOAAgACTBSUjFTMlMBAEQA
+          CgBMb29rdXBOYW1lAQAAAAEABwBOb0NhY2hlAB8CAQAAAAUABABWaWV3BQADAEtleQAAAAAAAAAAAPA/
+          gwUDAAcAHAAWAAkwUjFTMlM1UzZTOFMxMFMxMlMxNFMAABYABQAKAExvb2t1cE5hbWVaAQMABwAKAAMA
+          CTBSAA==
+        title: "Author's Profile"
+      - type: 0xffbe
+        Flags: 0x0001400b
+        IconIndex: 0
+        ShareId: 38
+        Type: 1
+        data: |
+          _title  := "Chat with Author";
+          _msg    := "This is an Anonymous posting. Unable to initiate a chat with an Anonymous author.";
+          REM {DNT Begin};
+          @If(  @Contains(@LowerCase(form); "anonymous");
+            @Return(@Prompt([Ok]; _title; _msg)); ""
+          );
+          
+          @Command([SendInstantMessage]; From)
+        data_opaque: |
+          VAEBACIABgBfdGl0bGUBABAAQ2hhdCB3aXRoIEF1dGhvcgMABwAMAAUACTFUMlMAAQBiAAQAX21zZwEA
+          UQBUaGlzIGlzIGFuIEFub255bW91cyBwb3N0aW5nLiBVbmFibGUgdG8gaW5pdGlhdGUgYSBjaGF0IHdp
+          dGggYW4gQW5vbnltb3VzIGF1dGhvci4AAwAHAA4ACAAJMFIxVFQyUwcAEAAJAEROVCBCZWdpbgAHAAwA
+          BQAJMFIxUwAIAFQABQAEAGZvcm1hAQEACQBhbm9ueW1vdXMARwKvADIAJgACAA0AAAAAAAAABQAGAF90
+          aXRsZQUABABfbXNnsAPCAa4ADAABAAAArgAEALUDAwAHAB4AFwAJMFIyVDlTMTJSVDE4UzIwUzI0UzI1
+          UgAAABoAAgAlJwAAAAAAAAUABABGcm9t7QIDAAcADAAGAAkwUlI0Uw==
+        hidewhen: "@Version < @Text(250)"
+        hidewhen_opaque: JAAAABYAvwAAAAAAAAAAQG9AVgEOAgMABwAMAAUACTFTMlMA
+        title: Chat with Author
+      - type: 0xffbe
+        Flags: 0x0001409a
+        IconIndex: 0
+        ShareId: 14
+        Type: 1
+        data: |
+          REM {Notes only};
+          FIELD SaveOptions := 0;
+          @Command([FileCloseWindow])
+        data_opaque: |
+          ZgAHABAACgBOb3RlcyBvbmx5BwAKAAMACTFTAAMAHgALAFNhdmVPcHRpb25zAAAAAAAAAAAAAAADAAcA
+          EAAJAAkwUjFTMlMzUwAAABIAAgD8EQAAAAAAAO0BAwAHAAoAAwAJMFIA
+        title: Cancel
+      - type: 0xffbe
+        Flags: 0x0001211e
+        IconIndex: 0
+        ShareId: 33
+        Type: 1
+        data: |
+          REM {web non-new docs};
+          @Command([OpenView]; "($All)")
+        data_opaque: |
+          SgAHABYAEAB3ZWIgbm9uLW5ldyBkb2NzBwAKAAMACTFTAAAAHAACAFkbAAAAAAAAAQAGACgkQWxsKe0C
+          AwAHAAwABQAJMFI0UwA=
+        hidewhen: |
+          REM {Hide if 'Author's Profile' button was clckd};
+          hw := @RightBack(QUERY_STRING_DECODED; "hw=");
+          hw = "1" | @IsNewDoc
+        hidewhen_opaque: |
+          pAAHADIAKwBIaWRlIGlmICdBdXRob3IncyBQcm9maWxlJyBidXR0b24gd2FzIGNsY2tkAAcACgADAAkx
+          UwABACwAAgBodwUAFABRVUVSWV9TVFJJTkdfREVDT0RFRAEAAwBodz0AogIDAAcAEAAJAAkwUjFTMlM2
+          UwAAABgABQACAGh3AQABADEACgKJAB0CAwAHABIACwAJMFIxUzJTM1M0UwA=
+        title: Cancel
+      - type: 0xffbe
+        Flags: 0x0001211e
+        IconIndex: 0
+        ShareId: 34
+        Type: 1
+        data: |
+          REM {web new docs};
+          CurrentView := @GetProfileField("tmpProfile"; "viewtitle");
+          @Command([OpenView]; CurrentView)
+        data_opaque: |
+          jgAHABIADAB3ZWIgbmV3IGRvY3MHAAoAAwAJMVMAAQAyAAsAQ3VycmVudFZpZXcAAQAKAHRtcFByb2Zp
+          bGUBAAkAdmlld3RpdGxlAPcCAwAHABAACQAJMFIxUzJTNlMAAAAiAAIAWRsAAAAAAAAFAAsAQ3VycmVu
+          dFZpZXcA7QIDAAcADAAFAAkwUjRTAA==
+        hidewhen: |
+          REM {Hide if 'Author's Profile' button was clckd};
+          hw := @RightBack(QUERY_STRING_DECODED; "hw=");
+          hw = "1" | !@IsNewDoc
+        hidewhen_opaque: |
+          pgAHADIAKwBIaWRlIGlmICdBdXRob3IncyBQcm9maWxlJyBidXR0b24gd2FzIGNsY2tkAAcACgADAAkx
+          UwABACwAAgBodwUAFABRVUVSWV9TVFJJTkdfREVDT0RFRAEAAwBodz0AogIDAAcAEAAJAAkwUjFTMlM2
+          UwAAABoABQACAGh3AQABADEACgKJAB4BHQIDAAcAEgALAAkwUjFTMlMzUzRTAA==
+        title: Cancel
+  - name: $BODY
+    type: composite
+    signed: true
+    nonsummary: true
+    data:
+      - type: 0x0081
+      - type: 0xff82
+        FirstLineLeftMargin: 1440
+        Flags: 0x8100
+        Flags2: 0x8494
+        JustifyMode: 0
+        LeftMargin: 1440
+        LineSpacing: 0
+        PABID: 1
+        ParagraphSpacingAfter: 0
+        ParagraphSpacingBefore: 0
+        RightMargin: 0
+        Tab:
+          - 720
+          - 1440
+          - 2160
+          - 2880
+          - 3600
+          - 4320
+          - 5040
+          - 5760
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+        TabTypes: 0x00000000
+        Tabs: 8
+        data:
+          - 1440
+          - 10
+          - 1440
+          - 10
+          - 0
+          - 100
+          - 0x00000001
+          - 0x00000004
+      - type: 0x0083
+        PABID: 1
+      - type: 0xffcc
+        opaque: zP8IAAAAAAA=
+      - type: 0xff85
+        FontID: 0x8000001
+      - type: 0xffcd
+        opaque: zf8IAAAAAAA=
+      - type: 0x0081
+      - type: 0xff82
+        FirstLineLeftMargin: 1440
+        Flags: 0xe370
+        Flags2: 0x8495
+        JustifyMode: 0
+        LeftMargin: 1440
+        LineSpacing: 0
+        PABID: 2
+        ParagraphSpacingAfter: 0
+        ParagraphSpacingBefore: 0
+        RightMargin: 0
+        Tab:
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+        TabTypes: 0x00000000
+        Tabs: 0
+        data:
+          - 1440
+          - 12
+          - 1440
+          - 12
+          - 0
+          - 0
+          - 0x00000001
+          - 0x00000006
+      - type: 0x0083
+        PABID: 2
+      - type: 0x00dd
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0x90e0001
+        data: "Hidden Fields "
+      - type: 0x00d2
+        Color:
+          Flags: 0x0001
+          rgb: 0x808080
+      - type: 0x00de
+        Signature: 0xff85
+        Version: 0
+      - type: 0x00dd
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0xa0e0001
+        data: "-----------------------------"
+      - type: 0x00d2
+        Color:
+          Flags: 0x0001
+          rgb: 0x808080
+      - type: 0x00de
+        Signature: 0xff85
+        Version: 0
+      - type: 0x0081
+      - type: 0xff82
+        FirstLineLeftMargin: 1440
+        Flags: 0x6330
+        Flags2: 0x8494
+        JustifyMode: 0
+        LeftMargin: 1440
+        LineSpacing: 0
+        PABID: 3
+        ParagraphSpacingAfter: 0
+        ParagraphSpacingBefore: 0
+        RightMargin: 0
+        Tab:
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+        TabTypes: 0x00000000
+        Tabs: 0
+        data:
+          - 1440
+          - 12
+          - 1440
+          - 12
+          - 0
+          - 0
+          - 0x00000001
+          - 0x00000004
+      - type: 0x0083
+        PABID: 3
+      - type: 0x00dd
+        Signature: 0xfffb
+        Version: 1
+      - type: 0xfffb
+        opaque: +/8sAAEAAAANAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=
+      - type: 0xff5c
+        opaque: |
+          XP8+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAQAACgAAAAABAAAA
+          AAA=
+      - type: 0x00de
+        Signature: 0xfffb
+        Version: 1
+      - type: 0x00a3
+        opaque: ow6gBSgAPAAAAAAAAwA=
+      - type: 0x00a4
+        opaque: pBIAAKAFiRXTK1UCEREBAQAA
+      - type: 0x0081
+      - type: 0xff82
+        FirstLineLeftMargin: 1496
+        Flags: 0x81f6
+        Flags2: 0x80a9
+        JustifyMode: 0
+        LeftMargin: 1496
+        LineSpacing: 0
+        PABID: 4
+        ParagraphSpacingAfter: 0
+        ParagraphSpacingBefore: 0
+        RightMargin: 5513
+        Tab:
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+        TabTypes: 0x00000000
+        Tabs: 0
+        data:
+          - 0
+          - 1
+          - 0
+          - 1
+          - 4137
+          - 100
+          - 0x00000001
+          - 0x00000006
+      - type: 0x0083
+        PABID: 4
+      - type: 0x00dd
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0x90e0001
+        data: "The author's primary name"
+      - type: 0x00d2
+        Color:
+          Flags: 0x0001
+          rgb: 0x808080
+      - type: 0x00de
+        Signature: 0xff85
+        Version: 0
+      - type: 0x00a4
+        opaque: pBIAAYkVdy6tRFUCEREBAQAA
+      - type: 0x0081
+      - type: 0xff82
+        FirstLineLeftMargin: 5592
+        Flags: 0x81f6
+        Flags2: 0x80a9
+        JustifyMode: 0
+        LeftMargin: 5592
+        LineSpacing: 0
+        PABID: 5
+        ParagraphSpacingAfter: 0
+        ParagraphSpacingBefore: 0
+        RightMargin: 11895
+        Tab:
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+        TabTypes: 0x00000000
+        Tabs: 0
+        data:
+          - 0
+          - 1
+          - 0
+          - 1
+          - 6517
+          - 100
+          - 0x00000001
+          - 0x00000006
+      - type: 0x0083
+        PABID: 5
+      - type: 0x00dd
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0xa0e0001
+      - type: 0x00d2
+        Color:
+          Flags: 0x0001
+          rgb: 0x808080
+      - type: 0x00de
+        Signature: 0xff85
+        Version: 0
+      - type: 0x00dd
+        Signature: 0xff8a
+        Version: 0
+      - type: 0xfffe
+        opaque: |
+          /v9QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAA=
+      - type: 0xff8a
+        opaque: |
+          iv9KAIQAAAcAMAIAAAAAAAACAQAOCQoAAAAAAAAABAAXAAAACgAAAAgA9AADAEZyb21BdXRob3Igb2Yg
+          dGhpcyBkb2N1bWVudAA=
+      - type: 0xff7a
+        ID: From
+        reserved: AAAAAAAAAAAAAA==
+      - type: 0x00de
+        Signature: 0xff8a
+        Version: 0
+      - type: 0x00dd
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0x90e0001
+      - type: 0x00d2
+        Color:
+          Flags: 0x0001
+          rgb: 0x808080
+      - type: 0x00de
+        Signature: 0xff85
+        Version: 0
+      - type: 0x00a4
+        opaque: pBIBAKAFiRXTK1UCEREBAQAA
+      - type: 0x0081
+      - type: 0xff82
+        FirstLineLeftMargin: 1496
+        Flags: 0x81f6
+        Flags2: 0x84a9
+        JustifyMode: 0
+        LeftMargin: 1496
+        LineSpacing: 0
+        PABID: 6
+        ParagraphSpacingAfter: 0
+        ParagraphSpacingBefore: 0
+        RightMargin: 5513
+        Tab:
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+        TabTypes: 0x00000000
+        Tabs: 0
+        data:
+          - 0
+          - 1
+          - 0
+          - 1
+          - 0
+          - 0
+          - 0x00000001
+          - 0x00000006
+      - type: 0x0083
+        PABID: 6
+      - type: 0x00dd
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0x90e0001
+        data: used in the interest profile searches
+      - type: 0x00d2
+        Color:
+          Flags: 0x0001
+          rgb: 0x808080
+      - type: 0x00de
+        Signature: 0xff85
+        Version: 0
+      - type: 0x00a4
+        opaque: pBIBAYkVdy6tRFUCEREBAQAA
+      - type: 0x0081
+      - type: 0xff82
+        FirstLineLeftMargin: 5592
+        Flags: 0x81f6
+        Flags2: 0x84a9
+        JustifyMode: 0
+        LeftMargin: 5592
+        LineSpacing: 0
+        PABID: 7
+        ParagraphSpacingAfter: 0
+        ParagraphSpacingBefore: 0
+        RightMargin: 11895
+        Tab:
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+        TabTypes: 0x00000000
+        Tabs: 0
+        data:
+          - 0
+          - 1
+          - 0
+          - 1
+          - 0
+          - 0
+          - 0x00000001
+          - 0x00000006
+      - type: 0x0083
+        PABID: 7
+      - type: 0x00dd
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0xa0e0001
+      - type: 0x00d2
+        Color:
+          Flags: 0x0001
+          rgb: 0x808080
+      - type: 0x00de
+        Signature: 0xff85
+        Version: 0
+      - type: 0x00dd
+        Signature: 0xff8a
+        Version: 0
+      - type: 0xfffe
+        opaque: |
+          /v9QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAA=
+      - type: 0xff8a
+        opaque: |
+          iv9YAIAIAAUAMAIAAAAAAAACAQAOCSYAAAAAAAAADgAAAAAAJgAAABoAAgAFAAAAAAAAAAUABABGcm9t
+          tAIDAAcACgADAAk0UwBBYmJyZXZpYXRlRnJvbQ==
+      - type: 0x00de
+        Signature: 0xff8a
+        Version: 0
+      - type: 0x00dd
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0x90e0001
+      - type: 0x00d2
+        Color:
+          Flags: 0x0001
+          rgb: 0x808080
+      - type: 0x00de
+        Signature: 0xff85
+        Version: 0
+      - type: 0x00a4
+        opaque: pBICAKAFiRXTK1UCEREBAQAA
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 6
+      - type: 0x00dd
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0x90e0001
+        data: "the author's alternate name"
+      - type: 0x00d2
+        Color:
+          Flags: 0x0001
+          rgb: 0x808080
+      - type: 0x00de
+        Signature: 0xff85
+        Version: 0
+      - type: 0x00a4
+        opaque: pBICAYkVdy6tRFUCEREBAQAA
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 7
+      - type: 0x00dd
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0x90e0001
+      - type: 0x00d2
+        Color:
+          Flags: 0x0001
+          rgb: 0x808080
+      - type: 0x00de
+        Signature: 0xff85
+        Version: 0
+      - type: 0x00dd
+        Signature: 0xff8a
+        Version: 0
+      - type: 0xfffe
+        opaque: |
+          /v9QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAA=
+      - type: 0xff8a
+        opaque: |
+          iv8IAYAIAAUAMAIAAAAAAAACAQAOCdwAAAAAAAAABwAAAAAA3AAKAAQAAQBAAAoAX05vdGVzTmFtZb8A
+          WAEAAAAAAAAAgGJADgKvABwACAD0AK4AFAAAAAAAAAAAAPA/9AGuAAQAtQMDAAcAIAAZAAkxUzJTNFQ4
+          UzlTMTFSVFRUVDEzUlRUVFQAAQASAAgAX1dlYk5hbWX0AAMABwAOAAgACTBSUjFTMlMAAEAA+wAFAQEA
+          BQBOb3RlcwAKAq8AKAAUAAUACgBfTm90ZXNOYW1lrgAUAAUACABfV2ViTmFtZa4ABAC1AwMABwAWABAA
+          CTBSUjJUM1M0UzZSVDhSVEFsdEZyb20A
+      - type: 0x00de
+        Signature: 0xff8a
+        Version: 0
+      - type: 0x00dd
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0x90e0001
+      - type: 0x00d2
+        Color:
+          Flags: 0x0001
+          rgb: 0x808080
+      - type: 0x00de
+        Signature: 0xff85
+        Version: 0
+      - type: 0x00a4
+        opaque: pBIDAKAFiRXTK1UCEREBAQAA
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 6
+      - type: 0x00dd
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0x90e0001
+        data: "the author's alternate language"
+      - type: 0x00d2
+        Color:
+          Flags: 0x0001
+          rgb: 0x808080
+      - type: 0x00de
+        Signature: 0xff85
+        Version: 0
+      - type: 0x00a4
+        opaque: pBIDAYkVdy6tRFUCEREBAQAA
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 7
+      - type: 0x00dd
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0x90e0001
+      - type: 0x00d2
+        Color:
+          Flags: 0x0001
+          rgb: 0x808080
+      - type: 0x00de
+        Signature: 0xff85
+        Version: 0
+      - type: 0x00dd
+        Signature: 0xff8a
+        Version: 0
+      - type: 0xfffe
+        opaque: |
+          /v9QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAA=
+      - type: 0xff8a
+        opaque: |
+          iv+eAIAIAAUAMAIAAAAAAAACAQAOCXIAAAAAAAAABwAAAAAAcgAKAAQAAQAQAAMAdmVyAL8AWAEDAAcA
+          DAAFAAkxUzJTAAAAPgAFAAMAdmVyAAAAAAAAAACAYkAOAq8AIgAMAAEAAADCAa4AFgAAAAAAAAAAAPA/
+          +wENAa4ABAC1AwMABwASAAwACTBSM1M0UzZTMTFTQWx0TGFuZwA=
+      - type: 0x00de
+        Signature: 0xff8a
+        Version: 0
+      - type: 0x00dd
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0x90e0001
+      - type: 0x00d2
+        Color:
+          Flags: 0x0001
+          rgb: 0x808080
+      - type: 0x00de
+        Signature: 0xff85
+        Version: 0
+      - type: 0x00a4
+        opaque: pBIEAKAFiRXTK1UCEREBAQAA
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 4
+      - type: 0x00dd
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0x90e0001
+        data: List of readers used for private pages
+      - type: 0x00d2
+        Color:
+          Flags: 0x0001
+          rgb: 0x808080
+      - type: 0x00de
+        Signature: 0xff85
+        Version: 0
+      - type: 0x00a4
+        opaque: pBIEAYkVdy6tRFUCEREBAQAA
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 5
+      - type: 0x00dd
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0xa0e0001
+      - type: 0x00d2
+        Color:
+          Flags: 0x0001
+          rgb: 0x808080
+      - type: 0x00de
+        Signature: 0xff85
+        Version: 0
+      - type: 0x00dd
+        Signature: 0xff8a
+        Version: 0
+      - type: 0xfffe
+        opaque: |
+          /v9QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAA=
+      - type: 0xff8a
+        opaque: |
+          iv9AAJwBAQUCIAIAAAAAAAACAQAOCRQAAAAAAAAABwAAAAAAFAAAABIABQAHAHJlYWRlcnMAAwByZWFk
+          ZXJzAA==
+      - type: 0xff7a
+        ID: readers
+        reserved: AAAAAAAAAAAAAA==
+      - type: 0x00de
+        Signature: 0xff8a
+        Version: 0
+      - type: 0x00dd
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0x90e0001
+      - type: 0x00d2
+        Color:
+          Flags: 0x0001
+          rgb: 0x808080
+      - type: 0x00de
+        Signature: 0xff85
+        Version: 0
+      - type: 0x00a4
+        opaque: pBIFAKAFiRXTK1UCEREBAQAA
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 4
+      - type: 0x00dd
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0x90e0001
+        data: "Used in Interest Profiles to determine ID's for every thread"
+      - type: 0x00d2
+        Color:
+          Flags: 0x0001
+          rgb: 0x808080
+      - type: 0x00de
+        Signature: 0xff85
+        Version: 0
+      - type: 0x00a4
+        opaque: pBIFAYkVdy6tRFUCEREBAQAA
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 5
+      - type: 0x00dd
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0x90e0001
+      - type: 0x00d2
+        Color:
+          Flags: 0x0001
+          rgb: 0x808080
+      - type: 0x00de
+        Signature: 0xff85
+        Version: 0
+      - type: 0x00dd
+        Signature: 0xff8a
+        Version: 0
+      - type: 0xfffe
+        opaque: |
+          /v9QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAA=
+      - type: 0xff8a
+        opaque: iv82AIAAAAUAMAIAAAAAAAACAQAOCQoAAAAAAAAACAAAAAAACgAAAAgAqwADAFRocmVhZElk
+      - type: 0xff7a
+        ID: ThreadId
+        reserved: AAAAAAAAAAAAAA==
+      - type: 0x0062
+        opaque: Yg4BAIQAAAAAAAAAAAA=
+      - type: 0x00de
+        Signature: 0xff8a
+        Version: 0
+      - type: 0x00dd
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0x90e0001
+      - type: 0x00d2
+        Color:
+          Flags: 0x0001
+          rgb: 0x808080
+      - type: 0x00de
+        Signature: 0xff85
+        Version: 0
+      - type: 0x00a4
+        opaque: pBIGAKAFiRXTK1UCEREBAQAA
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 4
+      - type: 0x00dd
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0x90e0001
+        data: Subject for newsletter
+      - type: 0x00d2
+        Color:
+          Flags: 0x0001
+          rgb: 0x808080
+      - type: 0x00de
+        Signature: 0xff85
+        Version: 0
+      - type: 0x00a4
+        opaque: pBIGAYkVdy6tRFUCEREBAQAA
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 5
+      - type: 0x00dd
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0x90e0001
+      - type: 0x00d2
+        Color:
+          Flags: 0x0001
+          rgb: 0x808080
+      - type: 0x00de
+        Signature: 0xff85
+        Version: 0
+      - type: 0x00dd
+        Signature: 0xff8a
+        Version: 0
+      - type: 0xfffe
+        opaque: |
+          /v9QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAA=
+      - type: 0xff8a
+        opaque: |
+          iv9KAIgBAAUAMAIAAAAAAAACAQAOCRQAAAAAAAAAEQAAAAAAFAAAABIABQAHAFN1YmplY3QAAwBOZXdz
+          TGV0dGVyU3ViamVjdAA=
+      - type: 0xff7a
+        ID: NewsLetterSubject
+        reserved: AAAAAAAAAAAAAA==
+      - type: 0x0062
+        opaque: Yg4BAIQAAAAAAAAAAAA=
+      - type: 0x00de
+        Signature: 0xff8a
+        Version: 0
+      - type: 0x00dd
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0x90e0001
+      - type: 0x00d2
+        Color:
+          Flags: 0x0001
+          rgb: 0x808080
+      - type: 0x00de
+        Signature: 0xff85
+        Version: 0
+      - type: 0x00a4
+        opaque: pBIHAKAFiRXTK1UCEREBAQAA
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 4
+      - type: 0x00dd
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0x90e0001
+        data: "Path Information for web URL's"
+      - type: 0x00d2
+        Color:
+          Flags: 0x0001
+          rgb: 0x808080
+      - type: 0x00de
+        Signature: 0xff85
+        Version: 0
+      - type: 0x00a4
+        opaque: pBIHAYkVdy6tRFUCEREBAQAA
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 5
+      - type: 0x00dd
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0x90e0001
+      - type: 0x00d2
+        Color:
+          Flags: 0x0001
+          rgb: 0x808080
+      - type: 0x00de
+        Signature: 0xff85
+        Version: 0
+      - type: 0x00dd
+        Signature: 0xff8a
+        Version: 0
+      - type: 0xfffe
+        opaque: |
+          /v9QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAA=
+      - type: 0xff8a
+        opaque: |
+          iv9EAIgBAAUAMAIAAAAAAAACAQAOCRYAAAAAAAAACQAAAAAAFgAAABQABQAJAFBhdGhfSW5mbwADAFBh
+          dGhfSW5mbwA=
+      - type: 0xff7a
+        ID: Path_Info
+        reserved: AAAAAAAAAAAAAA==
+      - type: 0x0062
+        opaque: Yg4BAIQAAAAAAAAAAAA=
+      - type: 0x00de
+        Signature: 0xff8a
+        Version: 0
+      - type: 0x00dd
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0x90e0001
+      - type: 0x00d2
+        Color:
+          Flags: 0x0001
+          rgb: 0x808080
+      - type: 0x00de
+        Signature: 0xff85
+        Version: 0
+      - type: 0x00a4
+        opaque: pBIIAKAFiRXTK1UCEREBAQAA
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 4
+      - type: 0x00dd
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0x90e0001
+        data: Used for adding topics to the interest profile
+      - type: 0x00d2
+        Color:
+          Flags: 0x0001
+          rgb: 0x808080
+      - type: 0x00de
+        Signature: 0xff85
+        Version: 0
+      - type: 0x00a4
+        opaque: pBIIAYkVdy6tRFUCEREBAQAA
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 5
+      - type: 0x00dd
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0x90e0001
+      - type: 0x00d2
+        Color:
+          Flags: 0x0001
+          rgb: 0x808080
+      - type: 0x00de
+        Signature: 0xff85
+        Version: 0
+      - type: 0x00dd
+        Signature: 0xff8a
+        Version: 0
+      - type: 0xfffe
+        opaque: |
+          /v9QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAA=
+      - type: 0xff8a
+        opaque: |
+          iv9YAIIAAAUAMAIAAAAAAAACAQAOCRgAAAAAAAAACwAQAAAAGAAAABYABQALAFJlbW90ZV9Vc2VyAAMA
+          UmVtb3RlX1VzZXJbPFRZUEU9aGlkZGVuID5dAA==
+      - type: 0xff7a
+        ID: Remote_User
+        reserved: AAAAAAAAAAAAAA==
+      - type: 0x0062
+        opaque: Yg4BAIQAAAAAAAAAAAA=
+      - type: 0x00de
+        Signature: 0xff8a
+        Version: 0
+      - type: 0x00dd
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0x90e0001
+      - type: 0x00d2
+        Color:
+          Flags: 0x0001
+          rgb: 0x808080
+      - type: 0x00de
+        Signature: 0xff85
+        Version: 0
+      - type: 0x00a4
+        opaque: pBIJAKAFiRXTK1UCEREBAQAA
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 4
+      - type: 0x00dd
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0x90e0001
+        data: the UNID of this main document
+      - type: 0x00d2
+        Color:
+          Flags: 0x0001
+          rgb: 0x808080
+      - type: 0x00de
+        Signature: 0xff85
+        Version: 0
+      - type: 0x00a4
+        opaque: pBIJAYkVdy6tRFUCEREBAQAA
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 5
+      - type: 0x00dd
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0x90e0001
+      - type: 0x00d2
+        Color:
+          Flags: 0x0001
+          rgb: 0x808080
+      - type: 0x00de
+        Signature: 0xff85
+        Version: 0
+      - type: 0x00dd
+        Signature: 0xff8a
+        Version: 0
+      - type: 0xfffe
+        opaque: |
+          /v9UAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAuLCQA
+      - type: 0xff8a
+        opaque: |
+          iv9CAIAAAAUAMAIAAAAAAAACAQAOCRgAAAAAAAAABgAAAAAAGAAAAAoAkABWAQMABwAMAAUACTBTMEUA
+          TWFpbklE
+      - type: 0xff7a
+        ID: MainID
+        reserved: AAAAAAAAAAAAAA==
+      - type: 0x0062
+        opaque: Yg4BAIQAAAAAAAAAAAA=
+      - type: 0x00de
+        Signature: 0xff8a
+        Version: 0
+      - type: 0x00dd
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0x90e0001
+      - type: 0x00d2
+        Color:
+          Flags: 0x0001
+          rgb: 0x808080
+      - type: 0x00de
+        Signature: 0xff85
+        Version: 0
+      - type: 0x00a4
+        opaque: pBIKAKAFiRXTK1UCEREBAQAA
+      - type: 0x0081
+      - type: 0xff82
+        FirstLineLeftMargin: 1455
+        Flags: 0x81f6
+        Flags2: 0x8755
+        JustifyMode: 0
+        LeftMargin: 1455
+        LineSpacing: 0
+        PABID: 8
+        ParagraphSpacingAfter: 0
+        ParagraphSpacingBefore: 0
+        RightMargin: 5513
+        Tab:
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+        TabTypes: 0x00000000
+        Tabs: 0
+        data:
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0x00000001
+          - 0x00000006
+      - type: 0x0083
+        PABID: 8
+      - type: 0x00dd
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0x90e0001
+        data: Used to store an abstract of the BODY for XPage views
+      - type: 0x00d2
+        Color:
+          Flags: 0x0001
+          rgb: 0x808080
+      - type: 0x00de
+        Signature: 0xff85
+        Version: 0
+      - type: 0x00a4
+        opaque: pBIKAYkVdy6tRFUCEREBAQAA
+      - type: 0x0081
+      - type: 0xff82
+        FirstLineLeftMargin: 5528
+        Flags: 0x81f6
+        Flags2: 0x8755
+        JustifyMode: 0
+        LeftMargin: 5528
+        LineSpacing: 0
+        PABID: 9
+        ParagraphSpacingAfter: 0
+        ParagraphSpacingBefore: 0
+        RightMargin: 11895
+        Tab:
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+        TabTypes: 0x00000000
+        Tabs: 0
+        data:
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0x00000001
+          - 0x00000006
+      - type: 0x0083
+        PABID: 9
+      - type: 0xff85
+        FontID: 0xa000001
+      - type: 0x00dd
+        Signature: 0xff8a
+        Version: 0
+      - type: 0xfffe
+        opaque: |
+          /v9QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAA=
+      - type: 0xffb0
+        opaque: sP8UAAAACAAAAAAAAAAAAAAAAAA=
+      - type: 0xff8a
+        opaque: |
+          iv9QAogJAAUAMAIAAAAAAAACAQAACiQCAAAAAAAACAAAAAAAJAIBABoACQBfZWxsaXBzaXMAAQAEACAu
+          Li4DAAcADAAFAAkxVDJTAAEAGgAHAF9sZW5ndGgAAAAAAAAAAMByQAMABwAOAAcACTBSMVQyUwABABgA
+          BgBfcmFuZ2UAAAAAAAAAACRAAwAHAA4ABwAJMFIxVDJTAAEANgAJAF9hYnN0cmFjdAACAEIAAAAAAAAA
+          BQAHAF9sZW5ndGgAAQAAAAEABABCb2R53gQDAAcAFgAPAAkwUlIxVDJTNlM4UzEwUwAHAEIAPAB0byBt
+          YWtlIHN1cmUgd2UgZG9uJ3QgdHJ1bmNhdGUvY2xpcCBpbiB0aGUgbWlkZGxlIG9mIGEgd29yZCwHAAwA
+          BgAJMFJSMVMHADwANgBnZXQgdGhlIHRleHQgdXAgdG8gdGhlIGxhc3Qgd29yZCBiZWZvcmUgdGhlIGxh
+          c3Qgc3BhY2UHAAwABQAJMFIxUwAHACAAGgBhbmQgYXBwZW5kIGVsbGlwc2lzICcgLi4uJwcADAAFAAkw
+          UjFTAAAAdgAFAAkAX2Fic3RyYWN0AKYBBQAHAF9sZW5ndGgABQAGAF9yYW5nZSMCBAANAq8AQgAsAAUA
+          CQBfYWJzdHJhY3QAAQABACAAoQIFAAkAX2VsbGlwc2lzACICrgAWAAUACQBfYWJzdHJhY3QArgAEALUD
+          AwAHACoAIwAJMFJSMlQ2UzdTOVMxMFMxM1JUMTdTMTlTMjBTMjJSVDIzUgBBYnN0cmFjdA==
+      - type: 0x00de
+        Signature: 0xff8a
+        Version: 0
+      - type: 0xff85
+        FontID: 0xa000001
+      - type: 0x00a4
+        opaque: pBILAKAFiRXTK1UCEREBAQAA
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 6
+      - type: 0x00dd
+        Signature: 0xff85
+        Version: 0
+      - type: 0xff85
+        FontID: 0x90e0001
+        data: "used in the JScript button Author's Profile"
+      - type: 0x00d2
+        Color:
+          Flags: 0x0001
+          rgb: 0x808080
+      - type: 0x00de
+        Signature: 0xff85
+        Version: 0
+      - type: 0x00a4
+        opaque: pBILAYkVdy6tRFUCEREBAQAA
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 7
+      - type: 0xff85
+        FontID: 0x9000001
+      - type: 0x00dd
+        Signature: 0xff8a
+        Version: 0
+      - type: 0xfffe
+        opaque: |
+          /v9QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAA=
+      - type: 0xff8a
+        opaque: |
+          iv/UAIAAAAUAMAIAAAAAAAACAQAOCagAAAAAAAAABwAAAAAAqAABAB4ABwBhYnJOYW1lAAIABQAAAAAA
+          AAD0ALQCAwAHAA4ABwAJMVMyUzZTAAEAMgAQAGFick5hbWVSZXBsU3BhY2UFAAcAYWJyTmFtZQABAAEA
+          IAABAAEAXwCEAwMABwASAAsACTBSMVMyUzZTOFMAAAAoAAUAEABhYnJOYW1lUmVwbFNwYWNlAQABAC8A
+          AQACAF9fhAMDAAcADgAHAAkwUjRTNlMAQWJyRnJvbQA=
+      - type: 0x0062
+        opaque: Yg4BAIQAAAAAAAAAAAA=
+      - type: 0x00de
+        Signature: 0xff8a
+        Version: 0
+      - type: 0xff85
+        FontID: 0x9000001
+      - type: 0x00a4
+        opaque: pBIMAKAFiRXTK1UCEREBAQAA
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 8
+      - type: 0xff85
+        FontID: 0x9000001
+      - type: 0x00a4
+        opaque: pBIMAYkVdy6tRFUCEREBAQAA
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 9
+      - type: 0xff85
+        FontID: 0x9000001
+      - type: 0x00dd
+        Signature: 0xff8a
+        Version: 0
+      - type: 0xfffe
+        opaque: |
+          /v9QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAeAB4AAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAA=
+      - type: 0xff8a
+        opaque: |
+          iv9iAIAJAAUAMAIAAAAAAAACAQAACSoAAAAAAAAAEwAAAAAAKgAAABwAAQAQAENVUlJFTlRfVEhFTUVf
+          SUR8AQMABwAMAAUACTBTMEUAdG1wQ1VSUkVOVF9USEVNRV9JRAA=
+      - type: 0x00de
+        Signature: 0xff8a
+        Version: 0
+      - type: 0xff85
+        FontID: 0x9000001
+      - type: 0x00a5
+        opaque: pQYAAAAA
+      - type: 0x0081
+      - type: 0xff82
+        FirstLineLeftMargin: 1440
+        Flags: 0x8100
+        Flags2: 0x8795
+        JustifyMode: 0
+        LeftMargin: 1440
+        LineSpacing: 0
+        PABID: 10
+        ParagraphSpacingAfter: 0
+        ParagraphSpacingBefore: 0
+        RightMargin: 0
+        Tab:
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+        TabTypes: 0x00000000
+        Tabs: 0
+        data:
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0x00000001
+          - 0x00000006
+      - type: 0x0083
+        PABID: 10
+      - type: 0xff85
+        FontID: 0xa000001
+      - type: 0x0081
+      - type: 0xff82
+        FirstLineLeftMargin: 1440
+        Flags: 0x0100
+        Flags2: 0x8494
+        JustifyMode: 4
+        LeftMargin: 1440
+        LineSpacing: 0
+        PABID: 11
+        ParagraphSpacingAfter: 0
+        ParagraphSpacingBefore: 0
+        RightMargin: 0
+        Tab:
+          - 720
+          - 1440
+          - 2160
+          - 2880
+          - 3600
+          - 4320
+          - 5040
+          - 5760
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+        TabTypes: 0x00000000
+        Tabs: 8
+        data:
+          - 1440
+          - 12
+          - 1440
+          - 12
+          - 0
+          - 0
+          - 0x00000001
+          - 0x00000004
+      - type: 0x0083
+        PABID: 11
+      - type: 0xff85
+        FontID: 0xb000101
+      - type: 0x00dd
+        Signature: 0xffad
+        Version: 0
+      - type: 0xffad
+        opaque: |
+          rf/kAA4AGAAAANgA2AAKAAQABwAQAAkAQmVnaW4gRE5UAAcACgADAAkxUwAAAIoA+wBxAa8AfgBmAAUA
+          EwB0bXBDVVJSRU5UX1RIRU1FX0lEAAEAEQBjb20uaWJtLnYxMS50aGVtZQAKAq8ALgAWAAEADABWMTFN
+          YWluVG9waWOuABgAAQAMAFYxME1haW5Ub3BpY64ABAC1A64AGAABAAwAVjEwTWFpblRvcGljrgAEALUD
+          AwAHABQADQAJMFI0UzhTMTJTMTVTAAcADgAHAEVuZCBETlQABwAMAAUACTBSMVMA
+      - type: 0x00ae
+        opaque: rgI=
+      - type: 0x00de
+        Signature: 0x00ae
+        Version: 0
+      - type: 0xff85
+        FontID: 0xb000101
+      - type: 0x0081
+      - type: 0xff82
+        FirstLineLeftMargin: 1440
+        Flags: 0x8100
+        Flags2: 0x8495
+        JustifyMode: 4
+        LeftMargin: 1440
+        LineSpacing: 0
+        PABID: 12
+        ParagraphSpacingAfter: 0
+        ParagraphSpacingBefore: 0
+        RightMargin: 0
+        Tab:
+          - 720
+          - 1440
+          - 2160
+          - 2880
+          - 3600
+          - 4320
+          - 5040
+          - 5760
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+        TabTypes: 0x00000000
+        Tabs: 8
+        data:
+          - 1440
+          - 12
+          - 1440
+          - 12
+          - 0
+          - 0
+          - 0x00000001
+          - 0x00000006
+      - type: 0x0083
+        PABID: 12
+      - type: 0xff85
+        FontID: 0xb000101
+      - type: 0x0081
+      - type: 0xff82
+        FirstLineLeftMargin: 1440
+        Flags: 0x2110
+        Flags2: 0x8494
+        JustifyMode: 4
+        LeftMargin: 1440
+        LineSpacing: 0
+        PABID: 13
+        ParagraphSpacingAfter: 1
+        ParagraphSpacingBefore: 0
+        RightMargin: 0
+        Tab:
+          - 720
+          - 1440
+          - 2160
+          - 2880
+          - 3600
+          - 4320
+          - 5040
+          - 5760
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+        TabTypes: 0x00000000
+        Tabs: 8
+        data:
+          - 1440
+          - 12
+          - 1440
+          - 12
+          - 0
+          - 0
+          - 0x00000001
+          - 0x00000004
+      - type: 0x0083
+        PABID: 13
+      - type: 0xff85
+        FontID: 0x9000101
+        data: "Content:"
+      - type: 0x0081
+      - type: 0xff82
+        FirstLineLeftMargin: 1440
+        Flags: 0x0100
+        Flags2: 0x8494
+        JustifyMode: 0
+        LeftMargin: 1440
+        LineSpacing: 0
+        PABID: 14
+        ParagraphSpacingAfter: 0
+        ParagraphSpacingBefore: 0
+        RightMargin: 0
+        Tab:
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+        TabTypes: 0x00000000
+        Tabs: 0
+        data:
+          - 1440
+          - 12
+          - 1440
+          - 12
+          - 0
+          - 0
+          - 0x00000001
+          - 0x00000004
+      - type: 0x0083
+        PABID: 14
+      - type: 0xff85
+        FontID: 0x9000001
+      - type: 0x00dd
+        Signature: 0xff8a
+        Version: 0
+      - type: 0xfffe
+        opaque: |
+          /v9UAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAuLCQA
+      - type: 0xffb0
+        opaque: |
+          sP9QAAAAAABCAAEAAAAAAAAAAAA4AAAAOAAAADYAAQAsAGhlaWdodD0iMzAwIiB3aWR0aD0iNjI1IiBy
+          b3dzPSIxNSIgY29scz0iOTAiAwA=
+      - type: 0xff8a
+        opaque: |
+          iv9eAIIAAQAEMAIAAAAAAAADAQAACgAAAAAAAAAABAA1AAAAQm9keUVudGVyIHlvdXIgY29tbWVudHMs
+          IHF1ZXN0aW9ucywgaWRlYXMgZm9yIGRpc2N1c3Npb24uAA==
+      - type: 0xff7a
+        ID: Body
+        reserved: AAAAAAAAAAAAAA==
+      - type: 0x0062
+        opaque: Yg4BAIQAAAAAAAEAAAA=
+      - type: 0x00de
+        Signature: 0xff8a
+        Version: 0
+      - type: 0xff85
+        FontID: 0xa000001
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 14
+      - type: 0xff85
+        FontID: 0xa000001
+  - name: $Fonts
+    nonsummary: true
+    type: opaque
+    type_num: 1
+    opaque: i/8oAAEABSZBcmlhbAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+  - name: $HTMLCode
+    signed: true
+    nonsummary: true
+    type: opaque
+    type_num: 1
+    opaque: X/8QAAIADwAHAAAAAAAAAA==
+  - name: $HTMLDocumentStyles
+    signed: true
+    type: opaque
+    type_num: 1
+    opaque: 0ggBAAAA/wDSCAEA/wAAANIIAQCAAIAA
+  - name: $INFO
+    signed: true
+    nonsummary: true
+    type: opaque
+    type_num: 1
+    opaque: hhgBAIAAAAAAgAAAAQABAP///wAAAAAA
+  - name: $V5ACTIONS
+    type: composite
+    signed: true
+    nonsummary: true
+    data:
+      - type: 0xff8b
+        opaque: i/8oAAEABSZZdSBHb3RoaWMgVUkAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+      - type: 0x00bd
+        BackColor: 95
+        BorderStyle: 0
+        BorderWidth: 0
+        BtnHeight: 8
+        FontID: 0x09000005
+        HeightSpc: 5
+        LineColor: 0
+        LineStyle: 1
+        ShareID: 0x00000000
+        dwFlags: 0x00002025
+      - type: 0xff79
+        BackColor:
+          Flags: 0x0001
+          rgb: 0xd8d8d8
+        BtnBorderDisplay: 0
+        BtnTextJustify: 0
+        BtnWidthStyle: 0
+        ButtonColor:
+          Flags: 0x0001
+          rgb: 0xc0c0c0
+        FontColor:
+          Flags: 0x0001
+          rgb: 0x000000
+        LineColor:
+          Flags: 0x0001
+          rgb: 0x000000
+        Spare:
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+        barFontID: 0x03000005
+        barHeight:
+          Flags: 0x0000
+          Length:
+            - 0
+            - 0
+            - 0
+            - 0
+            - 0
+            - 0
+            - 46
+            - 64
+          Reserved: 0
+          Units: 5
+        dwFlags: 0x00000003
+        wAppletHeight: 45
+        wBarBackgroundRepeat: 4
+        wBtnInternalMargin: 5
+        wBtnWidthAbsolute: 0
+        wSpare: 0x0000
+        wThemeSetting: 0
+      - type: 0xff71
+        opaque: |
+          cf8CAQEAAAADABMA4AAAAAAAAAAAAAAAAAAAAAAAAAAAAOAABwAQAAkAQmVnaW4gRE5UAAcACgADAAkx
+          UwABACQABgB0bXB2YWwBABAAQ1VSUkVOVF9USEVNRV9JRHwBAwAHAA4ABwAJMFIxUzJTAAAAZgAFAAYA
+          dG1wdmFsAQARAGNvbS5pYm0udjExLnRoZW1lAAoCrwA8AB4AAQAUAEFjdGlvbiBiYXIgX2ljb24ucG5n
+          rgAeAAEAEQBvbmVVSWdyYWRpZW50LnBuZwCuAAQAtQMDAAcAEgALAAkwUjNTNFM2UzhTAAcADgAHAEVu
+          ZCBETlQABwAMAAUACTBSMVMA
+      - type: 0xfffc
+        BorderFlags: 0
+        BorderStyle: 0
+        BorderWidthBottom: 0
+        BorderWidthLeft: 0
+        BorderWidthRight: 0
+        BorderWidthTop: 0
+        Color:
+          Flags: 0x0005
+          rgb: 0x000000
+        DropShadowWidth: 0
+        Flags: 0x00000000
+        InnerWidthBottom: 0
+        InnerWidthLeft: 0
+        InnerWidthRight: 0
+        InnerWidthTop: 0
+        OuterWidthBottom: 0
+        OuterWidthLeft: 0
+        OuterWidthRight: 0
+        OuterWidthTop: 0
+        dwSpare: 0x00000000
+        wSpares:
+          - 0x0000
+          - 0x0000
+          - 0x0000
+          - 0x0000
+          - 0x0000
+      - type: 0xffbe
+        Flags: 0x0000419c
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: AQBOfA==
+        title: Categori_ze
+      - type: 0xffbe
+        Flags: 0x00004008
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        hidewhen: "@Name([CN];From)!=@Name([CN];@V3UserName)"
+        hidewhen_opaque: OAAAACoAAgAGAAAAAAAAAAUABABGcm9ttAICAAYAAAAAAAAAZwC0AgsCAwAHAAwABQAJMFMwRQA=
+        opaque: AgACCg==
+        title: _Edit Document
+      - type: 0xffbe
+        Flags: 0x0000419c
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: AwADCg==
+        title: Send Docu_ment
+      - type: 0xffbe
+        Flags: 0x0000419c
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: BAAECg==
+        title: _Forward
+      - type: 0xffbe
+        Flags: 0x00014019
+        IconIndex: 0
+        ShareId: 29
+        Type: 1
+        data: "@Command([MailForward])"
+        data_opaque: IAAAABIAAgDICwAAAAAAAO0BAwAHAAwABQAJMFMwRQA=
+        hidewhen: "@IsNewDoc"
+        hidewhen_opaque: CgAAAAgAiQADAA==
+        title: Forward
+      - type: 0xffbe
+        Flags: 0x00014019
+        IconIndex: 0
+        ShareId: 26
+        Type: 1
+        data: "@Command([Compose]; @MailDbName; \"Bookmark\")"
+        data_opaque: LgAAACAAAgDoAwAAAAAAAKwAAQAIAEJvb2ttYXJr7QMDAAcADAAFAAk0UzZTAA==
+        hidewhen: "@IsNewDoc"
+        hidewhen_opaque: CgAAAAgAiQADAA==
+        title: Forward as Bookmark
+      - type: 0xffbe
+        Flags: 0x0000419d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: BwA9fA==
+        title: _Move To Folder...
+      - type: 0xffbe
+        Flags: 0x0000419d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: CAA+fA==
+        title: _Remove From Folder
+      - type: 0xffbe
+        Flags: 0x0001000b
+        IconIndex: 0
+        ShareId: 2
+        Type: 1
+        data: "@Command([EditDocument])"
+        data_opaque: IAAAABIAAgDoBwAAAAAAAO0BAwAHAAwABQAJMFMwRQA=
+        hidewhen: |
+          REM {Hhide if user has less than editor access and is not the author of the document};
+          Filename := @DbName;
+          Level := @V4UserAccess(Filename);
+          Getlevel := @TextToNumber(@Subset(Level; 1));
+          abUser := @Name([Abbreviate]; @UserName);
+          abAuthor := @Name([Abbreviate]; From);
+          hw := @RightBack(QUERY_STRING_DECODED; "hw=");
+          @UserName = "Anonymous" | (GetLevel < 4  & abUser != abAuthor)   | hw="1"
+        hidewhen_opaque: |
+          CAIHAFYATwBIaGlkZSBpZiB1c2VyIGhhcyBsZXNzIHRoYW4gZWRpdG9yIGFjY2VzcyBhbmQgaXMgbm90
+          IHRoZSBhdXRob3Igb2YgdGhlIGRvY3VtZW50AAcACgADAAkxUwABABIACABGaWxlbmFtZYsAAwAHAA4A
+          BwAJMFIxUzJTAAEAHAAFAExldmVsAAUACABGaWxlbmFtZeoBAwAHAA4ABwAJMFIxUzJTAAEAKAAIAEdl
+          dGxldmVsBQAFAExldmVsAAAAAAAAAAAA8D9rAlgBAwAHABAACQAJMFIxUzJTOFMAAQAcAAYAYWJVc2Vy
+          AgAFAAAAAAAAAPQAtAIDAAcAEAAJAAkwUjFTMlM2UwABACQACABhYkF1dGhvcgIABQAAAAAAAAAFAAQA
+          RnJvbbQCAwAHABAACQAJMFIxUzJTNlMAAQAsAAIAaHcFABQAUVVFUllfU1RSSU5HX0RFQ09ERUQBAAMA
+          aHc9AKICAwAHABAACQAJMFIxUzJTNlMAAABeAPQAAQAJAEFub255bW91cwAKAgUACABHZXRMZXZlbAAA
+          AAAAAAAAEEAOAgUABgBhYlVzZXIFAAgAYWJBdXRob3ILAhwCBAAdAgUAAgBodwEAAQAxAAoCHQIDAAcA
+          KgAjAAkwUjFTMlMzUzRTNlM3UzhTMkU5UzEwUzExUzEzUzNFMTRTAA==
+        title: Edit Document
+      - type: 0xffbe
+        Flags: 0x00010012
+        IconIndex: 0
+        ShareId: 3
+        Type: 1
+        data: |
+          REM {Can't use @isvalid on the web};
+          @If(
+          @ClientType != "Notes";
+          @Do(@Command([FileSave]); @Command([FileCloseWindow]));
+          @IsValid;
+          @Do(@Command([FileSave]); @Command([FileCloseWindow])); "")
+        data_opaque: |
+          vgAKAAQABwAkAB0AQ2FuJ3QgdXNlIEBpc3ZhbGlkIG9uIHRoZSB3ZWIABwAKAAMACTFTAAAAagD7AAUB
+          AQAFAE5vdGVzAAsCrwBSACAAAgDGCwAAAAAAAO0BAgD8EQAAAAAAAO0BswKuADIA5ACvACwAIAACAMYL
+          AAAAAAAA7QECAPwRAAAAAAAA7QGzAq4ADAABAAAArgAEALUFAwAHACAAGgAJMFIyUjNTNFM2UjEzUzE5
+          UjIxUjI4UzM0Uw==
+        hidewhen: |
+          REM {Hide if person clicked the 'Author's Profile' button};
+          hw := @RightBack(QUERY_STRING_DECODED; "hw=");
+          hw = "1"
+        hidewhen_opaque: |
+          pAAHADoANABIaWRlIGlmIHBlcnNvbiBjbGlja2VkIHRoZSAnQXV0aG9yJ3MgUHJvZmlsZScgYnV0dG9u
+          BwAKAAMACTFTAAEALAACAGh3BQAUAFFVRVJZX1NUUklOR19ERUNPREVEAQADAGh3PQCiAgMABwAQAAkA
+          CTBSMVMyUzZTAAAAFAAFAAIAaHcBAAEAMQAKAgMABwAOAAcACTBSMVMyUwA=
+        title: Save & Close
+      - type: 0xffbe
+        Flags: 0x0001000a
+        IconIndex: 0
+        ShareId: 36
+        Type: 1
+        data: |
+          viewname := @Subset(@ViewTitle; -1);
+          @SetProfileField("tmpProfile"; "viewtitle"; viewname);
+          @PostedCommand([Compose];"Response")
+        data_opaque: |
+          lgABACAACAB2aWV3bmFtZZ0AAAAAAAAAAADwPxABawIDAAcADgAHAAkxUzJTNlMACAAwAAEACgB0bXBQ
+          cm9maWxlAQAJAHZpZXd0aXRsZQAFAAgAdmlld25hbWX4AwMABwAOAAcACTBSNFM2UwAAAB4AAgDoAwAA
+          AAAAAAEACABSZXNwb25zZbECAwAHAAoAAwAJMFIA
+        hidewhen: |
+          REM {hide from web if it's in a view};
+          @ClientType != "Notes" & !@IsAvailable(form)
+        hidewhen_opaque: |
+          bAAKAAQABwAmAB8AaGlkZSBmcm9tIHdlYiBpZiBpdCdzIGluIGEgdmlldwAHAAoAAwAJMVMAAAAkAPsA
+          BQEBAAUATm90ZXMACwIFAAQAZm9ybWgBHgEcAgMABwASAAsACTBSMVMyUzNTNFMA
+        title: New Response
+      - type: 0xffbe
+        Flags: 0x00010013
+        IconIndex: 0
+        ShareId: 8
+        Type: 1
+        data: |
+          FIELD readers := @Trim(@Unique(From : @UserName : "LocalDomainServers"));
+          
+          @PostedCommand([RefreshHideFormulas]); @Command([ViewRefreshFields])
+        data_opaque: |
+          igADADgABwByZWFkZXJzAAUABABGcm9t9AAfAgEAEgBMb2NhbERvbWFpblNlcnZlcnMfAqsBXgEDAAcA
+          GAARAAkxUzJTM1M4UzlTMTBTMTFTAAgAEgACAF4bAAAAAAAAsQEDAAcACgAEAAkwUlIAABIAAgCLEwAA
+          AAAAAO0BAwAHAAoAAwAJMFMA
+        hidewhen: "@Elements(readers)>0"
+        hidewhen_opaque: LgAAACAABQAHAHJlYWRlcnMAagEAAAAAAAAAAAAADwIDAAcADAAFAAkwUzBFAA==
+        title: Mark Private
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 12
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 1
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 2
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 11
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 20
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 9
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 8
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 10
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 3
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 6
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 7
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 5
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 4
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xffbe
+        Flags: 0x00010013
+        IconIndex: 0
+        ShareId: 9
+        Type: 1
+        data: |
+          FIELD readers := @DeleteField;
+          @Command([ViewRefreshFields])
+        data_opaque: |
+          PgADABIABwByZWFkZXJzAL4AAwAHAA4ABwAJMVMyUzNTAAAAEgACAIsTAAAAAAAA7QEDAAcACgADAAkw
+          UgA=
+        hidewhen: "@Elements(readers)<1"
+        hidewhen_opaque: LgAAACAABQAHAHJlYWRlcnMAagEAAAAAAAAAAPA/DgIDAAcADAAFAAkwUzBFAA==
+        title: Mark Public
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 12
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 1
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 2
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 11
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 20
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 9
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 8
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 10
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 3
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 6
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 7
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 5
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 4
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xffbe
+        Flags: 0x00012116
+        IconIndex: 0
+        ShareId: 18
+        Type: 1
+        data: |
+          REM {Web only};
+          REM {use only in Documents};
+          @Command([FileSave]);
+          UNID:=@Text(@DocumentUniqueID );
+          
+          
+          @If(@TextToNumber(@Version) < 174;
+            @URLOpen("/"+@ReplaceSubstring(@Subset(@DbName; -1);" ";"+")+"/WebExpire?OpenAgent&"+UNID);
+          @URLOpen(@WebDbName+"/WebExpire?OpenAgent&"+UNID))
+        data_opaque: |
+          NgEKAAQABwAOAAgAV2ViIG9ubHkHAAoAAwAJMVMABwAcABUAdXNlIG9ubHkgaW4gRG9jdW1lbnRzAAcA
+          DAAFAAkwUjFTAAgAEgACAMYLAAAAAAAA7QEDAAcACgADAAkwUgABABAABABVTklEkABWAQMABwAMAAUA
+          CTBSNVMAAACgAL8AWAEAAAAAAAAAwGVADgKvAIgAVAABAAEALwCLAAAAAAAAAAAA8D8QAWsCAQABACAA
+          AQABACsAhAMiAgEAFQAvV2ViRXhwaXJlP09wZW5BZ2VudCYAIgIFAAQAVU5JRCIC4AGuADQA+wAwAQEA
+          FQAvV2ViRXhwaXJlP09wZW5BZ2VudCYAIgIFAAQAVU5JRCIC4AGuAAQAtQMDAAcAGAASAAkwUlJSNlM3
+          UzlSVDE5UzMzUg==
+        hidewhen: |
+          REM {Hide if person clicked the 'Author's Profile' button};
+          hw := @RightBack(QUERY_STRING_DECODED; "hw=");
+          hw = "1" | @IsNewDoc
+        hidewhen_opaque: |
+          rAAHADoANABIaWRlIGlmIHBlcnNvbiBjbGlja2VkIHRoZSAnQXV0aG9yJ3MgUHJvZmlsZScgYnV0dG9u
+          BwAKAAMACTFTAAEALAACAGh3BQAUAFFVRVJZX1NUUklOR19ERUNPREVEAQADAGh3PQCiAgMABwAQAAkA
+          CTBSMVMyUzZTAAAAGAAFAAIAaHcBAAEAMQAKAokAHQIDAAcAEgALAAkwUjFTMlMzUzRTAA==
+        title: Mark/Unmark Document as Expired
+      - type: 0xffbe
+        Flags: 0x0001211e
+        IconIndex: 0
+        ShareId: 30
+        Type: 1
+        data: |
+          REM {web only};
+          UNID := @Text(@DocumentUniqueID);
+          
+          @If(  @TextToNumber(@Version) < 174;
+            @URLOpen("/" + @ReplaceSubstring(@Subset(@DbName; -1); " "; "+") + "/WebAddTopic?OpenAgent&" + UNID + "&login");
+            @URLOpen(@WebDbName + "/WebAddTopic?OpenAgent&" + UNID + "&login"))
+        data_opaque: |
+          QgEKAAQABwAOAAgAd2ViIG9ubHkHAAoAAwAJMVMAAQAQAAQAVU5JRJAAVgEDAAcADgAHAAkwUjFTMlMA
+          AAC8AL8AWAEAAAAAAAAAwGVADgKvAKQAYgABAAEALwCLAAAAAAAAAAAA8D8QAWsCAQABACAAAQABACsA
+          hAMiAgEAFwAvV2ViQWRkVG9waWM/T3BlbkFnZW50JgAiAgUABABVTklEIgIBAAYAJmxvZ2luIgLgAa4A
+          QgD7ADABAQAXAC9XZWJBZGRUb3BpYz9PcGVuQWdlbnQmACICBQAEAFVOSUQiAgEABgAmbG9naW4iAuAB
+          rgAEALUDAwAHAEoARAAJMFJSMlQ2UzdTOVJUMTJTMTNTMTlTMjNTMjVTMjdTMjhTMjlTMzBTMzFTMzJT
+          MzVSVDM4UzM5UzQwUzQxUzQyUzQzUw==
+        hidewhen: "@IsNewDoc"
+        hidewhen_opaque: CgAAAAgAiQADAA==
+        title: Add Topic to Interest Profile
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 12
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 1
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 2
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 11
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 20
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 9
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 8
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 10
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 3
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 6
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 7
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 5
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 4
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xffbe
+        Flags: 0x0001401a
+        IconIndex: 0
+        ShareId: 27
+        Type: 1
+        data: |
+          REM {notes only};
+          @Command([ToolsRunMacro]; "(ProfileButton)")
+        data_opaque: |
+          TgAHABAACgBub3RlcyBvbmx5BwAKAAMACTFTAAAAJgACAKIPAAAAAAAAAQAPAChQcm9maWxlQnV0dG9u
+          KQDtAgMABwAMAAUACTBSNFMA
+        hidewhen: |
+          abrName := @Name([Abbreviate]; From);
+          abrNameReplSpace := @ReplaceSubstring(abrName; " "; "_");
+          Key := @ReplaceSubstring(abrNameReplSpace; "/"; "__");
+          
+          View := "LookupPersonalProfiles";
+          LookupName := @DbLookup("" : "NoCache"; ""; View; Key; 1);
+          @IsError(LookupName)
+        hidewhen_opaque: |
+          bAEBACQABwBhYnJOYW1lAAIABQAAAAAAAAAFAAQARnJvbbQCAwAHAA4ABwAJMVMyUzZTAAEAMgAQAGFi
+          ck5hbWVSZXBsU3BhY2UFAAcAYWJyTmFtZQABAAEAIAABAAEAXwCEAwMABwASAAsACTBSMVMyUzZTOFMA
+          AQAuAAMAS2V5AAUAEABhYnJOYW1lUmVwbFNwYWNlAQABAC8AAQACAF9fhAMDAAcAEgALAAkwUjFTMlM2
+          UzhTAAEAJgAEAFZpZXcBABYATG9va3VwUGVyc29uYWxQcm9maWxlcwMABwAOAAgACTBSUjFTMlMBAEQA
+          CgBMb29rdXBOYW1lAQAAAAEABwBOb0NhY2hlAB8CAQAAAAUABABWaWV3BQADAEtleQAAAAAAAAAAAPA/
+          gwUDAAcAHAAWAAkwUjFTMlM1UzZTOFMxMFMxMlMxNFMAABYABQAKAExvb2t1cE5hbWVaAQMABwAKAAMA
+          CTBSAA==
+        title: "Author's Profile"
+      - type: 0xffbe
+        Flags: 0x0001211e
+        IconIndex: 0
+        ShareId: 28
+        Type: 7
+        hidewhen: |
+          abrName := @Name([Abbreviate]; From);
+          abrNameReplSpace := @ReplaceSubstring(abrName; " "; "_");
+          Key := @ReplaceSubstring(abrNameReplSpace; "/"; "__");
+          
+          View := "LookupPersonalProfiles";
+          LookupName := @DbLookup("" : "NoCache"; ""; View; Key; 1);
+          @IsError(LookupName)
+        hidewhen_opaque: |
+          bAEBACQABwBhYnJOYW1lAAIABQAAAAAAAAAFAAQARnJvbbQCAwAHAA4ABwAJMVMyUzZTAAEAMgAQAGFi
+          ck5hbWVSZXBsU3BhY2UFAAcAYWJyTmFtZQABAAEAIAABAAEAXwCEAwMABwASAAsACTBSMVMyUzZTOFMA
+          AQAuAAMAS2V5AAUAEABhYnJOYW1lUmVwbFNwYWNlAQABAC8AAQACAF9fhAMDAAcAEgALAAkwUjFTMlM2
+          UzhTAAEAJgAEAFZpZXcBABYATG9va3VwUGVyc29uYWxQcm9maWxlcwMABwAOAAgACTBSUjFTMlMBAEQA
+          CgBMb29rdXBOYW1lAQAAAAEABwBOb0NhY2hlAB8CAQAAAAUABABWaWV3BQADAEtleQAAAAAAAAAAAPA/
+          gwUDAAcAHAAWAAkwUjFTMlM1UzZTOFMxMFMxMlMxNFMAABYABQAKAExvb2t1cE5hbWVaAQMABwAKAAMA
+          CTBSAA==
+        opaque: ""
+        title: "Author's Profile"
+      - type: 0xfff9
+        ActionLength: 347
+        ActionType: 4
+        EventType: 1
+        Flags: 0x00000000
+        Reserved: AAAAAAAAAAAAAAAAAAA=
+        SignatureLength: 0
+      - type: 0xffdc
+        opaque: |
+          3P9uAfn/XAEgTgAAAAAAAAAAdmFyIHBhdGhuYW1lID0gd2luZG93LmxvY2F0aW9uLnBhdGhuYW1lOw12
+          YXIgZmlsZW5hbWUgPSBwYXRobmFtZS5zdWJzdHJpbmcoMCwocGF0aG5hbWUubGFzdEluZGV4T2YoJ25z
+          ZicpKzQpKTsNdmFyIGtleSA9IGRvY3VtZW50LmZvcm1zWzBdLkFickZyb20udmFsdWU7DQ12YXIgbmV3
+          V2luZG93ID0gd2luZG93Lm9wZW4oZmlsZW5hbWUgKyAnTG9va3VwUGVyc29uYWxQcm9maWxlcy8nICsg
+          a2V5ICsgJz9PcGVuRG9jdW1lbnQmaHc9MScsJ3NlY29uZGFyeV93aW5kb3cnLCd0b29sYmFyPW5vLGxv
+          Y2F0aW9uPW5vLHNjcm9sbGJhcnM9eWVzLGRpcmVjdG9yaWVzPW5vLGhlaWdodD01MDAsd2lkdGg9NjI1
+          Jyk7DQAA
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 213
+        wPlatform: 1
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 12091
+        wPlatform: 1
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 12
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 1
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 2
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 11
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 20
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 9
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 8
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 10
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 3
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 6
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 7
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 5
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 4
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xffbe
+        Flags: 0x0001400b
+        IconIndex: 0
+        ShareId: 38
+        Type: 1
+        data: |
+          _title  := "Chat with Author";
+          _msg    := "This is an Anonymous posting. Unable to initiate a chat with an Anonymous author.";
+          REM {DNT Begin};
+          @If(  @Contains(@LowerCase(form); "anonymous");
+            @Return(@Prompt([Ok]; _title; _msg)); ""
+          );
+          
+          @Command([SendInstantMessage]; From)
+        data_opaque: |
+          VAEBACIABgBfdGl0bGUBABAAQ2hhdCB3aXRoIEF1dGhvcgMABwAMAAUACTFUMlMAAQBiAAQAX21zZwEA
+          UQBUaGlzIGlzIGFuIEFub255bW91cyBwb3N0aW5nLiBVbmFibGUgdG8gaW5pdGlhdGUgYSBjaGF0IHdp
+          dGggYW4gQW5vbnltb3VzIGF1dGhvci4AAwAHAA4ACAAJMFIxVFQyUwcAEAAJAEROVCBCZWdpbgAHAAwA
+          BQAJMFIxUwAIAFQABQAEAGZvcm1hAQEACQBhbm9ueW1vdXMARwKvADIAJgACAA0AAAAAAAAABQAGAF90
+          aXRsZQUABABfbXNnsAPCAa4ADAABAAAArgAEALUDAwAHAB4AFwAJMFIyVDlTMTJSVDE4UzIwUzI0UzI1
+          UgAAABoAAgAlJwAAAAAAAAUABABGcm9t7QIDAAcADAAGAAkwUlI0Uw==
+        hidewhen: "@Version < @Text(250)"
+        hidewhen_opaque: JAAAABYAvwAAAAAAAAAAQG9AVgEOAgMABwAMAAUACTFTMlMA
+        title: Chat with Author
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 12
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 1
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 2
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 11
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 20
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 9
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 8
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 10
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 3
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 6
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 7
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 5
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 4
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xffbe
+        Flags: 0x0001409a
+        IconIndex: 0
+        ShareId: 14
+        Type: 1
+        data: |
+          REM {Notes only};
+          FIELD SaveOptions := 0;
+          @Command([FileCloseWindow])
+        data_opaque: |
+          ZgAHABAACgBOb3RlcyBvbmx5BwAKAAMACTFTAAMAHgALAFNhdmVPcHRpb25zAAAAAAAAAAAAAAADAAcA
+          EAAJAAkwUjFTMlMzUwAAABIAAgD8EQAAAAAAAO0BAwAHAAoAAwAJMFIA
+        title: Cancel
+      - type: 0xffbe
+        Flags: 0x0001211e
+        IconIndex: 0
+        ShareId: 33
+        Type: 1
+        data: |
+          REM {web non-new docs};
+          @Command([OpenView]; "($All)")
+        data_opaque: |
+          SgAHABYAEAB3ZWIgbm9uLW5ldyBkb2NzBwAKAAMACTFTAAAAHAACAFkbAAAAAAAAAQAGACgkQWxsKe0C
+          AwAHAAwABQAJMFI0UwA=
+        hidewhen: |
+          REM {Hide if 'Author's Profile' button was clckd};
+          hw := @RightBack(QUERY_STRING_DECODED; "hw=");
+          hw = "1" | @IsNewDoc
+        hidewhen_opaque: |
+          pAAHADIAKwBIaWRlIGlmICdBdXRob3IncyBQcm9maWxlJyBidXR0b24gd2FzIGNsY2tkAAcACgADAAkx
+          UwABACwAAgBodwUAFABRVUVSWV9TVFJJTkdfREVDT0RFRAEAAwBodz0AogIDAAcAEAAJAAkwUjFTMlM2
+          UwAAABgABQACAGh3AQABADEACgKJAB0CAwAHABIACwAJMFIxUzJTM1M0UwA=
+        title: Cancel
+      - type: 0xffbe
+        Flags: 0x0001211e
+        IconIndex: 0
+        ShareId: 34
+        Type: 1
+        data: |
+          REM {web new docs};
+          CurrentView := @GetProfileField("tmpProfile"; "viewtitle");
+          @Command([OpenView]; CurrentView)
+        data_opaque: |
+          jgAHABIADAB3ZWIgbmV3IGRvY3MHAAoAAwAJMVMAAQAyAAsAQ3VycmVudFZpZXcAAQAKAHRtcFByb2Zp
+          bGUBAAkAdmlld3RpdGxlAPcCAwAHABAACQAJMFIxUzJTNlMAAAAiAAIAWRsAAAAAAAAFAAsAQ3VycmVu
+          dFZpZXcA7QIDAAcADAAFAAkwUjRTAA==
+        hidewhen: |
+          REM {Hide if 'Author's Profile' button was clckd};
+          hw := @RightBack(QUERY_STRING_DECODED; "hw=");
+          hw = "1" | !@IsNewDoc
+        hidewhen_opaque: |
+          pgAHADIAKwBIaWRlIGlmICdBdXRob3IncyBQcm9maWxlJyBidXR0b24gd2FzIGNsY2tkAAcACgADAAkx
+          UwABACwAAgBodwUAFABRVUVSWV9TVFJJTkdfREVDT0RFRAEAAwBodz0AogIDAAcAEAAJAAkwUjFTMlM2
+          UwAAABoABQACAGh3AQABADEACgKJAB4BHQIDAAcAEgALAAkwUjFTMlMzUzRTAA==
+        title: Cancel
+remaining: []

@@ -1,0 +1,206 @@
+---
+class: 512
+flags: 0x0000
+unid: OF88C369EE4343E801-ON006707F8852561E7
+items:
+  - name: $AssistAction
+    type: action
+    code_type: 65413
+    data: |
+      '++LotusScript Development Environment:2:5:(Options):0:74
+      Option Public
+      
+      Use "wStringResource"
+      
+      
+      '++LotusScript Development Environment:2:5:(Forward):0:1
+      Declare Sub Initialize
+      
+      '++LotusScript Development Environment:2:5:(Declarations):0:10
+      Dim w As NotesUIWorkspace
+      Dim s As NotesSession 
+      Dim db As NotesDatabase
+      Dim view As NotesView
+      Dim note As NotesDocument
+      Dim profile As NotesDocument
+      Dim collection As NotesDocumentCollection
+      Dim item As NotesItem
+      Dim Position As Integer
+      
+      
+      'variables to translate
+      Const msg1 = "Please choose only one document."
+      Const title1 = "Add Thread"
+      Const msg2 = "You must first select a document.  Note:  highlight bar cannot be on a category."
+      Const msg3 = "This action cannot be run on the Interest Profile."
+      Const msg4 = "The document you have chosen cannot be added to an interest profile."
+      Const title4 = "This document is not a Thread"
+      Const msg5 = "Interest Profile for "
+      Const msg6 = "This topic is already in your Interest Profile."
+      Const msg7 = "The current topic has been added to your Interest Profile. You will be notified by mail when new responses appear in this topic."
+      'END variables to translate
+      
+      
+      '++LotusScript Development Environment:2:2:Initialize:1:10
+      Sub Initialize
+      	
+      	Set s = New NotesSession
+      	Set db = s.CurrentDatabase
+      	Set collection = db.UnprocessedDocuments
+      	If collection.Count > 1 Then
+      		Messagebox msg1, 64, title1
+      		Exit Sub
+      	Elseif collection.Count <1 Then
+      		Messagebox msg2, 64
+      		Exit Sub
+      	End If
+      	Set note = collection.GetFirstDocument
+      	
+      	If  note.form(0) = "Interest Profile" Then
+      		Messagebox msg3, 64
+      		Exit Sub
+      	End If
+      	
+      'Get the subject field and remove any commas (Notes thinks they are multivalue separaters)
+      	Subject = note.Subject
+      	ThreadSubject = Subject(0)    
+      	Do    
+      		Position = Instr(1, ThreadSubject, ",")
+      		If Position > 0 Then Mid(ThreadSubject, Position, 1) = "."
+      	Loop Until Position = 0    
+      	
+      	ThreadId = note.ThreadId
+      	
+      	If ThreadId(0) = "" Then
+      		Messagebox msg4,  0 + 64, title4
+      		Exit Sub
+      	End If
+      	
+      	Set view = db.GetView("($Profiles)")
+      	Call view.Refresh
+      	
+      	key = "Interest Profile" & s.CommonUserName
+      	Set profile = view.GetDocumentByKey(key,False)
+      	If profile Is Nothing Then
+      		Set profile = New NotesDocument(db)
+      		profile.Form = "Interest Profile"
+      		Set item = New NotesItem(profile, "PersonName", s.CommonUserName, AUTHORS)
+      		profile.Subject = msg5 & s.CommonUserName
+      		profile.ProtectFromArchive = 1
+      		profile.FullPersonName = Evaluate("@username")
+      		profile.ProfileThreads = ThreadId(0)
+      		If ThreadSubject = "" Then
+      			profile.profilethreadsubjects = GetString(25)+Cstr(threadid(0))
+      		Else
+      			profile.ProfileThreadSubjects = ThreadSubject
+      		End If
+      		ReaderNames = Evaluate("(@UserName : ""LocalDomainServers"")")
+      		Set item = New NotesItem(profile, "Readers", ReaderNames, READERS)
+      		item.IsSummary = True
+      	Else
+      		Set item = profile.GetFirstItem("ProfileThreads")
+      		If item.Contains(ThreadId(0)) Then
+      			Messagebox msg6, 64, title1
+      			Exit Sub
+      		Else
+      			item.AppendToTextList(ThreadId(0))
+      			Set item = profile.GetFirstItem("ProfileThreadSubjects")
+      			If ThreadSubject = "" Then
+      				item.AppendToTextList(GetString(25)+Cstr(threadid(0)))
+      			Elseif profile.ProfileThreadSubjects(0) = "" Then
+      				Call profile.replaceitemvalue("ProfileThreadSubjects", Subject)
+      			Else
+      				item.AppendToTextList(ThreadSubject) 
+      			End If
+      		End If
+      	End If
+      	
+      	profile.Save True, True
+      	
+      	Messagebox msg7, 0 + 64, title1
+      	
+      End Sub
+    dwFlags: 0x00000000
+    signed: true
+    nonsummary: true
+  - name: $AssistDocCount
+    type: number
+    data: 0
+    signed: true
+  - name: $AssistFlags
+    type: text
+    data: Es
+    signed: true
+  - name: $AssistInfo
+    type_num: 17
+    type: opaque
+    opaque: |
+      AQAEAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+      AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+    signed: true
+    nonsummary: true
+  - name: $AssistLastRun
+    type: time
+    signed: true
+  - name: $AssistQuery
+    type_num: 15
+    type: opaque
+    opaque: gQYAAAAA
+    signed: true
+    nonsummary: true
+  - name: $AssistRunInfo
+    type: object
+    obj_type: 0x0008
+    obj_class: 0x0200
+    obj_privs: 0x0000
+    opaque: |
+      AAAAAAUAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+      WXWBAHt0JYUj5V4Ae3QlhQAAAAAAAAAAAAAAAAAAAAAAAAAAqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqq
+  - name: $AssistTrigger
+    type: text
+    data: "4"
+    signed: true
+  - name: $AssistType
+    type: number
+    data: 65413
+    signed: true
+  - name: $DesignerVersion
+    type: text
+    data: "7"
+    signed: true
+  - name: $Flags
+    type: text
+    data: fL3
+  - name: $FlagsExt
+    type: text
+    data: ""
+    signed: true
+  - name: $LANGUAGE
+    type: text
+    data: en
+    signed: true
+  - name: $Restricted
+    type: number
+    data: 0
+    signed: true
+  - name: $TITLE
+    type: text
+    data: Add Topic/Thread To Interest Profile
+    signed: true
+remaining: []

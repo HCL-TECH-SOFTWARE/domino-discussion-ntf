@@ -1,0 +1,51 @@
+---
+class: 4
+flags: 0x0000
+unid: OF82BCFBB5EFE3E4A5-ON004CAEF480257917
+items:
+  - name: $ConfigSize
+    type: number
+    data: 968
+    signed: true
+  - name: $DesignerVersion
+    type: text
+    data: 9.0.1
+    signed: true
+  - name: $FileNames
+    type: text
+    data: authorProfileView.xsp
+    signed: true
+  - name: $Flags
+    type: text
+    data: gC~4;
+  - name: $TITLE
+    type: text
+    data: authorProfileView.xsp
+  - name: $ConfigData
+    signed: true
+    nonsummary: true
+    type: opaque
+    type_num: 1
+    opaque: |
+      YQAYAAAAAADIAwAAAQAAAAAAAAAAAAAAYADaAwAAyAPIAwAAAAAAAAAAPD94bWwgdmVyc2lvbj0iMS4w
+      IiBlbmNvZGluZz0iVVRGLTgiPz4KPGZhY2VzLWNvbmZpZz4KICA8ZmFjZXMtY29uZmlnLWV4dGVuc2lv
+      bj4KICAgIDxuYW1lc3BhY2UtdXJpPmh0dHA6Ly93d3cuaWJtLmNvbS94c3AvY3VzdG9tPC9uYW1lc3Bh
+      Y2UtdXJpPgogICAgPGRlZmF1bHQtcHJlZml4PnhjPC9kZWZhdWx0LXByZWZpeD4KICAgIDxwdWJsaWM+
+      dHJ1ZTwvcHVibGljPgogIDwvZmFjZXMtY29uZmlnLWV4dGVuc2lvbj4KICA8Y29tcG9zaXRlLWNvbXBv
+      bmVudD4KICAgIDxjb21wb25lbnQtdHlwZT5hdXRob3JQcm9maWxlVmlldzwvY29tcG9uZW50LXR5cGU+
+      CiAgICA8Y29tcG9zaXRlLW5hbWU+YXV0aG9yUHJvZmlsZVZpZXc8L2NvbXBvc2l0ZS1uYW1lPgogICAg
+      PGNvbXBvc2l0ZS1maWxlPi9hdXRob3JQcm9maWxlVmlldy54c3A8L2NvbXBvc2l0ZS1maWxlPgogICAg
+      PGNvbXBvc2l0ZS1leHRlbnNpb24+CiAgICAgIDxkZXNpZ25lci1leHRlbnNpb24+CiAgICAgICAgPGlu
+      LXBhbGV0dGU+dHJ1ZTwvaW4tcGFsZXR0ZT4KICAgICAgICA8cmVuZGVyLW1hcmt1cD4mbHQ7P3htbCB2
+      ZXJzaW9uPSIxLjAiIGVuY29kaW5nPSJVVEYtOCI/Jmd0OyYjeGQ7CiZsdDt4cDp2aWV3IHhtbG5zOnhw
+      PSJodHRwOi8vd3d3LmlibS5jb20veHNwL2NvcmUiJmd0OyYjeGQ7CiZsdDt4cDpwYW5lbCZndDthdXRo
+      b3JQcm9maWxlVmlldyZsdDsveHA6cGFuZWwmZ3Q7JiN4ZDsKJmx0Oy94cDp2aWV3Jmd0OzwvcmVuZGVy
+      LW1hcmt1cD4KICAgICAgPC9kZXNpZ25lci1leHRlbnNpb24+CiAgICA8L2NvbXBvc2l0ZS1leHRlbnNp
+      b24+CiAgICA8cHJvcGVydHk+CiAgICAgIDxwcm9wZXJ0eS1uYW1lPmxvb2t1cE5hbWU8L3Byb3BlcnR5
+      LW5hbWU+CiAgICAgIDxwcm9wZXJ0eS1jbGFzcz5zdHJpbmc8L3Byb3BlcnR5LWNsYXNzPgogICAgPC9w
+      cm9wZXJ0eT4KICA8L2NvbXBvc2l0ZS1jb21wb25lbnQ+CjwvZmFjZXMtY29uZmlnPgo=
+  - name: $FileData
+    type: composite
+    signed: true
+    nonsummary: true
+remaining: []

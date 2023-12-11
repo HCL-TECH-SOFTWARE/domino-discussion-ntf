@@ -1,0 +1,44 @@
+---
+class: 4
+flags: 0x0000
+unid: OF9D6643D54EC3EDDC-ON003BD62080257694
+items:
+  - name: $DesignerVersion
+    type: text
+    data: 8.5.3
+    signed: true
+  - name: $EditFilePath
+    type: text
+    data: "C:\\DOCUME~1\\ADMINI~1\\LOCALS~1\\Temp\\notes7FA095\\~disussiondb3.png"
+    signed: true
+  - name: $Flags
+    type: text
+    data: 34CiQ
+  - name: $FlagsExt
+    type: text
+    data: D
+    signed: true
+  - name: $ImageNames
+    type: text
+    data: disussiondb.png
+    signed: true
+  - name: $ImagesColorize
+    type: number
+    data: 0
+    signed: true
+  - name: $ImagesHigh
+    type: number
+    data: 1
+    signed: true
+  - name: $ImagesWide
+    type: number
+    data: 1
+    signed: true
+  - name: $TITLE
+    type: text
+    data: disussiondb.png
+  - name: $ImageData
+    type: composite
+    signed: true
+    nonsummary: true
+remaining: []

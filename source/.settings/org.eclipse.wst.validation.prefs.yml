@@ -1,0 +1,27 @@
+---
+class: 4
+flags: 0x0000
+unid: OF3F1A98AA71C833CC-ON004EB59985258397
+items:
+  - name: $DesignerVersion
+    type: text
+    data: 8.5.3
+    signed: true
+  - name: $FileNames
+    type: text
+    data: ".settings/org.eclipse.wst.validation.prefs"
+    signed: true
+  - name: $Flags
+    type: text
+    data: ~C4g
+  - name: $Revisions
+    type: time
+    data: "2019-02-04T09:19:43.02-05:00"
+  - name: $TITLE
+    type: text
+    data: ".settings/org.eclipse.wst.validation.prefs"
+  - name: $FileData
+    type: composite
+    signed: true
+    nonsummary: true
+remaining: []

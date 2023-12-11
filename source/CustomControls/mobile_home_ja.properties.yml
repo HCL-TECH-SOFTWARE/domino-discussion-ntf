@@ -1,0 +1,20 @@
+---
+class: 4
+flags: 0x0000
+unid: OFF9AA73A164A45FEF-ON004E0EA980257BB0
+items:
+  - name: $FileNames
+    type: text
+    data: mobile_home_ja.properties
+    signed: true
+  - name: $Flags
+    type: text
+    data: gC~4;2
+  - name: $TITLE
+    type: text
+    data: mobile_home_ja.properties
+  - name: $FileData
+    type: composite
+    signed: true
+    nonsummary: true
+remaining: []

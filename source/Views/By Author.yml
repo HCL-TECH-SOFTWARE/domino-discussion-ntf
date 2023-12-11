@@ -1,0 +1,422 @@
+---
+class: 8
+flags: 0x0000
+unid: OF0052055E85255E6F-ON005ED8BC85255D7F
+items:
+  - name: $COLLATION
+    type_num: 2
+    type: opaque
+    opaque: GgACAABEAGYHAAADAAFmAAMAAwAkMzMkMTQ=
+  - name: $Collation1
+    type_num: 2
+    type: opaque
+    opaque: EAABAABEAGYAAAADACQxNA==
+  - name: $Comment
+    type: text
+    data: ""
+    signed: true
+  - name: $DesignerVersion
+    type: text
+    data: 8.5.3
+    signed: true
+  - name: $FORMULA
+    type: formula
+    data: |
+        (form != "Interest Profile") &
+          (form != "xpConfigProfile") &
+          (!@Contains(@LowerCase(form); "archive"))
+    opaque: |
+      IgQBACYAEABBbm9uVHh0AA+vfwCrayUAAQAJAEFub255bW91cwADAAEALAAPAEFCRnJvbQAQr38Aq2sl
+      AAECAAUAAAAAAAAABQAEAEZyb220AgMAAgCkAAMAJDMzAAUABABmb3JtYQEBAAkAYW5vbnltb3VzAEcC
+      rwB8ABoABQAQAEFub25UeHQAD69/AKtrJQCuAGIABQAEAEZvcm0BABAASW50ZXJlc3QgUHJvZmlsZQoC
+      rwBAACQAAgAFAAAAAAAAAAUADgBGdWxsUGVyc29uTmFtZbQCrgAcAAUADwBBQkZyb20AEK9/AKtrJQAA
+      rgAEALUFAwACAA4AAwAkMTQjaQADAAEAKgATAFByaXZhdGVUeHQAkDtpAIFmJQAEAQAJAFBSSVZBVEU6
+      IAADAAEAKgATAEV4cGlyZWRUeHQAkTtpAIFmJQAEAQAJAEVYUElSRUQ6IAADAAEAfAAPAEF1dGhvcgCS
+      O2kAgWYlAAQFAAQARm9ybQEACQBNYWluVG9waWMACgIFAAcAU3ViamVjdAABAAAACgIcAq8ANgAqAAEA
+      AgAgKAIABQAAAAAAAAAFAAQARnJvbbQCIgIBAAEAKQAiAq4ADAABAAAArgAEALUDAwABAJ4AEwB1c2VT
+      dWJqZWN0AJM7aQCBZiUABAUABABmb3JtAQASAFJlc3BvbnNlVG9SZXNwb25zZQoCrwBgACAABQAWAElt
+      bWVkaWF0ZVBhcmVudFN1YmplY3SuAEAABQAEAGZvcm0BAAgAUmVzcG9uc2UKAq8AJgAaAAUADwBPcmln
+      aW5hbFN1YmplY3QArgAMAAEAAACuAAQAtQUDAAIA/gADACQzNAAFAAcAcmVhZGVycwABAAAACwKvAGAA
+      HgAFABMAUHJpdmF0ZVR4dACQO2kAgWYlAASuAEIABQAKAEV4cGlyZURhdGUBAAAACwKvACoAHgAFABMA
+      RXhwaXJlZFR4dACRO2kAgWYlAASuAAwAAQAAAK4ABAC1BQUABwBTdWJqZWN0ACICBQATAHVzZVN1Ympl
+      Y3QAkztpAIFmJQAEAQAAAAsCrwBOADIAAQAGACAoUkU6IAUAEwB1c2VTdWJqZWN0AJM7aQCBZiUABCIC
+      AQABACkAIgKuABwABQAPAEF1dGhvcgCSO2kAgWYlAACuAAQAtQMiAgMABQAiAB4ABAADAAMAAwAJACQz
+      MyQxNCQzNCRDb25mbGljdAQABAAAAGYABQAEAGZvcm0BABAASW50ZXJlc3QgUHJvZmlsZQsCBAAFAAQA
+      Zm9ybQEADwB4cENvbmZpZ1Byb2ZpbGUACwIEABwCBQAEAGZvcm1hAQEABwBhcmNoaXZlAEcCHgEEABwC
+      AwAHACQAHgAJTDFUM1M0UzZTN1JUVDlTMTBTMTJTMTNSVFQyMlM=
+    signed: true
+    nonsummary: true
+  - name: $FORMULACLASS
+    type: text
+    data: "1"
+    signed: true
+  - name: $Flags
+    type: text
+    data: Y
+  - name: $Index
+    type: text
+    data: /C
+    signed: true
+  - name: $LANGUAGE
+    type: text
+    data: en
+    signed: true
+  - name: $TITLE
+    type: text
+    data: By Author|AuthorView
+    signed: true
+  - name: $VIEWFORMAT
+    type_num: 5
+    type: opaque
+    opaque: |
+      AQADACMAjkwAAFZDgwQDAAEAjAEAABAAAQENCQAAAAAAAAAAAAACAAAgVkMFAQMABAAQAAAASAABAA4J
+      ACABAIgABAEAAAEAACBWQwAAAwAFAHADAAAWAQEADgkAIAIAAAAAAAAAAgAAICQzMyCMAQcAHAAVAHZh
+      cmlhYmxlIHRvIHRyYW5zbGF0ZQAHAAoAAwAJMVMAAQAmABAAQW5vblR4dAAPr38Aq2slAAEACQBBbm9u
+      eW1vdXMAAwAHAA4ABwAJMFIxUzJTAAcAIAAZAGVuZCB2YXJpYWJsZSB0byB0cmFuc2xhdGUABwAMAAUA
+      CTBSMVMAAQAsAA8AQUJGcm9tABCvfwCrayUAAQIABQAAAAAAAAAFAAQARnJvbbQCAwAHABAACQAJMFIx
+      UzJTNlMAAgCkAAMAJDMzAAUABABmb3JtYQEBAAkAYW5vbnltb3VzAEcCrwB8ABoABQAQAEFub25UeHQA
+      D69/AKtrJQCuAGIABQAEAEZvcm0BABAASW50ZXJlc3QgUHJvZmlsZQoCrwBAACQAAgAFAAAAAAAAAAUA
+      DgBGdWxsUGVyc29uTmFtZbQCrgAcAAUADwBBQkZyb20AEK9/AKtrJQAArgAEALUFAwAHACQAHQAJMFJS
+      MlI5UzEyUzE0UzE1UzE2UzE4UzIyUzI1UwAkMTREYXRlEAACAA4AAwAkMTQjaQADACQzNFRvcGljcAMH
+      ABwAFgBWYXJpYWJsZXMgdG8gdHJhbnNsYXRlBwAKAAMACTFTAAEAKgATAFByaXZhdGVUeHQAkDtpAIFm
+      JQAEAQAJAFBSSVZBVEU6IAADAAcADgAHAAkwUjFTMlMAAQAqABMARXhwaXJlZFR4dACRO2kAgWYlAAQB
+      AAkARVhQSVJFRDogAAMABwAOAAcACTBSMVMyUwAHACAAGgBFbmQgdmFyaWFibGVzIHRvIHRyYW5zbGF0
+      ZQcADAAFAAkwUjFTAAEAfAAPAEF1dGhvcgCSO2kAgWYlAAQFAAQARm9ybQEACQBNYWluVG9waWMACgIF
+      AAcAU3ViamVjdAABAAAACgIcAq8ANgAqAAEAAgAgKAIABQAAAAAAAAAFAAQARnJvbbQCIgIBAAEAKQAi
+      Aq4ADAABAAAArgAEALUDAwAHADAAKQAJMFIxUzJTNVM2UzdTOFM5UzEwUzEyUzEzUzE0UzE4UzIwUzIx
+      UzIzUwABAJ4AEwB1c2VTdWJqZWN0AJM7aQCBZiUABAUABABmb3JtAQASAFJlc3BvbnNlVG9SZXNwb25z
+      ZQoCrwBgACAABQAWAEltbWVkaWF0ZVBhcmVudFN1YmplY3SuAEAABQAEAGZvcm0BAAgAUmVzcG9uc2UK
+      Aq8AJgAaAAUADwBPcmlnaW5hbFN1YmplY3QArgAMAAEAAACuAAQAtQUDAAcAIgAcAAkwUjFTMlI1UzZT
+      OFMxMFMxMVMxMlMxNFMxNlMCAP4AAwAkMzQABQAHAHJlYWRlcnMAAQAAAAsCrwBgAB4ABQATAFByaXZh
+      dGVUeHQAkDtpAIFmJQAErgBCAAUACgBFeHBpcmVEYXRlAQAAAAsCrwAqAB4ABQATAEV4cGlyZWRUeHQA
+      kTtpAIFmJQAErgAMAAEAAACuAAQAtQUFAAcAU3ViamVjdAAiAgUAEwB1c2VTdWJqZWN0AJM7aQCBZiUA
+      BAEAAAALAq8ATgAyAAEABgAgKFJFOiAFABMAdXNlU3ViamVjdACTO2kAgWYlAAQiAgEAAQApACICrgAc
+      AAUADwBBdXRob3IAkjtpAIFmJQAArgAEALUDIgIDAAcAQgA7AAkwUlIzUzRTNlM4UzlTMTBTMTJTMTRT
+      MTZTMTdTMThTMTlTMjJTMjNTMjVTMjZTMjdTMjhTMjlTMzFTACYAAQAAAAEBAAkBAAgKAQEECgAAPwCt
+      KwQAAQABAQAAAAAAAAAAV0MBAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//8AAAAAAAAAAAAAAAAA
+      AFdDAQAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//AAAAAAAAAAAAAAAAAABXQwIAAAkAAAAAAAAA
+      AAAAAAAAAAAAAAAAAAAAAAD//wAAAAAAAAAAAAAAAAAAQgBACAAAAQD///8AAQDv7+8AAQAAAAAAAAAA
+      AAAAAQABAP///wABALTVxQAAAAEAgAAAAAEAAAD/AAEAAAAAAAAACAAAAAAAAQA=
+    signed: true
+    nonsummary: true
+  - name: $WebFlags
+    type: text
+    data: S
+    signed: true
+  - name: $ACTIONS
+    type: composite
+    signed: true
+    nonsummary: true
+    data:
+      - type: 0x00bd
+        BackColor: 213
+        BorderStyle: 1
+        BorderWidth: 0
+        BtnHeight: 8
+        FontID: 0x09000002
+        HeightSpc: 5
+        LineColor: 0
+        LineStyle: 1
+        ShareID: 0x00000000
+        dwFlags: 0x00000041
+      - type: 0xffbe
+        Flags: 0x0000419d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: AQBOfA==
+        title: Categori_ze
+      - type: 0xffbe
+        Flags: 0x0000419c
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: AgADCg==
+        title: Send Docu_ment
+      - type: 0xffbe
+        Flags: 0x0000419d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: AwA9fA==
+        title: _Move to Folder...
+      - type: 0xffbe
+        Flags: 0x0000419d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: BAA+fA==
+        title: _Remove from Folder...
+      - type: 0xffbe
+        Flags: 0x0000419d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: BQAECg==
+        title: _Forward
+      - type: 0xffbe
+        Flags: 0x0000419d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: BgACCg==
+        title: _Edit Document
+      - type: 0xffbe
+        Flags: 0x0001009a
+        IconIndex: 0
+        ShareId: 5
+        Type: 1
+        data: |
+          viewname := @Subset(@ViewTitle; -1);
+          @SetProfileField("tmpProfile"; "viewtitle"; viewname);
+          @PostedCommand([Compose];"MainTopic")
+        data_opaque: |
+          mAABACAACAB2aWV3bmFtZZ0AAAAAAAAAAADwPxABawIDAAcADgAHAAkxUzJTNlMACAAwAAEACgB0bXBQ
+          cm9maWxlAQAJAHZpZXd0aXRsZQAFAAgAdmlld25hbWX4AwMABwAOAAcACTBSNFM2UwAAACAAAgDoAwAA
+          AAAAAAEACQBNYWluVG9waWMAsQIDAAcACgADAAkwUgA=
+        title: New Main Topic
+      - type: 0xffbe
+        Flags: 0x0001000a
+        IconIndex: 0
+        ShareId: 36
+        Type: 1
+        data: |
+          viewname := @Subset(@ViewTitle; -1);
+          @SetProfileField("tmpProfile"; "viewtitle"; viewname);
+          @PostedCommand([Compose];"Response")
+        data_opaque: |
+          lgABACAACAB2aWV3bmFtZZ0AAAAAAAAAAADwPxABawIDAAcADgAHAAkxUzJTNlMACAAwAAEACgB0bXBQ
+          cm9maWxlAQAJAHZpZXd0aXRsZQAFAAgAdmlld25hbWX4AwMABwAOAAcACTBSNFM2UwAAAB4AAgDoAwAA
+          AAAAAAEACABSZXNwb25zZbECAwAHAAoAAwAJMFIA
+        hidewhen: |
+          REM {hide from web if it's in a view};
+          @ClientType != "Notes" & !@IsAvailable(form)
+        hidewhen_opaque: |
+          bAAKAAQABwAmAB8AaGlkZSBmcm9tIHdlYiBpZiBpdCdzIGluIGEgdmlldwAHAAoAAwAJMVMAAAAkAPsA
+          BQEBAAUATm90ZXMACwIFAAQAZm9ybWgBHgEcAgMABwASAAsACTBSMVMyUzNTNFMA
+        title: New Response
+      - type: 0xffbe
+        Flags: 0x0001219e
+        IconIndex: 0
+        ShareId: 31
+        Type: 1
+        data: "@Command([MoveToTrash])"
+        data_opaque: IAAAABIAAgBMHQAAAAAAAO0BAwAHAAwABQAJMFMwRQA=
+        title: Move to Trash
+      - type: 0xffbe
+        Flags: 0x0001219e
+        IconIndex: 0
+        ShareId: 32
+        Type: 1
+        data: "@Command([EmptyTrash])"
+        data_opaque: IAAAABIAAgD9BwAAAAAAAO0BAwAHAAwABQAJMFMwRQA=
+        title: EmptyTrash
+      - type: 0xffbe
+        Flags: 0x0001219e
+        IconIndex: 0
+        ShareId: 17
+        Type: 1
+        data: |
+          REM {Web only; in views};
+          @Command([ViewShowSearchBar])
+        data_opaque: |
+          QAAHABgAEgBXZWIgb25seTsgaW4gdmlld3MHAAoAAwAJMVMAAAASAAIAkBcAAAAAAADtAQMABwAKAAMA
+          CTBSAA==
+        title: Search
+  - name: $V5ACTIONS
+    type: composite
+    signed: true
+    nonsummary: true
+    data:
+      - type: 0x00bd
+        BackColor: 213
+        BorderStyle: 1
+        BorderWidth: 0
+        BtnHeight: 8
+        FontID: 0x09000002
+        HeightSpc: 5
+        LineColor: 0
+        LineStyle: 1
+        ShareID: 0x00000000
+        dwFlags: 0x00000041
+      - type: 0xff79
+        BackColor:
+          Flags: 0x0001
+          rgb: 0x8bbc9d
+        BtnBorderDisplay: 3
+        BtnTextJustify: 0
+        BtnWidthStyle: 0
+        ButtonColor:
+          Flags: 0x0001
+          rgb: 0xbad5c5
+        FontColor:
+          Flags: 0x0001
+          rgb: 0x000000
+        LineColor:
+          Flags: 0x0001
+          rgb: 0x000000
+        Spare:
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+        barFontID: 0x09000002
+        barHeight:
+          Flags: 0x0000
+          Length:
+            - 0
+            - 0
+            - 0
+            - 0
+            - 0
+            - 0
+            - 19
+            - 64
+          Reserved: 0
+          Units: 5
+        dwFlags: 0x00000003
+        wAppletHeight: 34
+        wBarBackgroundRepeat: 0
+        wBtnInternalMargin: 0
+        wBtnWidthAbsolute: 0
+        wSpare: 0x0000
+        wThemeSetting: 0
+      - type: 0xfffc
+        BorderFlags: 0
+        BorderStyle: 0
+        BorderWidthBottom: 1
+        BorderWidthLeft: 0
+        BorderWidthRight: 0
+        BorderWidthTop: 0
+        Color:
+          Flags: 0x0001
+          rgb: 0x000000
+        DropShadowWidth: 0
+        Flags: 0x00000000
+        InnerWidthBottom: 0
+        InnerWidthLeft: 0
+        InnerWidthRight: 0
+        InnerWidthTop: 0
+        OuterWidthBottom: 0
+        OuterWidthLeft: 0
+        OuterWidthRight: 0
+        OuterWidthTop: 0
+        dwSpare: 0x00000000
+        wSpares:
+          - 0x0000
+          - 0x0000
+          - 0x0000
+          - 0x0000
+          - 0x0000
+      - type: 0xffbe
+        Flags: 0x0000419d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: AQBOfA==
+        title: Categori_ze
+      - type: 0xffbe
+        Flags: 0x0000419c
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: AgADCg==
+        title: Send Docu_ment
+      - type: 0xffbe
+        Flags: 0x0000419d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: AwA9fA==
+        title: _Move to Folder...
+      - type: 0xffbe
+        Flags: 0x0000419d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: BAA+fA==
+        title: _Remove from Folder...
+      - type: 0xffbe
+        Flags: 0x0000419d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: BQAECg==
+        title: _Forward
+      - type: 0xffbe
+        Flags: 0x0000419d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: BgACCg==
+        title: _Edit Document
+      - type: 0xffbe
+        Flags: 0x0001009a
+        IconIndex: 0
+        ShareId: 5
+        Type: 1
+        data: |
+          viewname := @Subset(@ViewTitle; -1);
+          @SetProfileField("tmpProfile"; "viewtitle"; viewname);
+          @PostedCommand([Compose];"MainTopic")
+        data_opaque: |
+          mAABACAACAB2aWV3bmFtZZ0AAAAAAAAAAADwPxABawIDAAcADgAHAAkxUzJTNlMACAAwAAEACgB0bXBQ
+          cm9maWxlAQAJAHZpZXd0aXRsZQAFAAgAdmlld25hbWX4AwMABwAOAAcACTBSNFM2UwAAACAAAgDoAwAA
+          AAAAAAEACQBNYWluVG9waWMAsQIDAAcACgADAAkwUgA=
+        title: New Main Topic
+      - type: 0xffbe
+        Flags: 0x0001000a
+        IconIndex: 0
+        ShareId: 36
+        Type: 1
+        data: |
+          viewname := @Subset(@ViewTitle; -1);
+          @SetProfileField("tmpProfile"; "viewtitle"; viewname);
+          @PostedCommand([Compose];"Response")
+        data_opaque: |
+          lgABACAACAB2aWV3bmFtZZ0AAAAAAAAAAADwPxABawIDAAcADgAHAAkxUzJTNlMACAAwAAEACgB0bXBQ
+          cm9maWxlAQAJAHZpZXd0aXRsZQAFAAgAdmlld25hbWX4AwMABwAOAAcACTBSNFM2UwAAAB4AAgDoAwAA
+          AAAAAAEACABSZXNwb25zZbECAwAHAAoAAwAJMFIA
+        hidewhen: |
+          REM {hide from web if it's in a view};
+          @ClientType != "Notes" & !@IsAvailable(form)
+        hidewhen_opaque: |
+          bAAKAAQABwAmAB8AaGlkZSBmcm9tIHdlYiBpZiBpdCdzIGluIGEgdmlldwAHAAoAAwAJMVMAAAAkAPsA
+          BQEBAAUATm90ZXMACwIFAAQAZm9ybWgBHgEcAgMABwASAAsACTBSMVMyUzNTNFMA
+        title: New Response
+      - type: 0xffbe
+        Flags: 0x0001219e
+        IconIndex: 0
+        ShareId: 31
+        Type: 1
+        data: "@Command([MoveToTrash])"
+        data_opaque: IAAAABIAAgBMHQAAAAAAAO0BAwAHAAwABQAJMFMwRQA=
+        title: Move to Trash
+      - type: 0xffbe
+        Flags: 0x0001219e
+        IconIndex: 0
+        ShareId: 32
+        Type: 1
+        data: "@Command([EmptyTrash])"
+        data_opaque: IAAAABIAAgD9BwAAAAAAAO0BAwAHAAwABQAJMFMwRQA=
+        title: EmptyTrash
+      - type: 0xffbe
+        Flags: 0x0001219e
+        IconIndex: 0
+        ShareId: 17
+        Type: 1
+        data: |
+          REM {Web only; in views};
+          @Command([ViewShowSearchBar])
+        data_opaque: |
+          QAAHABgAEgBXZWIgb25seTsgaW4gdmlld3MHAAoAAwAJMVMAAAASAAIAkBcAAAAAAADtAQMABwAKAAMA
+          CTBSAA==
+        title: Search
+remaining: []

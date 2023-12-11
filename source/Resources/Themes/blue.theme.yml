@@ -1,0 +1,38 @@
+---
+class: 4
+flags: 0x0000
+unid: OFD2151B879CAB9489-ON002EC5D3802575FA
+items:
+  - name: $$ScriptName
+    type: text
+    data: blue.theme
+    signed: true
+    nonsummary: true
+  - name: $CSSFiles
+    type: text
+    data:
+      - blue.css
+      - blue_ie06.css
+      - blue_ie78.css
+      - commonRTL.css
+      - pagerRTL.css
+    signed: true
+  - name: $DesignerVersion
+    type: text
+    data: 8.5.3
+    signed: true
+  - name: $FileNames
+    type: text
+    data: blue.theme
+    signed: true
+  - name: $Flags
+    type: text
+    data: "34567Cg~`"
+  - name: $TITLE
+    type: text
+    data: blue.theme
+  - name: $FileData
+    type: composite
+    signed: true
+    nonsummary: true
+remaining: []

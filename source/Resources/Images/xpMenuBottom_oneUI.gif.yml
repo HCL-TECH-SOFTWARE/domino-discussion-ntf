@@ -1,0 +1,40 @@
+---
+class: 4
+flags: 0x0000
+unid: OF5C5E8DCE8C31D2FB-ON001E289C85257487
+items:
+  - name: $DesignerVersion
+    type: text
+    data: 8.5.3
+    signed: true
+  - name: $Flags
+    type: text
+    data: D34CiQ
+  - name: $FlagsExt
+    type: text
+    data: D
+    signed: true
+  - name: $ImageNames
+    type: text
+    data: xpMenuBottom_oneUI.gif
+    signed: true
+  - name: $ImagesColorize
+    type: number
+    data: 0
+    signed: true
+  - name: $ImagesHigh
+    type: number
+    data: 1
+    signed: true
+  - name: $ImagesWide
+    type: number
+    data: 1
+    signed: true
+  - name: $TITLE
+    type: text
+    data: xpMenuBottom_oneUI.gif
+  - name: $ImageData
+    type: composite
+    signed: true
+    nonsummary: true
+remaining: []

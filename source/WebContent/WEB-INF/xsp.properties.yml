@@ -1,0 +1,88 @@
+---
+class: 4
+flags: 0x0000
+unid: OF96FAC8B0AD5D4C7D-ON00053AE58525745C
+items:
+  - name: $$ScriptName
+    type: text
+    data: WEB-INF/xsp.properties
+    signed: true
+    nonsummary: true
+  - name: $DesignerVersion
+    type: text
+    data: 8.5.3
+    signed: true
+  - name: $FileNames
+    type: text
+    data: WEB-INF/xsp.properties
+    signed: true
+  - name: $Flags
+    type: text
+    data: ~Cg4
+  - name: $FlagsExt
+    type: text
+    data: w
+    signed: true
+  - name: $Revisions
+    type: time
+    data:
+      - data: "2011-08-30T20:49:47.06-04:00"
+        dst: true
+      - data: "2011-09-01T11:28:11.55+01:00"
+        dst: true
+      - data: "2011-09-01T11:33:50.77+01:00"
+        dst: true
+      - data: "2011-09-01T11:53:25.68+01:00"
+        dst: true
+      - data: "2011-09-01T12:04:14.54+01:00"
+        dst: true
+      - data: "2011-09-02T14:46:15.73+01:00"
+        dst: true
+      - data: "2011-09-20T14:22:54.22+01:00"
+        dst: true
+      - data: "2011-09-21T08:35:55.32+01:00"
+        dst: true
+      - data: "2011-10-06T15:58:18.10+01:00"
+        dst: true
+      - data: "2011-10-07T14:51:01.89+01:00"
+        dst: true
+      - data: "2011-10-07T14:56:29.99+01:00"
+        dst: true
+      - data: "2011-10-07T14:58:26.53+01:00"
+        dst: true
+      - data: "2011-10-07T15:02:07.68+01:00"
+        dst: true
+      - data: "2011-10-07T15:05:36.85+01:00"
+        dst: true
+      - data: "2011-10-07T15:06:00.27+01:00"
+        dst: true
+      - data: "2011-10-07T15:06:30.55+01:00"
+        dst: true
+      - data: "2011-10-07T15:07:27.78+01:00"
+        dst: true
+      - data: "2011-10-09T08:29:26.07-04:00"
+        dst: true
+      - data: "2011-10-24T11:52:51.55+01:00"
+        dst: true
+      - data: "2011-10-26T12:22:05.19+01:00"
+        dst: true
+      - data: "2011-10-26T16:40:09.44+01:00"
+        dst: true
+      - data: "2011-10-26T22:52:20.41+01:00"
+        dst: true
+      - data: "2011-10-26T22:55:25.60+01:00"
+        dst: true
+      - data: "2011-10-26T22:56:11.23+01:00"
+        dst: true
+      - data: "2011-10-26T22:56:44.70+01:00"
+        dst: true
+      - data: "2011-10-28T15:30:19.60+01:00"
+        dst: true
+  - name: $TITLE
+    type: text
+    data: WEB-INF/xsp.properties
+  - name: $FileData
+    type: composite
+    signed: true
+    nonsummary: true
+remaining: []

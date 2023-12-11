@@ -1,0 +1,20 @@
+---
+class: 4
+flags: 0x0000
+unid: OF331ED7B5B2B6F66C-ON0034409180257BB0
+items:
+  - name: $FileNames
+    type: text
+    data: viewMenu_sk.properties
+    signed: true
+  - name: $Flags
+    type: text
+    data: gC~4;2
+  - name: $TITLE
+    type: text
+    data: viewMenu_sk.properties
+  - name: $FileData
+    type: composite
+    signed: true
+    nonsummary: true
+remaining: []

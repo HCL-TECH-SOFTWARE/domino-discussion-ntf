@@ -1,0 +1,47 @@
+---
+class: 4
+flags: 0x0000
+unid: OF36E26978D4E18429-ON003BD62580257694
+items:
+  - name: $DesignerVersion
+    type: text
+    data: 8.5.3
+    signed: true
+  - name: $Flags
+    type: text
+    data: D34CiQ
+  - name: $FlagsExt
+    type: text
+    data: D
+    signed: true
+  - name: $ImageNames
+    type: text
+    data: out_mygroups.gif
+    signed: true
+  - name: $ImagesColorize
+    type: number
+    data: 0
+    signed: true
+  - name: $ImagesHigh
+    type: number
+    data: 1
+    signed: true
+  - name: $ImagesWide
+    type: number
+    data: 1
+    signed: true
+  - name: $LANGUAGE
+    type: text
+    data: en
+    signed: true
+  - name: $TITLE
+    type: text
+    data:
+      - outl_MyGroups.gif
+      - MyGroups.gif
+    signed: true
+  - name: $ImageData
+    type: composite
+    signed: true
+    nonsummary: true
+remaining: []

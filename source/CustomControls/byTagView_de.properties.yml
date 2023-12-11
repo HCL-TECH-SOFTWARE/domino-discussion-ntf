@@ -1,0 +1,20 @@
+---
+class: 4
+flags: 0x0000
+unid: OFA13704E9384C6AE6-ON0033E56B80257BB0
+items:
+  - name: $FileNames
+    type: text
+    data: byTagView_de.properties
+    signed: true
+  - name: $Flags
+    type: text
+    data: gC~4;2
+  - name: $TITLE
+    type: text
+    data: byTagView_de.properties
+  - name: $FileData
+    type: composite
+    signed: true
+    nonsummary: true
+remaining: []

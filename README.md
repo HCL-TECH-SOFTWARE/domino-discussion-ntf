@@ -1,12 +1,12 @@
-# Domino Discussion Template 
+# Domino Discussion Template
 
 ## Info
-Property | Value   
+Property | Value
 ---|---
 Filename | discussion12.ntf
 Templatename | StdR12Discussion
 Template version | 12.0.1
-Signed by | 
+Signed by | Open Source Template/Domino Development
 Optimized for | Notes Client & Web
 
 ## What does this database do?
@@ -27,7 +27,7 @@ This template is designed for users accessing the information either from a Note
 
 ### Access Control
 
-The default access of a database created with this template is "Author". 
+The default access of a database created with this template is "Author".
 The "Configuration" role is required to access the "Configuration Profile" outline entry and to be able to make modifications for the web interface.
 
 ## Documentation
@@ -40,4 +40,4 @@ For issues please use the [GitHub issue tracker](issues)
 We welcome contributions following [our guidelines](CONTRIBUTING.md).
 
 ## License
-The files in this repository are licensed under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0.html). 
+The files in this repository are licensed under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0.html).

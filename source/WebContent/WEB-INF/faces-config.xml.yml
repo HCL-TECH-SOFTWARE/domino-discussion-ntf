@@ -1,0 +1,44 @@
+---
+class: 4
+flags: 0x0000
+unid: OF1916E61A0B59863B-ON00045CFB8525748B
+items:
+  - name: $$ScriptName
+    type: text
+    data: WEB-INF/faces-config.xml
+    signed: true
+    nonsummary: true
+  - name: $DesignerVersion
+    type: text
+    data: 8.5.3
+    signed: true
+  - name: $FileNames
+    type: text
+    data: WEB-INF/faces-config.xml
+    signed: true
+  - name: $Flags
+    type: text
+    data: ~Cg4
+  - name: $FlagsExt
+    type: text
+    data: w
+    signed: true
+  - name: $Revisions
+    type: time
+    data:
+      - data: "2011-08-30T20:49:47.84-04:00"
+        dst: true
+      - data: "2011-09-01T11:28:11.51+01:00"
+        dst: true
+      - data: "2011-10-06T15:58:18.06+01:00"
+        dst: true
+      - data: "2011-10-26T12:22:05.15+01:00"
+        dst: true
+  - name: $TITLE
+    type: text
+    data: WEB-INF/faces-config.xml
+  - name: $FileData
+    type: composite
+    signed: true
+    nonsummary: true
+remaining: []

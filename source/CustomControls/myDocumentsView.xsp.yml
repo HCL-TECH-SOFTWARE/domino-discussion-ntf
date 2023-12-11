@@ -1,0 +1,51 @@
+---
+class: 4
+flags: 0x0000
+unid: OFBB2C7981C3026F98-ON004C624C80257917
+items:
+  - name: $ConfigSize
+    type: number
+    data: 963
+    signed: true
+  - name: $DesignerVersion
+    type: text
+    data: 9.0.1
+    signed: true
+  - name: $FileNames
+    type: text
+    data: myDocumentsView.xsp
+    signed: true
+  - name: $Flags
+    type: text
+    data: gC~4;
+  - name: $TITLE
+    type: text
+    data: myDocumentsView.xsp
+  - name: $ConfigData
+    signed: true
+    nonsummary: true
+    type: opaque
+    type_num: 1
+    opaque: |
+      YQAYAAAAAADDAwAAAQAAAAAAAAAAAAAAYADVAwAAwwPEAwAAAAAAAAAAPD94bWwgdmVyc2lvbj0iMS4w
+      IiBlbmNvZGluZz0iVVRGLTgiPz4KPGZhY2VzLWNvbmZpZz4KICA8ZmFjZXMtY29uZmlnLWV4dGVuc2lv
+      bj4KICAgIDxuYW1lc3BhY2UtdXJpPmh0dHA6Ly93d3cuaWJtLmNvbS94c3AvY3VzdG9tPC9uYW1lc3Bh
+      Y2UtdXJpPgogICAgPGRlZmF1bHQtcHJlZml4PnhjPC9kZWZhdWx0LXByZWZpeD4KICAgIDxwdWJsaWM+
+      dHJ1ZTwvcHVibGljPgogIDwvZmFjZXMtY29uZmlnLWV4dGVuc2lvbj4KICA8Y29tcG9zaXRlLWNvbXBv
+      bmVudD4KICAgIDxjb21wb25lbnQtdHlwZT5teURvY3VtZW50c1ZpZXc8L2NvbXBvbmVudC10eXBlPgog
+      ICAgPGNvbXBvc2l0ZS1uYW1lPm15RG9jdW1lbnRzVmlldzwvY29tcG9zaXRlLW5hbWU+CiAgICA8Y29t
+      cG9zaXRlLWZpbGU+L215RG9jdW1lbnRzVmlldy54c3A8L2NvbXBvc2l0ZS1maWxlPgogICAgPGNvbXBv
+      c2l0ZS1leHRlbnNpb24+CiAgICAgIDxkZXNpZ25lci1leHRlbnNpb24+CiAgICAgICAgPGluLXBhbGV0
+      dGU+dHJ1ZTwvaW4tcGFsZXR0ZT4KICAgICAgICA8cmVuZGVyLW1hcmt1cD4mbHQ7P3htbCB2ZXJzaW9u
+      PSIxLjAiIGVuY29kaW5nPSJVVEYtOCI/Jmd0OyYjeGQ7CiZsdDt4cDp2aWV3IHhtbG5zOnhwPSJodHRw
+      Oi8vd3d3LmlibS5jb20veHNwL2NvcmUiJmd0OyYjeGQ7CiZsdDt4cDpwYW5lbCZndDsmI3hkOwpteURv
+      Y3VtZW50c1ZpZXcmI3hkOwombHQ7L3hwOnBhbmVsJmd0OyYjeGQ7CiZsdDsveHA6dmlldyZndDs8L3Jl
+      bmRlci1tYXJrdXA+CiAgICAgIDwvZGVzaWduZXItZXh0ZW5zaW9uPgogICAgPC9jb21wb3NpdGUtZXh0
+      ZW5zaW9uPgogICAgPHByb3BlcnR5PgogICAgICA8cHJvcGVydHktbmFtZT5yb3dzPC9wcm9wZXJ0eS1u
+      YW1lPgogICAgICA8cHJvcGVydHktY2xhc3M+aW50PC9wcm9wZXJ0eS1jbGFzcz4KICAgIDwvcHJvcGVy
+      dHk+CiAgPC9jb21wb3NpdGUtY29tcG9uZW50Pgo8L2ZhY2VzLWNvbmZpZz4KAA==
+  - name: $FileData
+    type: composite
+    signed: true
+    nonsummary: true
+remaining: []

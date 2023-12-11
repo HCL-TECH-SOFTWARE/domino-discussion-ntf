@@ -1,0 +1,280 @@
+---
+class: 8
+flags: 0x0000
+unid: OFE0D42A07D7F1C146-ON00493BF18525667D
+items:
+  - name: $COLLATION
+    type_num: 2
+    type: opaque
+    opaque: EAABAABEAGYAAAADACQ0OQ==
+  - name: $Comment
+    type: text
+    data: ""
+    signed: true
+  - name: $DesignerVersion
+    type: text
+    data: "7"
+    signed: true
+  - name: $FORMULA
+    type: formula
+    data: " (form = \"Interest Profile\")"
+    opaque: |
+      ogEBAGQADgBQTmFtZQB9+lIAMGclAAUADgBGdWxsUGVyc29uTmFtZWgBrwA4ABgABQAOAEZ1bGxQZXJz
+      b25OYW1lrgAgAAUABwBSZWFkZXJzAAAAAAAAAAAA8D9rAq4ABAC1AwMAAQA4ABEAQWJick5hbWUAfvpS
+      ADBnJQAJAgAFAAAAAAAAAAUADgBQTmFtZQB9+lIAMGclALQCAwABAD4AEgBycGxTTE5hbWUAf/pSADBn
+      JQAFABEAQWJicm5hbWUAfvpSADBnJQDvAQABAC8AAQACAF9fhAMDAAEAPgASAHJwbHNwTmFtZQCA+lIA
+      MGclAAUAEgBycGxTTE5hbWUAf/pSADBnJQABAAEAIAABAAEAXwCEAwMAAgAiAAMAJDQ5AAUAEgBycGxz
+      cE5hbWUAgPpSADBnJQADAAIAEAADACQzMgCQAFYBAwAFAB4AGQADAAMAAwAJACQ0OSQzMiRDb25mbGlj
+      dAAEAAQAAAAmAAUABABmb3JtAQAQAEludGVyZXN0IFByb2ZpbGUKAgQAAwAHAA4ACAAJTDFTM1M0Uw==
+    signed: true
+  - name: $FORMULACLASS
+    type: text
+    data: "1"
+    signed: true
+  - name: $Flags
+    type: text
+    data: Y
+  - name: $Index
+    type: text
+    data: ""
+    signed: true
+  - name: $LANGUAGE
+    type: text
+    data: en
+    signed: true
+  - name: $TITLE
+    type: text
+    data: (LookupInterestProfiles)|LookupInterestProfiles
+    signed: true
+  - name: $VIEWFORMAT
+    type_num: 5
+    type: opaque
+    opaque: |
+      AQACADIAjgwAAFZDAQADAAAA/gEAALAAAQABCQAAAAAAAAAAAAICAAAAVkMAAAMAAAAeAAAA2gABAAEJ
+      AAAAAAAAAAAAAgIAAAAkNDn+AQcAbABmAEZvciB3ZWIgbG9va3Vwcywgd2UgbXVzdCByZXBsYWNlIHRo
+      ZSBmb3J3YXJkIHNsYXNoIGluIGhpZXJhcmNoaWNhbCBuYW1lcyB3aXRoIGEgbm9uLXJlc2VydmVkIGNo
+      YXJhY3RlcgcACgADAAkxUwABAGQADgBQTmFtZQB9+lIAMGclAAUADgBGdWxsUGVyc29uTmFtZWgBrwA4
+      ABgABQAOAEZ1bGxQZXJzb25OYW1lrgAgAAUABwBSZWFkZXJzAAAAAAAAAAAA8D9rAq4ABAC1AwMABwAS
+      AAwACTBSMVMyUzlTMTFTAQA4ABEAQWJick5hbWUAfvpSADBnJQAJAgAFAAAAAAAAAAUADgBQTmFtZQB9
+      +lIAMGclALQCAwAHABAACQAJMFIxUzJTNlMAAQA+ABIAcnBsU0xOYW1lAH/6UgAwZyUABQARAEFiYnJu
+      YW1lAH76UgAwZyUA7wEAAQAvAAEAAgBfX4QDAwAHABIACwAJMFIxUzJTNlM4UwABAD4AEgBycGxzcE5h
+      bWUAgPpSADBnJQAFABIAcnBsU0xOYW1lAH/6UgAwZyUAAQABACAAAQABAF8AhAMDAAcADgAHAAkwUjFT
+      MlMAAgAiAAMAJDQ5AAUAEgBycGxzcE5hbWUAgPpSADBnJQADAAcACgADAAkwUgAkMzIeAAIAEAADACQz
+      MgCQAFYBAwAHAAwABQAJMFMwRQAmAAEAAAABAQAJAQAICgEBBAoAAD8ArSsCAAEAAQAAAAAAAAAAAFdD
+      AQAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//AAAAAAAAAAAAAAAAAABXQwEAAAkAAAAAAAAAAAAA
+      AAAAAAAAAAAAAAAAAAD//wAAAAAAAAAAAAAAAAAAQgBAAAAAAQD///8AAQDv7+8AAQAAAAAAAAAAAAAA
+      AQABAP///wABALTVxQAAAAEAgAAAAAEAAAD/AAEAAAAAAAAACAAAAAAAAQA=
+    signed: true
+  - name: $WebFlags
+    type: text
+    data: YS
+    signed: true
+  - name: $ACTIONS
+    type: composite
+    signed: true
+    nonsummary: true
+    data:
+      - type: 0x00bd
+        BackColor: 15
+        BorderStyle: 0
+        BorderWidth: 0
+        BtnHeight: 8
+        FontID: 0x00000000
+        HeightSpc: 0
+        LineColor: 0
+        LineStyle: 1
+        ShareID: 0x00000000
+        dwFlags: 0x00000000
+      - type: 0xffbe
+        Flags: 0x0000019d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: AQBOfA==
+        title: Categori_ze
+      - type: 0xffbe
+        Flags: 0x0000019d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: AgACCg==
+        title: _Edit Document
+      - type: 0xffbe
+        Flags: 0x0000019c
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: AwADCg==
+        title: Send Docu_ment
+      - type: 0xffbe
+        Flags: 0x0000019d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: BAAECg==
+        title: _Forward
+      - type: 0xffbe
+        Flags: 0x0000019d
+        IconIndex: 0
+        ShareId: 0
+        Type: 1
+        data: "@Command([Compose]; @MailDbName; \"Bookmark\")"
+        data_opaque: LgAAACAAAgDoAwAAAAAAAKwAAQAIAEJvb2ttYXJr7QMDAAcADAAFAAk0UzZTAA==
+        title: Forward as Bookmark
+      - type: 0xffbe
+        Flags: 0x0000019d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: BgA9fA==
+        title: _Move to Folder...
+      - type: 0xffbe
+        Flags: 0x0000019d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: BwA+fA==
+        title: _Remove from Folder...
+  - name: $V5ACTIONS
+    type: composite
+    signed: true
+    nonsummary: true
+    data:
+      - type: 0x00bd
+        BackColor: 15
+        BorderStyle: 0
+        BorderWidth: 0
+        BtnHeight: 8
+        FontID: 0x00000000
+        HeightSpc: 0
+        LineColor: 0
+        LineStyle: 1
+        ShareID: 0x00000000
+        dwFlags: 0x00000000
+      - type: 0xff79
+        BackColor:
+          Flags: 0x0001
+          rgb: 0xc0c0c0
+        BtnBorderDisplay: 0
+        BtnTextJustify: 0
+        BtnWidthStyle: 0
+        ButtonColor:
+          Flags: 0x0001
+          rgb: 0xc0c0c0
+        FontColor:
+          Flags: 0x0001
+          rgb: 0x000000
+        LineColor:
+          Flags: 0x0001
+          rgb: 0x000000
+        Spare:
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+        barFontID: 0x00000000
+        barHeight:
+          Flags: 0x0000
+          Length:
+            - 0
+            - 0
+            - 0
+            - 0
+            - 0
+            - 0
+            - 0
+            - 0
+          Reserved: 0
+          Units: 0
+        dwFlags: 0x00000003
+        wAppletHeight: 31
+        wBarBackgroundRepeat: 0
+        wBtnInternalMargin: 0
+        wBtnWidthAbsolute: 0
+        wSpare: 0x0000
+        wThemeSetting: 0
+      - type: 0xfffc
+        BorderFlags: 0
+        BorderStyle: 1
+        BorderWidthBottom: 1
+        BorderWidthLeft: 0
+        BorderWidthRight: 0
+        BorderWidthTop: 0
+        Color:
+          Flags: 0x0005
+          rgb: 0xffffff
+        DropShadowWidth: 0
+        Flags: 0x00000000
+        InnerWidthBottom: 0
+        InnerWidthLeft: 0
+        InnerWidthRight: 0
+        InnerWidthTop: 0
+        OuterWidthBottom: 0
+        OuterWidthLeft: 0
+        OuterWidthRight: 0
+        OuterWidthTop: 0
+        dwSpare: 0x00000000
+        wSpares:
+          - 0x0000
+          - 0x0000
+          - 0x0000
+          - 0x0000
+          - 0x0000
+      - type: 0xffbe
+        Flags: 0x0000019d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: AQBOfA==
+        title: Categori_ze
+      - type: 0xffbe
+        Flags: 0x0000019d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: AgACCg==
+        title: _Edit Document
+      - type: 0xffbe
+        Flags: 0x0000019c
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: AwADCg==
+        title: Send Docu_ment
+      - type: 0xffbe
+        Flags: 0x0000019d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: BAAECg==
+        title: _Forward
+      - type: 0xffbe
+        Flags: 0x0000019d
+        IconIndex: 0
+        ShareId: 0
+        Type: 1
+        data: "@Command([Compose]; @MailDbName; \"Bookmark\")"
+        data_opaque: LgAAACAAAgDoAwAAAAAAAKwAAQAIAEJvb2ttYXJr7QMDAAcADAAFAAk0UzZTAA==
+        title: Forward as Bookmark
+      - type: 0xffbe
+        Flags: 0x0000019d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: BgA9fA==
+        title: _Move to Folder...
+      - type: 0xffbe
+        Flags: 0x0000019d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: BwA+fA==
+        title: _Remove from Folder...
+remaining: []

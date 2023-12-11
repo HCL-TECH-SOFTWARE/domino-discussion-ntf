@@ -1,0 +1,174 @@
+---
+class: 512
+flags: 0x0000
+unid: OF4A913E264017F6AD-ON00402EF3852564AB
+items:
+  - name: $AssistAction
+    type: action
+    code_type: 65413
+    data: |
+      '++LotusScript Development Environment:2:5:(Options):0:74
+      Option Public
+      Use "wStringResource"
+      Use "DiscussionRoutines"
+      
+      
+      
+      '++LotusScript Development Environment:2:5:(Forward):0:1
+      Declare Sub Initialize
+      Declare Sub RemoveSubjects
+      
+      '++LotusScript Development Environment:2:5:(Declarations):0:10
+      Dim view As NotesView
+      Dim profile As NotesDocument
+      Dim item As NotesItem
+      Dim Position As Integer
+      Dim originalnote As notesdocument
+      Dim CurrentDocumentURL As String
+      Dim profileurl As String
+      Dim profileunid As String
+      Dim threadids As Variant
+      Dim subjects As Variant
+      Dim removethreads As Variant
+      '++LotusScript Development Environment:2:2:Initialize:1:10
+      Sub Initialize
+      	InstantiateObjects
+      	dbpath = getdbpath
+             'Get referer url because that's the profile
+      	
+      	profileUNID= Mid ( note.HTTP_Referer(0), Instr(note.HTTP_Referer(0), "=")+1,32)     
+      	
+      	Set profile = db.GetDocumentByUNID(profileUNID)
+      	
+      	CurrentDocumentURL = "<hr><font size=2><a href=/"+dbpath+"/($All)/"+profileunid+"?OpenDocument>"+GetString(15)+"</a>&nbsp&nbsp&nbsp"
+      	TopicView =   "<a href=/" + dbpath + "/($All)?OpenView>"+GetString(2)+"</a>&nbsp&nbsp&nbsp"
+      	CategoryView = "<a href=/" + dbpath + "/by+Category?OpenView>"+GetString(3)+"</a>&nbsp&nbsp&nbsp"
+      	AuthorView = "<a href=/" + dbpath + "/AuthorView?OpenView>"+GetString(4)+"</a></b>&nbsp&nbsp&nbsp"
+      	AltnameView ="<a href=/"+dbpath+"/By+Alternate+Name?OpenView>"+GetString(5)+"</a>&nbsp&nbsp&nbsp<hr>"
+      	
+      	
+      	If profile Is Nothing Then
+      		Print "<b>"+GetString(16)+"</b>"+CurrentDocumentURL+Topicview+CategoryView+AuthorView+AltNameView
+      		Exit Sub
+      	Else      
+      		
+                'Get ThreadID list and ProfileThreadSubject list 
+      		ThreadIds = profile.ProfileThreads
+      		Subjects = profile.ProfileThreadSubjects
+                'Get Thread subjects which should be removed
+      		RemoveThreads = note.RemoveSubjects
+      		If RemoveThreads(0) <> "" Then
+                'Remove the thread subjects from the existing profile
+      			RemoveSubjects
+                'Rewrite the new values to the profile
+      		Else
+      			Print "<b> "GetString(24)+"</b><br>"+currentdocumenturl+Topicview+CategoryView+AuthorView+AltNameView
+      			Exit Sub
+      		End If
+                'Rewrite the new values to the profile
+      		
+      		Call profile.replaceitemvalue("ProfileThreads",ThreadIDs)
+      		Call profile.replaceitemvalue("ProfileThreadSubjects", Subjects)
+      		Print "<b>"+GetString(17)+"</b><br>"+ CurrentDocumentURL+topicview+categoryview+authorview+AltNameView
+      		
+      	End If
+      	
+      	profile.Save True, True
+      	
+      	
+      End Sub
+      
+      
+      '++LotusScript Development Environment:2:2:RemoveSubjects:1:8
+      Sub RemoveSubjects
+      	
+           'This routine removes all of the elements in the removethreads array from the subjects array 
+      	Forall j In RemoveThreads
+      		CurrentElementtoRemove = j     
+      		index=0
+      		Forall i In Subjects
+                     'This set of statements gives us the matching index number to remove in the ThreadIDs list
+      			If currentelementtoremove = i Then
+      				ThreadIDs(index)=""
+      				Subjects(index)=""
+      			End If
+      			index=index+1
+      		End Forall
+      	End Forall
+      End Sub
+    dwFlags: 0x00000000
+    signed: true
+    nonsummary: true
+  - name: $AssistDocCount
+    type: number
+    data: 0
+    signed: true
+  - name: $AssistFlags
+    type: text
+    data: EH
+    signed: true
+  - name: $AssistInfo
+    type_num: 17
+    type: opaque
+    opaque: |
+      AQAEAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+      AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+    signed: true
+    nonsummary: true
+  - name: $AssistLastRun
+    type: time
+    signed: true
+  - name: $AssistQuery
+    type_num: 15
+    type: opaque
+    opaque: gQYAAAAA
+    signed: true
+    nonsummary: true
+  - name: $AssistRunInfo
+    type: object
+    obj_type: 0x0008
+    obj_class: 0x0200
+    obj_privs: 0x0000
+    opaque: |
+      AAAAAAUAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+      4S5rAC9nJYW/snMAmWUlhQAAAAAAAAAAAAAAAAAAAAAAAAAAqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqq
+  - name: $AssistTrigger
+    type: text
+    data: "4"
+    signed: true
+  - name: $AssistType
+    type: number
+    data: 65413
+    signed: true
+  - name: $Comment
+    type: text
+    data: This agent removes the selected thread from the users Interest Profile.  It is the querysaveagent on the RemoveThread form.
+    signed: true
+  - name: $Flags
+    type: text
+    data: fL3u
+  - name: $LANGUAGE
+    type: text
+    data: en
+    signed: true
+  - name: $TITLE
+    type: text
+    data: (WebRemoveThread)
+    signed: true
+remaining: []
