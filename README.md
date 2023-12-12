@@ -9,6 +9,8 @@ Template version | 12.0.1
 Signed by | Open Source Template/Domino Development
 Optimized for | Notes Client & Web
 
+To build the application from the source see the latest on [Source Code Integration](https://help.hcltechsw.com/dom_designer/14.0.0/basic/wn_sourcecodeutilitytool.html) in Domino. See the [Releases](https://github.com/HCL-TECH-SOFTWARE/domino-discussion-ntf/releases) for the application download.
+
 ## What does this database do?
 
 A workgroup can use this application to share their thoughts and ideas.  Almost any group that has information to share among its members can use a discussion database.  An engineering group can discuss the products they are designing.  An advertising agency can discuss the ad campaigns they are developing.  A special interest group can share ideas and opinions on their common interests.
@@ -34,7 +36,7 @@ The "Configuration" role is required to access the "Configuration Profile" outli
 See [docs](docs) in this repository
 
 ## Issues
-For issues please use the [GitHub issue tracker](issues)
+For issues please use the [GitHub issue tracker](https://github.com/HCL-TECH-SOFTWARE/domino-discussion-ntf/issues)
 
 ## Contributing
 We welcome contributions following [our guidelines](CONTRIBUTING.md).
