@@ -1,3 +1,31 @@
+---
+layout: default
+title: "HCL Domino Discussion Template"
+nav_order: 1
+description: "HCL Domino Discussion Templatey"
+has_children: false
+---
+<h1>HCL Domino Discussion Template</h1>
+
+<details close markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
+
+## Info
+
+Property | Value
+---|---
+Filename | discussion12.ntf
+Templatename | StdR12Discussion
+Template version | 12.0.1
+Signed by | Open Source Template/Domino Development
+Optimized for | Notes Client & Web
+
 ## To follow a discussion
 Select the All Documents view to see a chronological listing of main topics for discussion and their responses.  Select the By Author view to see what individual members of the discussion group have said.  Select the By Category view to browse the group's discussions categorized by main topics.
 
