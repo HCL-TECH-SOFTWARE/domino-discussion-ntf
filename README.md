@@ -1,5 +1,8 @@
 # Domino Discussion Template
 
+![Screenshot Discussion](docs/assets/jpg/screenshot.jpg)
+
+
 ## Info
 Property | Value
 ---|---
