@@ -16,6 +16,9 @@ has_children: false
 {:toc}
 </details>
 
+![Screenshot Discussion](assets/images/jpg/screenshot.jpg)
+
+
 ## Info
 
 Property | Value

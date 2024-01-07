@@ -1,6 +1,6 @@
 # Domino Discussion Template
 
-![Screenshot Discussion](docs/assets/jpg/screenshot.jpg)
+![Screenshot Discussion](docs/assets/images/jpg/screenshot.jpg)
 
 
 ## Info
