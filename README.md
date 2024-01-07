@@ -33,7 +33,7 @@ The default access of a database created with this template is "Author".
 The "Configuration" role is required to access the "Configuration Profile" outline entry and to be able to make modifications for the web interface.
 
 ## Documentation
-See [docs](docs) in this repository
+See [docs](docs) in this repository, or directly refer to github pages.
 
 ## Issues
 For issues please use the [GitHub issue tracker](https://github.com/HCL-TECH-SOFTWARE/domino-discussion-ntf/issues)

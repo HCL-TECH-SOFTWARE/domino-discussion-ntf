@@ -26,6 +26,16 @@ Template version | 12.0.1
 Signed by | Open Source Template/Domino Development
 Optimized for | Notes Client & Web
 
+## What does this application do?
+
+A workgroup can use this application to share their thoughts and ideas.  Almost any group that has information to share among its members can use a discussion database.  An engineering group can discuss the products they are designing.  An advertising agency can discuss the ad campaigns they are developing.  A special interest group can share ideas and opinions on their common interests.
+
+To get started, a user can simply browse through discussion topics and responses that others have contributed.  This is particularly useful for new workgroup members who need to come up to speed on important issues that the group is working on.  The history of discussion about these issues is preserved in the group's discussion database.
+
+A user can also take a more active role in the discussion by composing his/her own responses to others' comments and by proposing new main topics for discussion.
+
+A discussion database is an informal meeting place, where the members of a workgroup can share ideas and comments.  Like a physical meeting, each member of the workgroup listens to what others have to say and can voice his/her own opinions.  However, unlike a physical meeting, the participants do not have to be in the same room at the same time to share information.  People can participate when it is convenient for them to do so, and because it is easy for them to share information, they will do so.
+
 ## To follow a discussion
 Select the All Documents view to see a chronological listing of main topics for discussion and their responses.  Select the By Author view to see what individual members of the discussion group have said.  Select the By Category view to browse the group's discussions categorized by main topics.
 
